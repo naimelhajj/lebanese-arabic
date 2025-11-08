@@ -1,0 +1,287 @@
+<!-- ⬇️  BOOK Lebanese Arabic Trial – V3.3 FINAL (Direct Replacement) ⬇️ -->
+<link rel="dns-prefetch" href="//form.jotform.com">
+<link rel="preconnect" href="https://form.jotform.com" crossorigin>
+<link rel="dns-prefetch" href="//player.vimeo.com">
+<link rel="preconnect" href="https://player.vimeo.com" crossorigin>
+
+<style>
+:root{--prim:#1c5c4e;--accent:#dc2626;--blue:#007bff;--dark:#111827;--light:#4b5563;--bg:#f8f9fa;--white:#fff;--border-color:#e2e8f0}
+#la-v3{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--light);line-height:1.6;margin:0}
+#la-v3 .container{max-width:900px;margin:0 auto;padding:20px}
+
+#la-v3 .section{background:var(--white);padding:40px 20px;margin-bottom:20px;border-radius:12px;box-shadow:0 4px 12px rgb(0 0 0 /.05)}
+
+#la-v3 .logo{text-align:center;margin:15px 0 25px}
+#la-v3 .logo img{max-width:170px;height:auto}
+
+#la-v3 h1,#la-v3 h2,#la-v3 h3{color:var(--dark);text-align:center;margin-top:0}
+#la-v3 h1{font-size:clamp(2rem,5vw,2.8rem);font-weight:800;line-height:1.2;margin-bottom:.5rem}
+#la-v3 h2{font-size:clamp(1.8rem,4vw,2.5rem);font-weight:700;margin-bottom:2rem;border-bottom:2px solid #eee;padding-bottom:1rem}
+#la-v3 h3{font-size:1.25rem;font-weight:600}
+#la-v3 p{margin:0 0 1rem}
+
+#la-v3 .btn{display:inline-block;padding:18px 36px;background:var(--accent);color:var(--white)!important;text-decoration:none;border-radius:12px;font-weight:700;text-align:center;transition:transform .2s,filter .2s;font-size:1.1rem;text-transform:uppercase;letter-spacing:.5px;box-shadow:0 4px 15px rgba(220,38,38,.3)}
+#la-v3 .btn:hover{transform:translateY(-3px);filter:brightness(1.1);color:var(--white)!important}
+#la-v3 .cta{text-align:center;margin:30px 0 10px}
+
+#la-v3 .flex{display:flex;flex-wrap:wrap;gap:20px;justify-content:center}
+#la-v3 .flex-item{flex:1;min-width:250px;text-align:center;background:#f7fafc;padding:20px;border-radius:8px}
+
+#la-v3 .hero{background:var(--white);padding:40px 20px;border-radius:12px;box-shadow:0 4px 12px rgb(0 0 0 /.05);margin-bottom:20px}
+#la-v3 .hero p.lead{font-size:1.1rem;color:var(--light);margin-bottom:20px;text-align:center}
+
+/* FINAL FIX: Direct replacement player styling */
+#la-v3 .video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-bottom:30px}
+#la-v3 .video-thumb{position:relative; background-color:#e9ecef; border-radius:8px; overflow:hidden;}
+#la-v3 .video-placeholder{position:relative;padding-top:56.25%;background-size:cover;background-position:center;cursor:pointer;transition:transform .2s;z-index:2}
+#la-v3 .video-placeholder:hover{transform:scale(1.03)}
+#la-v3 .video-placeholder::before{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.4),transparent)}
+#la-v3 .video-placeholder::after{content:'▶';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:4rem;color:var(--white);text-shadow:0 0 15px rgb(0 0 0 /.7);transition:transform .2s}
+#la-v3 .video-placeholder:hover::after{transform:translate(-50%,-50%) scale(1.2)}
+#la-v3 .video-thumb p{padding:15px;margin:0;font-weight:600;color:var(--dark);text-align:center}
+#la-v3 .video-thumb iframe{width:100%;height:100%;position:absolute;top:0;left:0;z-index:1;}
+#la-v3 .video-placeholder.video-is-loading::before,#la-v3 .video-placeholder.video-is-loading::after{display:none}
+
+#la-v3 .quote{background:#f7fafc;border-left:4px solid var(--blue);padding:15px;font-size:1.1rem;font-style:italic;margin-bottom:15px;text-align:left}
+#la-v3 .quote-author{font-weight:700;font-style:normal;text-align:right;display:block;margin-top:10px}
+
+#la-v3 .teacher img{width:120px;height:120px;border-radius:50%;object-fit:cover;margin-bottom:1rem;box-shadow:0 4px 10px rgb(0 0 0 /.1)}
+#la-v3 .teacher a{text-decoration:none;color:inherit}
+#la-v3 .teacher h3{margin-bottom:0}
+#la-v3 .teacher .credential{display:block;font-size:.9rem;color:var(--prim);font-weight:600;margin-top:4px}
+
+#la-v3 details{border:1px solid var(--border-color);border-radius:8px;margin-bottom:10px;overflow:hidden}
+#la-v3 summary{width:100%;padding:18px 20px;font-weight:600;display:flex;justify-content:space-between;align-items:center;background:#fff;color:var(--dark);cursor:pointer}
+#la-v3 summary::-webkit-details-marker{display:none}
+#la-v3 summary::after{content:'▼';transition:transform .25s;color:var(--light)}
+#la-v3 details[open] summary{border-bottom:1px solid var(--border-color)}
+#la-v3 details[open] summary::after{transform:rotate(180deg)}
+#la-v3 details>div{padding:10px 20px 20px;background:#f7fafc}
+
+#la-v3 #jf-box{position:relative;margin-top:2rem;min-height:560px}
+#la-v3 #jf-box iframe{border:0;width:100%;min-height:560px;visibility:hidden;opacity:0;transition:opacity .4s}
+#la-v3 #jf-box iframe.loaded{visibility:visible;opacity:1}
+#la-v3 #jf-loader{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#fff;text-align:center;padding:20px}
+#la-v3 #jf-error{display:none;border:2px dashed var(--accent);border-radius:8px;padding:20px 30px}
+#la-v3 #jf-error h3{margin:0 0 10px;color:var(--accent);font-size:1.2rem}
+#la-v3 #jf-error .btn{margin-top:15px}
+@keyframes spin{to{transform:rotate(360deg)}}
+#la-v3 .spinner{width:2rem;height:2rem;border:4px solid #ccc;border-top-color:var(--prim);border-radius:50%;animation:spin 1s linear infinite}
+
+#la-v3 .teacher-modal{display:none;position:fixed;z-index:1000;inset:0;background:rgba(0,0,0,.6)}
+#la-v3 .modal-content{background:#fefefe;margin:10% auto;padding:30px;border:1px solid #888;width:90%;max-width:500px;border-radius:10px;text-align:center;position:relative}
+#la-v3 .modal-img{width:150px;height:150px;border-radius:50%;object-fit:cover;margin-bottom:1rem}
+#la-v3 .close-modal{position:absolute;top:10px;right:20px;font-size:32px;color:#aaa;cursor:pointer}
+#la-v3 .close-modal:hover{color:#000}
+
+#la-v3 .jump-link{text-align:center;margin:25px 0;padding:15px;background:#f7fafc;border-radius:8px}
+#la-v3 .jump-link a{font-weight:700;text-decoration:underline;color:var(--prim);font-size:1.1rem}
+
+@media(max-width:768px){#la-v3 .flex{flex-direction:column}}
+</style>
+
+<div id="la-v3">
+  <div class="container">
+
+<!-- LOGO -->
+<div style="text-align:center;margin-bottom:32px">
+  <a href="https://lebanese-arabic.com/" aria-label="Lebanese Arabic with Hiba – home">
+    <img src="https://lebanese-arabic.com/wp-content/uploads/2023/08/cropped-hiba-logo-without-najem-300x87.png"
+         alt="Lebanese Arabic with Hiba logo" width="220" height="64"
+         style="width:220px;height:auto;max-width:100%">
+  </a>
+</div>
+
+    <!-- Wall-of-Faces Hero -->
+    <div class="hero">
+      <h1>Go From Zero to Your First REAL Conversation in Lebanese Arabic</h1>
+      <p class="lead">Inspired by students like JD from Canada, who was "proud to carry a meaningful conversation."</p>
+
+      <div class="video-grid">
+        <div class="video-thumb" data-vimeo-id-manual="1132924832">
+          <div class="video-placeholder" style="padding-top:177.78%; background-image:url('https://lebanese-arabic.com/wp-content/uploads/2025/11/ryan-poster.webp')" title="Play Ryan's Testimonial"></div>
+          <p>Ryan, USA</p>
+        </div>
+
+        <div class="video-thumb" data-vimeo-id-manual="1132924765">
+          <div class="video-placeholder" style="background-image:url('https://lebanese-arabic.com/wp-content/uploads/2025/11/jd-poster.webp')" title="Play JD's Testimonial"></div>
+          <p>JD, Canada</p>
+        </div>
+
+        <div class="video-thumb" data-vimeo-id-manual="1132924865">
+          <div class="video-placeholder" style="padding-top:177.78%; background-image:url('https://lebanese-arabic.com/wp-content/uploads/2025/11/octavia-poster.webp')" title="Play Octavia's Testimonial"></div>
+          <p>Octavia, USA</p>
+        </div>
+      </div>
+
+      <h3 style="margin-top:40px;font-size:1.8rem;color:var(--dark)">Real Results from Real Students</h3>
+      <div class="quote">“miracle workers”<span class="quote-author">- Nina</span></div>
+      <div class="quote">“I can communicate with my in-laws and friends when we visit Lebanon.”<span class="quote-author">- Jon</span></div>
+      <div class="quote">“Thank you for helping me reconnect with my culture.”<span class="quote-author">- Shaghayegh</span></div>
+      <div class="quote">“...that magical moment when you realize when watching a Lebanese film that you are understanding what is being said...”<span class="quote-author">- Marcel</span></div>
+    </div>
+
+    <div class="jump-link">
+      <a href="#booking">Ready to book? Jump to the form now!</a>
+    </div>
+
+    <div id="booking" class="section">
+      <div class="leads">
+        <h2>Book Your <span style="color:var(--accent)">$15 Trial Lesson</span> Spot</h2>
+        <p style="text-align:center;font-weight:600;color:var(--dark);margin-bottom:1.5rem;font-size:1.1rem;">
+          Our teachers' schedules fill up fast. Book now to secure your spot!
+        </p>
+
+        <div id="jf-box">
+          <div id="jf-loader" role="status" aria-busy="true">
+            <div id="jf-loading-state">
+              <div class="spinner" aria-hidden="true"></div>
+              <span style="margin-left:.75rem;font-size:1.125rem;">Loading reservation form…</span>
+            </div>
+            <div id="jf-error">
+              <h3>Oops! The booking form is stuck.</h3>
+              <p>No worries. You can book your trial directly using the button below.</p>
+              <a href="https://form.jotform.com/252822451108047" target="_blank" rel="noopener" class="btn">Book Directly</a>
+            </div>
+          </div>
+          <iframe id="jf-iframe"
+                  title="Reservation form"
+                  data-src="https://form.jotform.com/252822451108047"
+                  scrolling="no"
+                  allow="geolocation; microphone; camera; payment"></iframe>
+        </div>
+      </div>
+    </div>
+
+  <div class="section">
+   <h2>What You Get for $15</h2>
+   <div class="flex">
+    <div class="flex-item"><h3>55-Minute Live Lesson</h3><p>A complete one-on-one session with a professional native teacher.</p></div>
+    <div class="flex-item"><h3>Personalized Plan</h3><p>Get your level assessed and receive a custom roadmap.</p></div>
+    <div class="flex-item"><h3>$15 Credit Bonus</h3><p><strong>Book today</strong> and we'll credit the $15 trial fee back when you buy your first lesson package.</p></div>
+   </div>
+  </div>
+
+  <div class="section">
+   <h2>Getting Started is Simple</h2>
+   <div class="flex">
+    <div class="flex-item"><h3>1. Pick a Time</h3><p>Select a slot that fits your schedule.</p></div>
+    <div class="flex-item"><h3>2. Pay Securely</h3><p>Confirm and pay the $15 fee via Stripe.</p></div>
+    <div class="flex-item"><h3>3. Meet Your Teacher</h3><p>Receive a confirmation email and start speaking — yalla!</p></div>
+   </div>
+   <div class="cta"><a href="#booking" class="btn">Book Your Trial Now</a></div>
+  </div>
+
+  <div class="section">
+   <h2>Meet Our Friendly Teachers</h2>
+   <div class="flex">
+    <div class="flex-item teacher"><a href="#" class="teacher-trigger" data-modal="modal-mireille"><img src="https://lebanese-arabic.com/wp-content/uploads/2022/09/mireille.png" alt="Mireille"><h3>Mireille</h3><span class="credential">10+ Years Experience</span></a></div>
+    <div class="flex-item teacher"><a href="#" class="teacher-trigger" data-modal="modal-ella"><img src="https://lebanese-arabic.com/wp-content/uploads/2023/12/Bio-Pic-Ella.webp" alt="Ella"><h3>Ella</h3><span class="credential">10+ Years Experience</span></a></div>
+    <div class="flex-item teacher"><a href="#" class="teacher-trigger" data-modal="modal-adon"><img src="https://lebanese-arabic.com/wp-content/uploads/2023/10/Adon_s-photo-_1_.webp" alt="Adon"><h3>Adon</h3><span class="credential">Actor & Language Coach</span></a></div>
+    <div class="flex-item teacher"><a href="#" class="teacher-trigger" data-modal="modal-ghina"><img src="https://lebanese-arabic.com/wp-content/uploads/2025/01/ghina-kaddour-portrait.webp" alt="Ghina"><h3>Ghina</h3><span class="credential">Experienced Language Teacher</span></a></div>
+   </div>
+   <div class="cta"><a href="#booking" class="btn">Book Your Trial Now</a></div>
+  </div>
+
+  <div class="section">
+   <h2>Frequently Asked Questions</h2>
+   <details><summary>What is your teaching method?</summary><div><p>Our method focuses on practical, conversational skills. We believe in learning through active use of the language. Lessons are structured but flexible, centered around real-world topics to get you speaking confidently as soon as possible. We provide all necessary learning materials, including notes and exercises after each session.</p></div></details>
+   <details><summary>I'm a complete beginner. Is this for me?</summary><div><p>Absolutely! Most of our students start from zero. We specialize in guiding absolute beginners through the fundamentals of Lebanese Arabic, from pronunciation to forming your first sentences. Our curriculum is designed for all levels, from absolute beginners to advanced speakers. No prior Arabic knowledge is required.</p></div></details>
+   <details><summary>What payment methods do you accept?</summary><div><p>We accept Visa and Mastercard cards, Link, Apple Pay, and Google Pay. All payments are processed securely through Stripe.</p></div></details>
+  </div>
+ </div><!-- /.container -->
+
+ <!-- TEACHER MODALS -->
+ <div id="modal-mireille" class="teacher-modal"><div class="modal-content"><span class="close-modal">&times;</span><img src="https://lebanese-arabic.com/wp-content/uploads/2022/09/mireille.png" class="modal-img" alt="Mireille"><h3>Mireille</h3><p>"Hello! I am Mireille, I’m a 39-year-old teacher. I’m Lebanese and I live in Beirut. I like reading, yoga, hiking, and discovering the Lebanese natural scenery; add to it my love for keeping in touch with people. I have a teaching degree and more than 10 years of experience in the field."</p><a href="#booking" class="btn modal-btn">Book Your Trial Lesson</a></div></div>
+ <div id="modal-ella" class="teacher-modal"><div class="modal-content"><span class="close-modal">&times;</span><img src="https://lebanese-arabic.com/wp-content/uploads/2023/12/Bio-Pic-Ella.webp" class="modal-img" alt="Ella"><h3>Ella</h3><p>"I am Ella. I am Lebanese and live in Beirut. I love the richness and unique identity of the Lebanese culture and I find a great pleasure in sharing this experience through the doors of Lebanese Arabic. I have a wide range of interest that include learning about other cultures, reading, writing, sports, music… I have a background in Philosophy and Science and more than 10 years of private tutoring experience."</p><a href="#booking" class="btn modal-btn">Book Your Trial Lesson</a></div></div>
+ <div id="modal-adon" class="teacher-modal"><div class="modal-content"><span class="close-modal">&times;</span><img src="https://lebanese-arabic.com/wp-content/uploads/2023/10/Adon_s-photo-_1_.webp" class="modal-img" alt="Adon"><h3>Adon</h3><p>“I’m an actor, puppeteer and clown doctor. I’m Lebanese, I speak Lebanese and I write in Lebanese. I love what I’m doing, and I love to give all I know about my Lebanese mother language.“</p><a href="#booking" class="btn modal-btn">Book Your Trial Lesson</a></div></div>
+ <div id="modal-ghina" class="teacher-modal"><div class="modal-content"><span class="close-modal">&times;</span><img src="https://lebanese-arabic.com/wp-content/uploads/2025/01/ghina-kaddour-portrait.webp" class="modal-img" alt="Ghina"><h3>Ghina</h3><p>"Hello, I am Ghina from Lebanon. I am a teacher, duh, and I love food. If you want to know more about me, join us and ask ✨"</p><a href="#booking" class="btn modal-btn">Book Your Trial Lesson</a></div></div>
+</div><!-- /#la-landing -->
+
+<script>
+window.addEventListener('load', function(){
+(function(){
+  /* JotForm lazy-load */
+  const jf_iframe = document.getElementById('jf-iframe');
+  if(jf_iframe){
+    const jf_loader = document.getElementById('jf-loader');
+    const buildSrc=()=>{
+      const u=new URL(jf_iframe.dataset.src);
+      new URLSearchParams(location.search).forEach((v,k)=>u.searchParams.set(k,v));
+      u.searchParams.set('isIframeEmbed','1');
+      return u.toString();
+    }
+    const onMsg=e=>{
+      if(typeof e.data!=='string')return;
+      const[act,val]=e.data.split(':');
+      if(act==='setHeight'&&!isNaN(val))jf_iframe.style.minHeight=val+'px';
+      if(act==='scrollIntoView')try{jf_iframe.scrollIntoView({behavior:'smooth',block:'start'})}catch(_){}
+    }
+    const reveal=()=>{
+      if(jf_iframe.src)return;
+      jf_iframe.src=buildSrc();
+      jf_iframe.addEventListener('load',()=>{
+        jf_loader.style.display='none';
+        jf_iframe.classList.add('loaded');
+      },{once:true});
+      setTimeout(()=>{
+        if(!jf_iframe.classList.contains('loaded')){
+          document.getElementById('jf-loading-state').style.display='none';
+          document.getElementById('jf-error').style.display='block';
+        }
+      },4500);
+    }
+    if('IntersectionObserver' in window){new IntersectionObserver((e,o)=>{e.forEach(e=>{if(e.isIntersecting){reveal();o.disconnect()}})},{rootMargin:'200px'}).observe(jf_iframe)}else{document.addEventListener('DOMContentLoaded',reveal,{once:true})}
+    window.addEventListener('message',onMsg,false);
+  }
+
+  /* Teacher modals */
+  document.querySelectorAll('#la-v3 .teacher-trigger').forEach(b=>b.addEventListener('click',e=>{
+    e.preventDefault();
+    document.getElementById(b.dataset.modal).style.display='block';
+  }));
+  document.querySelectorAll('#la-v3 .close-modal').forEach(x=>x.addEventListener('click',()=>x.closest('.teacher-modal').style.display='none'));
+  window.addEventListener('click',e=>{if(e.target.classList.contains('teacher-modal'))e.target.style.display='none';});
+
+  /* FINAL FIX v3: True Click-to-Load */
+  const videoThumbs = document.querySelectorAll('.video-thumb[data-vimeo-id-manual]');
+  if (videoThumbs.length > 0) {
+    
+    const initVimeoPlayer = (thumb) => {
+      const videoId = thumb.dataset.vimeoIdManual;
+      const placeholder = thumb.querySelector('.video-placeholder');
+
+      if (!videoId || !placeholder) {
+        console.error("Missing video ID or placeholder for a thumbnail.", thumb);
+        return;
+      }
+
+      // Create the iframe
+      const iframe = document.createElement('iframe');
+      iframe.setAttribute('src', `https://player.vimeo.com/video/${videoId}?autoplay=1&transparent=0`);
+      iframe.setAttribute('frameborder', '0');
+      iframe.setAttribute('allow', 'autoplay; fullscreen; picture-in-picture');
+      iframe.setAttribute('allowfullscreen', '');
+      
+      // Style the iframe to fill its container
+      iframe.style.position = 'absolute';
+      iframe.style.top = '0';
+      iframe.style.left = '0';
+      iframe.style.width = '100%';
+      iframe.style.height = '100%';
+
+      // Append the iframe inside the placeholder
+      placeholder.appendChild(iframe);
+
+      // Hide the custom play button overlay
+      placeholder.classList.add('video-is-loading'); 
+    };
+
+    videoThumbs.forEach(thumb => {
+      thumb.addEventListener('click', () => initVimeoPlayer(thumb), { once: true });
+    });
+  }
+})();
+});
+</script>
+<!-- ⬆️  END V3.3 FINAL BLOCK ⬆️ -->

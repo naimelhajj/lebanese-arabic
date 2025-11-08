@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve Your $15 Lebanese Arabic Trial Lesson</title>
+    <style>
+        :root {
+            --primary-color: #1c5c4e;
+            --secondary-color: #f4e7d0;
+            --accent-color: #dc2626;
+            --text-dark: #111827;
+            --text-light: #4b5563;
+            --bg-light: #f9fafb;
+            --bg-white: #ffffff;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+            margin: 0;
+            background: var(--bg-light);
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+        .section { 
+            background: var(--bg-white);
+            padding: 40px 20px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        h1, h2, h3 { color: var(--text-dark); text-align: center; }
+        h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; line-height: 1.2; margin-bottom: 0.5rem; }
+        h2 { font-size: clamp(1.8rem, 4vw, 2.5rem); font-weight: 700; margin-bottom: 2rem; border-bottom: 2px solid #eee; padding-bottom: 1rem;}
+        h3 { font-size: 1.25rem; font-weight: 600; }
+        p { margin: 0 0 1rem; }
+        .subheading { font-size: 1.125rem; max-width: 60ch; margin: 0 auto 1.5rem; text-align: center; }
+        .btn {
+            display: inline-block;
+            padding: 14px 28px;
+            background: var(--primary-color);
+            color: var(--bg-white);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 700;
+            text-align: center;
+            transition: transform 0.2s, filter 0.2s;
+        }
+        .btn:hover { transform: translateY(-2px); filter: brightness(1.1); }
+        .cta-section { text-align: center; margin: 30px 0 10px; }
+        .flex-container { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+        .flex-item { flex: 1; min-width: 250px; text-align: center; background: var(--bg-light); padding: 20px; border-radius: 8px; }
+        .teacher img { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        
+        /* FAQ Accordion */
+        .faq-item { border: 1px solid #e5e7eb; border-radius: 8px; margin-bottom: 10px; overflow: hidden; }
+        .faq-question { width: 100%; text-align: left; padding: 18px 20px; font-weight: 600; font-size: 1rem; display: flex; justify-content: space-between; align-items: center; border: none; background: #fff; color: var(--text-dark); cursor: pointer; }
+        .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; padding: 0 20px; }
+        .faq-answer p { padding: 0 0 20px; margin: 0; }
+        .caret { transition: transform 0.25s; color: var(--text-light); }
+        .faq-item.active .caret { transform: rotate(180deg); }
+
+        #booking { background: var(--bg-white); padding: 0; }
+        #booking .leads { padding-top: 0; }
+
+        .teacher a { text-decoration: none; color: inherit; }
+        .teacher-trigger { cursor: pointer; }
+
+        /* Testimonial Styles */
+        .testimonials{margin-top:2.5rem}
+        .card{background:#fff;padding:1.25rem;border-radius:0.5rem;box-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1); border: 1px solid #e5e7eb;}
+        .card+.card{margin-top:1rem}
+        .stars{color:#F59E0B;font-size:1.05rem;letter-spacing:.5px}
+        .quote{margin-top:.75rem;font-size:1.0625rem;color:var(--text-light); font-style: italic;}
+        .author{display:block;margin-top:.6rem;font-weight:600;color:var(--text-dark); text-align: right;}
+        .quote .hi{font-weight:700;color:#047857}
+
+        /* Modal Styles */
+        .teacher-modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6); animation: fadeIn 0.3s; }
+        .modal-content { background-color: #fefefe; margin: 10% auto; padding: 30px; border: 1px solid #888; width: 80%; max-width: 500px; border-radius: 10px; text-align: center; position: relative; animation: slideIn 0.4s; }
+        .modal-img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; }
+        .close-modal { color: #aaa; position: absolute; top: 10px; right: 25px; font-size: 35px; font-weight: bold; cursor: pointer; }
+        .close-modal:hover, .close-modal:focus { color: black; }
+        .modal-btn { margin-top: 20px; }
+
+        @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+        @keyframes slideIn { from {top: -100px; opacity: 0} to {top: 0; opacity: 1} }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.75rem; }
+            .flex-container { flex-direction: column; }
+            .modal-content { width: 90%; margin: 20% auto; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="section">
+            <h1>Learn Lebanese Arabic Your Way</h1>
+            <p class="subheading">Try a full 55-minute lesson with a native teacher for just $15. Find your perfect time and start speaking with confidence.</p>
+        </div>
+
+        <!-- Booking Section -->
+        <div id="booking" class="section">
+            <!-- Lebanese Arabic Trial Reservation – Lightweight Embed (v3.2 – lazy‑load) -->
+            <link rel="dns-prefetch" href="//form.jotform.com">
+            <link rel="preconnect" href="https://form.jotform.com" crossorigin>
+
+            <style>
+            :root{--brand:#1c5c4e;--accent:#DC2626;--gray:#374151;--muted:#6B7280}
+            .leads{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,'Helvetica Neue',Arial,sans-serif;background:#F9FAFB;padding:2rem 1rem;color:#111827}
+            @media(min-width:640px){.leads{padding:3rem 1.5rem}}
+            .leads h2{margin:0;font-size:clamp(2rem,3vw,2.5rem);font-weight:800;letter-spacing:-.025em;color:var(--brand);text-align:center}
+            .leads h2 .accent{color:var(--accent)}
+            .leads p{margin:1rem auto 0;max-width:36rem;font-size:1.125rem;line-height:1.7rem;color:var(--gray);text-align:center}
+            #jf-box{position:relative;margin-top:2rem;min-height:560px}
+            #jf-box iframe{border:0;width:100%;min-height:560px;visibility:hidden;opacity:0;transition:opacity .4s}
+            #jf-box iframe.loaded{visibility:visible;opacity:1}
+            #jf-loader{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#fff;font-size:1.125rem;color:var(--gray);text-align:center}
+            @keyframes spin{to{transform:rotate(360deg)}}
+            .spinner{width:2rem;height:2rem;border:4px solid #ccc;border-top-color:var(--brand);border-radius:50%;animation:spin 1s linear infinite}
+            </style>
+
+            <div class="leads">
+              <div style="max-width:42rem;margin:0 auto">
+                <h2>Book Your <span class="accent">$15 Trial Lesson</span> Spot</h2>
+                <p>Pick a time that works for you and start speaking with confidence. It only takes 60 seconds.</p>
+
+                <div id="jf-box">
+                  <div id="jf-loader" role="status" aria-busy="true">
+                    <div>
+                      <div style="display:flex;align-items:center;justify-content:center"><div class="spinner" aria-hidden="true"></div><span style="margin-left:0.75rem">Loading reservation form…</span></div>
+                      <div style="margin-top:1rem;font-size:.875rem;line-height:1.25rem;color:var(--muted)">If the form doesn't appear,&nbsp;<a href="https://form.jotform.com/252822451108047" target="_blank" rel="noopener" style="text-decoration:underline;color:var(--gray)">open it directly</a>.</div>
+                    </div>
+                  </div>
+                  <iframe id="jf-iframe" title="Reservation form" data-src="https://form.jotform.com/252822451108047" scrolling="no" allow="geolocation; microphone; camera; payment"></iframe>
+                </div>
+              </div>
+            </div>
+
+            <script>
+            (function(){
+              const iframe = document.getElementById('jf-iframe');
+              const loader = document.getElementById('jf-loader');
+
+              function buildSrc(){
+                const base = new URL(iframe.dataset.src);
+                const params = new URLSearchParams(window.location.search);
+                params.forEach((v,k)=>base.searchParams.set(k,v));
+                base.searchParams.set('isIframeEmbed','1');
+                return base.toString();
+              }
+
+              function onMsg(e){
+                if(!e.data||typeof e.data!=='string') return;
+                const [act,val] = e.data.split(':');
+                if(act==='setHeight' && !isNaN(val)) iframe.style.minHeight = val+'px';
+                if(act==='scrollIntoView') try{iframe.scrollIntoView({behavior:'smooth',block:'start'});}catch(_){}
+                if(act==='reloadPage') location.reload();
+              }
+
+              function reveal(){
+                if(iframe.src) return; // already loaded
+                iframe.src = buildSrc();
+                iframe.addEventListener('load',()=>{
+                  loader.style.display='none';
+                  iframe.classList.add('loaded');
+                  try{iframe.contentWindow.postMessage('jotform-resizeEmbed','*');}catch(_){}
+                },{once:true});
+                setTimeout(()=>{ if(!iframe.classList.contains('loaded')){ loader.style.display='none'; iframe.classList.add('loaded'); }},2500);
+              }
+
+              document.addEventListener('DOMContentLoaded', reveal, {once:true});
+            })();
+            </script>
+        </div>
+
+        <!-- Value Proposition Section -->
+        <div class="section">
+            <h2>What You Get for $15</h2>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <h3>55-Minute Live Lesson</h3>
+                    <p>A complete, one-on-one session with a professional, native-speaking teacher.</p>
+                </div>
+                <div class="flex-item">
+                    <h3>Personalized Learning Plan</h3>
+                    <p>Get your level assessed and receive a customized plan to achieve your goals.</p>
+                </div>
+                <div class="flex-item">
+                    <h3>$15 Credit</h3>
+                    <p>If you buy a package within 10 days, the $15 trial fee is credited towards your purchase.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- How It Works Section -->
+        <div class="section">
+            <h2>Getting Started is Simple</h2>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <h3>1. Pick a Time</h3>
+                    <p>Choose an available slot from the calendar below that fits your schedule.</p>
+                </div>
+                <div class="flex-item">
+                    <h3>2. Pay Securely</h3>
+                    <p>Confirm your time and pay the $15 trial fee securely with your credit card.</p>
+                </div>
+                <div class="flex-item">
+                    <h3>3. Meet Your Teacher</h3>
+                    <p>You'll receive a confirmation email with your lesson details and Zoom link. Yalla, you're ready to start!</p>
+                </div>
+            </div>
+            <div class="cta-section">
+                <a href="#booking" class="btn">Book Your Trial Now</a>
+            </div>
+        </div>
+
+        <!-- Meet The Teachers Section -->
+        <div class="section">
+            <h2>Meet Our Friendly Teachers</h2>
+            <div class="flex-container">
+                <div class="flex-item teacher">
+                    <a href="#" class="teacher-trigger" data-modal="modal-mireille">
+                        <img src="https://lebanese-arabic.com/wp-content/uploads/2022/09/mireille.png" alt="Mireille">
+                        <h3>Mireille</h3>
+                    </a>
+                </div>
+                <div class="flex-item teacher">
+                    <a href="#" class="teacher-trigger" data-modal="modal-ella">
+                        <img src="https://lebanese-arabic.com/wp-content/uploads/2023/12/Bio-Pic-Ella.webp" alt="Ella">
+                        <h3>Ella</h3>
+                    </a>
+                </div>
+                <div class="flex-item teacher">
+                    <a href="#" class="teacher-trigger" data-modal="modal-adon">
+                        <img src="https://lebanese-arabic.com/wp-content/uploads/2023/10/Adon_s-photo-_1_.webp" alt="Adon">
+                        <h3>Adon</h3>
+                    </a>
+                </div>
+                <div class="flex-item teacher">
+                    <a href="#" class="teacher-trigger" data-modal="modal-ghina">
+                        <img src="https://lebanese-arabic.com/wp-content/uploads/2025/01/ghina-kaddour-portrait.webp" alt="Ghina">
+                        <h3>Ghina</h3>
+                    </a>
+                </div>
+            </div>
+             <div class="cta-section">
+                <a href="#booking" class="btn">Book Your Trial Now</a>
+            </div>
+        </div>
+
+        <!-- Teacher Modals -->
+        <div id="modal-mireille" class="teacher-modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <img src="https://lebanese-arabic.com/wp-content/uploads/2022/09/mireille.png" alt="Mireille" class="modal-img">
+                <h3 style="margin-top:15px;">Mireille</h3>
+                <p class="teacher-bio">"Hello! I am Mireille, I’m a 39-year-old teacher. I’m Lebanese and I live in Beirut. I like reading, yoga, hiking, and discovering the Lebanese natural scenery; add to it my love for keeping in touch with people. I have a teaching degree and more than 10 years of experience in the field."</p>
+                <a href="#booking" class="btn modal-btn">Check Availability</a>
+            </div>
+        </div>
+        <div id="modal-ella" class="teacher-modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <img src="https://lebanese-arabic.com/wp-content/uploads/2023/12/Bio-Pic-Ella.webp" alt="Ella" class="modal-img">
+                <h3 style="margin-top:15px;">Ella</h3>
+                <p class="teacher-bio">"I am Ella. I am Lebanese and live in Beirut. I love the richness and unique identity of the Lebanese culture and I find a great pleasure in sharing this experience through the doors of Lebanese Arabic. I have a wide range of interest that include learning about other cultures, reading, writing, sports, music… I have a background in Philosophy and Science and more than 10 years of private tutoring experience."</p>
+                <a href="#booking" class="btn modal-btn">Check Availability</a>
+            </div>
+        </div>
+        <div id="modal-adon" class="teacher-modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <img src="https://lebanese-arabic.com/wp-content/uploads/2023/10/Adon_s-photo-_1_.webp" alt="Adon" class="modal-img">
+                <h3 style="margin-top:15px;">Adon</h3>
+                <p class="teacher-bio">“I’m an actor, puppeteer and clown doctor. I’m Lebanese, I speak Lebanese and I write in Lebanese. I love what I’m doing, and I love to give all I know about my Lebanese mother language.“</p>
+                <a href="#booking" class="btn modal-btn">Check Availability</a>
+            </div>
+        </div>
+        <div id="modal-ghina" class="teacher-modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <img src="https://lebanese-arabic.com/wp-content/uploads/2025/01/ghina-kaddour-portrait.webp" alt="Ghina" class="modal-img">
+                <h3 style="margin-top:15px;">Ghina</h3>
+                <p class="teacher-bio">"Hello, I am Ghina from Lebanon. I am a teacher, duh, and I love food. If you want to know more about me, join us and ask ✨"</p>
+                <a href="#booking" class="btn modal-btn">Check Availability</a>
+            </div>
+        </div>
+
+
+        <!-- FAQ Section -->
+        <div class="section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <button class="faq-question">How do the weekly timeslots work?<span class="caret">▼</span></button>
+                <div class="faq-answer"><p>Your lesson is a reserved weekly timeslot that is dedicated to you. This ensures consistency for you and the teacher. If you need to reschedule, we require 24 hours' notice.</p></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">I'm a complete beginner. Is this for me?<span class="caret">▼</span></button>
+                <div class="faq-answer"><p>Absolutely! Most of our students start from zero. We specialize in guiding absolute beginners through the fundamentals of Lebanese Arabic.</p></div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">What payment methods do you accept?<span class="caret">▼</span></button>
+                <div class="faq-answer"><p>We accept all major credit cards (Visa, Mastercard) as well as Apple Pay and Google Pay, processed securely by Stripe.</p></div>
+            </div>
+        </div>
+
+        <!-- Social Proof/Testimonials Section -->
+        <div class="section">
+            <h3 style="text-align:center;font-size:1.5rem;line-height:2rem;font-weight:700;color:#1F2937">Join Hundreds of Happy Students</h3>
+            <p style="margin-top:.5rem;text-align:center;font-size:1rem;color:var(--text-light)">See what they have to say about their journey.</p>
+            <div class="testimonials">
+              <div class="card"><div class="stars" aria-hidden="true">★★★★★</div><blockquote class="quote">“I am able to <span class="hi">understand</span> most things being discussed around me now with my Lebanese friends and family.”</blockquote><cite class="author">— Nina</cite></div>
+              <div class="card"><div class="stars" aria-hidden="true">★★★★★</div><blockquote class="quote">“As a result I can <span class="hi">communicate</span> with my in‑laws and friends when we visit Lebanon.”</blockquote><cite class="author">— Jon Donovan</cite></div>
+            </div>
+        </div>
+    </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                // Accordion FAQ Logic
+                const questions = document.querySelectorAll('.faq-question');
+                questions.forEach(question => {
+                    question.addEventListener('click', () => {
+                        const item = question.parentElement;
+                        const answer = item.querySelector('.faq-answer');
+                        const caret = item.querySelector('.caret');
+                        const isOpen = item.classList.contains('active');
+    
+                        document.querySelectorAll('.faq-item.active').forEach(openItem => {
+                            if (openItem !== item) {
+                                openItem.classList.remove('active');
+                                openItem.querySelector('.faq-answer').style.maxHeight = null;
+                                openItem.querySelector('.caret').classList.remove('open');
+                            }
+                        });
+    
+                        if (isOpen) {
+                            answer.style.maxHeight = null;
+                            item.classList.remove('active');
+                            caret.classList.remove('open');
+                        } else {
+                            answer.style.maxHeight = answer.scrollHeight + 'px';
+                            item.classList.add('active');
+                            caret.classList.add('open');
+                        }
+                    });
+                });
+    
+                // Teacher Modal Logic
+                const modals = document.querySelectorAll('.teacher-modal');
+                const openButtons = document.querySelectorAll('.teacher-trigger');
+                const closeButtons = document.querySelectorAll('.close-modal');
+                const modalActionButtons = document.querySelectorAll('.modal-btn');
+    
+                function openModal(modalId) {
+                    const modal = document.getElementById(modalId);
+                    if (modal) modal.style.display = 'block';
+                }
+    
+                function closeModal(modal) {
+                    if (modal) modal.style.display = 'none';
+                }
+    
+                openButtons.forEach(button => {
+                    button.addEventListener('click', function (event) {
+                        event.preventDefault();
+                        const modalId = this.getAttribute('data-modal');
+                        openModal(modalId);
+                    });
+                });
+    
+                closeButtons.forEach(button => {
+                    button.addEventListener('click', () => closeModal(button.closest('.teacher-modal')));
+                });
+    
+                modalActionButtons.forEach(button => {
+                    button.addEventListener('click', function() {
+                        closeModal(this.closest('.teacher-modal'));
+                    });
+                });
+    
+                window.addEventListener('click', function (event) {
+                    modals.forEach(modal => {
+                        if (event.target == modal) closeModal(modal);
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

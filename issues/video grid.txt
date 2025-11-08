@@ -1,0 +1,16 @@
+<div class="video-grid">
+        <div class="video-thumb" data-vimeo-id="1132924832" data-vimeo-initialized="true">
+          <div class="video-placeholder" style="background-image:url('https://lebanese-arabic.com/wp-content/uploads/2025/11/ryan-poster.webp')" title="Play Ryan's Testimonial"></div>
+          <p>Ryan, USA</p>
+        <iframe src="https://player.vimeo.com/video/1132924832?app_id=122963" width="240" height="426" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Ryan's Method: How to Make Learning Stick" data-gtm-yt-inspected-16="true" data-gtm-yt-inspected-1841466_95="true" data-ready="true"></iframe></div>
+
+        <div class="video-thumb" data-vimeo-id="1132924765" data-vimeo-initialized="true">
+          <div class="video-placeholder" style="background-image:url('https://lebanese-arabic.com/wp-content/uploads/2025/11/jd-poster.webp')" title="Play JD's Testimonial"></div>
+          <p>JD, Canada</p>
+        <iframe src="https://player.vimeo.com/video/1132924765?app_id=122963" width="426" height="240" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="JD's Story: From Zero to a Real Conversation" data-gtm-yt-inspected-16="true" data-gtm-yt-inspected-1841466_95="true" data-ready="true"></iframe></div>
+
+        <div class="video-thumb" data-vimeo-id="1132924865" data-vimeo-initialized="true">
+          <div class="video-placeholder" style="padding-top:177.78%; background-image:url('https://lebanese-arabic.com/wp-content/uploads/2025/11/octavia-poster.webp')" title="Play Octavia's Testimonial"></div>
+          <p>Octavia, USA</p>
+        <iframe src="https://player.vimeo.com/video/1132924865?app_id=122963" width="240" height="426" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Octavia's Experience: The Best Teacher" data-gtm-yt-inspected-16="true" data-gtm-yt-inspected-1841466_95="true" data-ready="true"></iframe></div>
+      </div>

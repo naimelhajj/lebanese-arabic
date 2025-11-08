@@ -1,0 +1,37 @@
+Up until the end of the first quarter of 2025, the school was making profits, and we were able to expand, and develop, going from 1 teacher, to 5, and growing a small savings amount of about 5000$, and we were always short on teachers compared to the demand we had from students, however many things played a role in our current crisis and below are the reasons:
+1. in May 2024 Hiba took a maternity leave of 3 months. At the time neither of Hiba nor Naim had a salary, but since Hiba went on maternity leave, and Naim had an overwhelming double job now, they decided that for these 3 months, Naim takes all the profit as salary, since they had a comfortable amount of 5000$ in the savings, and they were making constant profits, and that went well, and not losses happened at all. Then Hiba did not return to her job, so they decided that they would hire Natalee to do Hiba's old job, and specify a salary for Naim, both salaries based on how much work they do, but scaled down to match the average profit per month of the previous periods, which meant that Natalee gets 400$ and Naim gets 1300$, and still up to here everything was fine. Then they decided that it was unfair for Hiba that she didn't get anything for her maternity leave, which is something that a just business would do, so they decided she gets 1600$, the equivalent of 2 months of pay for her job at the time. And so these 1600$ were paid to Hiba in settelements, but then attributed to May 2024, and the months to follow, so that's why you see a loss there. These were paid from the savings amount, so that savings went down to about 3400$.
+2. In January 2025 we raised the prices by 15%. That might or might not have played a role.
+3. In May 2025, all was going well, and then Maria, a teacher at the time, fell sick, and gave us 1 month notice. however, during that last month, she was not able to work, so we had to postpone all the packages her students, not just by 1 month, but sometimes by more because some students were pissed that they could have finished earlier, and that in June they were no longer available, so we had to extend the packages, and in May most of Maria's hours were not taught, and she was the teacher that taught the most at the time (20 hours per week), and so at the end of the month she got her 900$ salary, yet we didn't get value from her hours, and at 20 hours per week, and about 24$ per hour on average, and let's say she taught a few, so let's say we lost 15 hours per week, that's 15*4.3*24 = 1550$ loss in value in May, and since the packages were postponed, we also lost value in June, so by the end of June, we had lost most of our savings amount. Yet we were able to send Maria's remaining students to the empty hours of Mireille and Ghina and Ella, and we were full.
+4. While still trying to recover from that, at the end of June, we find ourselves with 7 empty hours, so make a summer sale, and get 2 or 3 new students, so we think we're set at the beginning of July, however because of a lack of communication between Natalee and I, at the end of August, I find out by coincidence that the empty spots were now 21 empty hours per week! So as a result I tasked Natalee with sending us a weekly report of the empty hours, so that this will not happen again, and the following crisis began.
+
+In September 2025, we suddenly found ourselves in a 3300$ loss, caused by a cumulation of things, but mostly it was caused by a 1800$ loss in August since many students left, which usually happens in the summer. This is a critical issue, because we could only sustain a 5000$ loss after which we have to decide on whether we should close the school or not.
+
+We currently have 4 teachers: 1 teacher who is on an hourly rate contract, and 3 others who are on a fixed salary contract. The fixed salary teachers are:
+
+- Mireille: 1200$ per month. She should teach 27 hours per week.  
+- Ella: 700$ per month. She should teach 14 hours per week.  
+- Ghina: 750$ per month. She should teach 16 hours per week.
+
+That’s a total of 2650$ per month, and a total of 57 teaching hours per week.  
+We have 2 staff members who get paid a total of 1700$ per month.
+
+Along with the expenses, and the hourly teacher’s salary, the total expenses per month are around 4700$ per month.
+
+After the summer decrease in students, we now have only 36 hours filled per week, and 21 empty hours.
+
+Since our average price for the lesson-hour is around 22$, with the 36 filled hours, we’re making an average of 3400$ in sales, which is much less than the 4700$ needed.
+
+Therefore, we critically need to fill the 21 empty hours per week quickly, in order to raise the sales, and be able to cover the expenses.
+
+To cover the 1300$ difference between the 3400$ current sales, and the 4700$ expenses, we need to fill 14 hours per week quickly to stop the bleeding, and then follow by filling the remaining 7 hours per week to make a small 660$ profit per month.
+
+Update on the 15th of September:  
+We are now down to 14 empty weekly slots, which means we have filled 7 hours since the beginning of the month. Most who filled those hours are returning students who were originally returning, but who responded to the fall sale emails, so it’s either the campaign reminded them of the school, while they had forgotten it, or they just bought earlier to benefit from the sale. 4 were new students, but they didn’t contact us because of the sale. They contacted us before, but 1 purchased a package instead of a single lesson to benefit from the sale.  
+Financially we’re now at $3900 sales revenue on the 15th of September which means we need 800$ more to reach the 4700$ average expenses. However we have incurred about 150$ extra in ad spend so far, and we might spend the same amount in the remaining 15 days, so we might be up to a $5000 expense month, meaning we still need $1100 to break even.
+
+Update on the 12th of October:  
+We are back to 18 empty slots. We were able to break-even in September, and we’re looking to at least go back to the 14-hour empty slots, or decrease them even further. We currently only have about 500$ in sales this month and we’re near the middle of the month. We launched the Trial lesson sales campaign 48 hours ago, and sent the Trial Lesson email campaign, but got only one person that registered so far.
+
+Update on the 1st of November:  
+In October we only made 1600$ in sales, the lowest yet in two years. Part of the reason is that the September sale made many students renew their packages in September, which made us break even in September, but that made October have much less sales. The fact that I ran more ads in October raised our expenses to 715$ in October in addition to the 4700$ monthly teacher/staff expenses, resulting in a loss of \-$3,427.52 in October, so we have reached our limit of 5000$ losses and surpassed it. However I will not be taking my salary for this month which is 1300$, so that will allow us to try for one more month.  
+Our available hours increased to 17 empty hour-slots per week, but we have 3 new students who have trial lessons this week, and might buy packages, so we might be back to 14 empty hours per week, but we still need something strong. I don’t know if the numbers make sense anymore. We have told Ghina that November would be the last month where she still has 16 hours per week in her contract, and that starting December, we will move to an hourly contract, because ghina has had only half of her hours filled, for many months now.

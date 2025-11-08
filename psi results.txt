@@ -1,0 +1,1329 @@
+Use efficient cache lifetimes Est savings of 1,222 KiB
+
+A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache?utm_source=lighthouse&utm_medium=lr).LCPFCPUnscored
+
+|
+
+Request
+
+ |
+
+Cache TTL
+
+ |
+
+Transfer Size
+
+ |
+| --- | --- | --- |
+|
+
+lebanese-arabic.com
+
+ 1st party |  |
+
+1,310 KiB
+
+ |
+|
+
+[...09/mireille.png](https://lebanese-arabic.com/wp-content/uploads/2022/09/mireille.png)
+
+(lebanese-arabic.com)
+
+ |
+
+1d
+
+ |
+
+735 KiB
+
+ |
+|
+
+[...12/Bio-Pic-Ella.webp](https://lebanese-arabic.com/wp-content/uploads/2023/12/Bio-Pic-Ella.webp)
+
+(lebanese-arabic.com)
+
+ |
+
+1d
+
+ |
+
+193 KiB
+
+ |
+|
+
+[...10/Adon_s-photo-_1_.webp](https://lebanese-arabic.com/wp-content/uploads/2023/10/Adon_s-photo-_1_.webp)
+
+(lebanese-arabic.com)
+
+ |
+
+1d
+
+ |
+
+154 KiB
+
+ |
+|
+
+[...01/ghina-kaddour-portrait.webp](https://lebanese-arabic.com/wp-content/uploads/2025/01/ghina-kaddour-portrait.webp)
+
+(lebanese-arabic.com)
+
+ |
+
+1d
+
+ |
+
+39 KiB
+
+ |
+|
+
+[...06/Blog-Header-1200x600-px-compressed-768x384.webp](https://lebanese-arabic.com/wp-content/uploads/2023/06/Blog-Header-1200x600-px-compressed-768x384.webp)
+
+(lebanese-arabic.com)
+
+ |
+
+1d
+
+ |
+
+27 KiB
+
+ |
+|
+
+[...js/bt_conversion-min.js?ver=2.2.1](https://lebanese-arabic.com/wp-content/plugins/bt-bb-ab/js/bt_conversion-min.js?ver=2.2.1)
+
+(lebanese-arabic.com)
+
+ |
+
+1d
+
+ |
+
+26 KiB
+
+ |
+|
+
+[...block-library/style.min.css?ver=6.8.3](https://lebanese-arabic.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3)
+
+(lebanese-arabic.com)
+
+ |
+
+1d
+
+ |
+
+22 KiB
+
+ |
+|
+
+[...dist/style-frontend-pro.css?ver=1.36.0](https://lebanese-arabic.com/wp-content/plugins/social-pug/assets/dist/style-frontend-pro.css?ver=1.36.0)
+
+(lebanese-arabic.com)
+
+ |
+
+1d
+
+ |
+
+21 KiB
+
+ |
+|
+
+[...css/cv.css?ver=4.2](https://lebanese-arabic.com/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.2)
+
+(lebanese-arabic.com)
+
+ |
+
+1d
+
+ |
+
+18 KiB
+
+ |
+|
+
+[...08/hiba-logo-white-without-najem.png](https://lebanese-arabic.com/wp-content/uploads/2023/08/hiba-logo-white-without-najem.png)
+
+(lebanese-arabic.com)
+
+ |
+
+1d
+
+ |
+
+17 KiB
+
+ |
+|
+
+[...css/experiment-frontend.css?ver=6.8.3](https://lebanese-arabic.com/wp-content/plugins/bt-bb-ab/css/experiment-frontend.css?ver=6.8.3)
+
+(lebanese-arabic.com)
+
+ |
+
+1d
+
+ |
+
+17 KiB
+
+ |
+|
+
+[...minified/main.min.css?ver=4.11.13](https://lebanese-arabic.com/wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.11.13)
+
+(lebanese-arabic.com)
+
+ |
+
+1d
+
+ |
+
+13 KiB
+
+ |
+|
+
+[...minified/frontend.min.js?ver=4.11.13](https://lebanese-arabic.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.11.13)
+
+(lebanese-arabic.com)
+
+ |
+
+1d
+
+ |
+
+10 KiB
+
+ |
+|
+
+[...js/wp-emoji-release.min.js?ver=6.8.3](https://lebanese-arabic.com/wp-includes/js/wp-emoji-release.min.js?ver=6.8.3)
+
+(lebanese-arabic.com)
+
+ |
+
+1d
+
+ |
+
+6 KiB
+
+ |
+|
+
+[...css/ai-share-summarize.css?ver=1.2.0](https://lebanese-arabic.com/wp-content/plugins/ai-share-summarize/assets/css/ai-share-summarize.css?ver=1.2.0)
+
+(lebanese-arabic.com)
+
+ |
+
+1d
+
+ |
+
+4 KiB
+
+ |
+|
+
+[...css/wp-customer-reviews.css?ver=3.7.4](https://lebanese-arabic.com/wp-content/plugins/wp-customer-reviews/css/wp-customer-reviews.css?ver=3.7.4)
+
+(lebanese-arabic.com)
+
+ |
+
+1d
+
+ |
+
+3 KiB
+
+ |
+|
+
+[...scripts/js.cookie-2.1.3.min.js?ver=2.1.3](https://lebanese-arabic.com/wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3)
+
+(lebanese-arabic.com)
+
+ |
+
+1d
+
+ |
+
+2 KiB
+
+ |
+|
+
+[...minified/menu-animation.min.css?ver=4.11.13](https://lebanese-arabic.com/wp-content/themes/astra/assets/css/minified/menu-animation.min.css?ver=4.11.13)
+
+(lebanese-arabic.com)
+
+ |
+
+1d
+
+ |
+
+1 KiB
+
+ |
+|
+
+Stripe
+
+ utility [](https://stripe.com/ "Open in a new tab") |  |
+
+220 KiB
+
+ |
+|
+
+[/v3/](https://js.stripe.com/v3/)
+
+(js.stripe.com)
+
+ |
+
+2m
+
+ |
+
+203 KiB
+
+ |
+|
+
+[/out-4.5.45.js](https://m.stripe.network/out-4.5.45.js)
+
+(m.stripe.network)
+
+ |
+
+5m
+
+ |
+
+16 KiB
+
+ |
+|
+
+jotfor.ms
+
+ |  |
+
+906 KiB
+
+ |
+|
+
+[...static/jotform.forms.js](https://cdn.jotfor.ms/s/static/1e8069a6850/static/jotform.forms.js)
+
+(cdn.jotfor.ms)
+
+ |
+
+1d
+
+ |
+
+247 KiB
+
+ |
+|
+
+[...fonts/Inter-Bold.woff2](https://cdn.jotfor.ms/fonts/inter/fonts/Inter-Bold.woff2)
+
+(cdn.jotfor.ms)
+
+ |
+
+8h
+
+ |
+
+110 KiB
+
+ |
+|
+
+[...fonts/Inter-SemiBold.woff2](https://cdn.jotfor.ms/fonts/inter/fonts/Inter-SemiBold.woff2)
+
+(cdn.jotfor.ms)
+
+ |
+
+8h
+
+ |
+
+110 KiB
+
+ |
+|
+
+[...fonts/Inter-Medium.woff2](https://cdn.jotfor.ms/fonts/inter/fonts/Inter-Medium.woff2)
+
+(cdn.jotfor.ms)
+
+ |
+
+8h
+
+ |
+
+109 KiB
+
+ |
+|
+
+[...fonts/Inter-Regular.woff2](https://cdn.jotfor.ms/fonts/inter/fonts/Inter-Regular.woff2)
+
+(cdn.jotfor.ms)
+
+ |
+
+8h
+
+ |
+
+101 KiB
+
+ |
+|
+
+[...CSS/5e6b428....css?v=3.3.66493](https://cdn.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?v=3.3.66493)
+
+(cdn.jotfor.ms)
+
+ |
+
+8h
+
+ |
+
+63 KiB
+
+ |
+|
+
+[...1e8069a6850/for-appointment-field.js](https://cdn.jotfor.ms/s/umd/1e8069a6850/for-appointment-field.js)
+
+(cdn.jotfor.ms)
+
+ |
+
+1d
+
+ |
+
+56 KiB
+
+ |
+|
+
+[...static/prototype.forms.js](https://cdn.jotfor.ms/s/static/1e8069a6850/static/prototype.forms.js)
+
+(cdn.jotfor.ms)
+
+ |
+
+1d
+
+ |
+
+43 KiB
+
+ |
+|
+
+[...static/color-scheme.css?v=3.3.66493](https://cdn.jotfor.ms/stylebuilder/static/color-scheme.css?v=3.3.66493)
+
+(cdn.jotfor.ms)
+
+ |
+
+1d
+
+ |
+
+19 KiB
+
+ |
+|
+
+[...payment/payment_styles.css?3.3.66493](https://cdn.jotfor.ms/s/static/1e8069a6850/css/styles/payment/payment_styles.css?3.3.66493)
+
+(cdn.jotfor.ms)
+
+ |
+
+1d
+
+ |
+
+17 KiB
+
+ |
+|
+
+[...payments/paymentUtils.js](https://cdn.jotfor.ms/s/static/1e8069a6850/js/payments/paymentUtils.js)
+
+(cdn.jotfor.ms)
+
+ |
+
+1d
+
+ |
+
+15 KiB
+
+ |
+|
+
+[...payment/payment_feature.css?3.3.66493](https://cdn.jotfor.ms/s/static/1e8069a6850/css/styles/payment/payment_feature.css?3.3.66493)
+
+(cdn.jotfor.ms)
+
+ |
+
+1d
+
+ |
+
+5 KiB
+
+ |
+|
+
+[...payments/validategateways.js](https://cdn.jotfor.ms/s/static/1e8069a6850/js/payments/validategateways.js)
+
+(cdn.jotfor.ms)
+
+ |
+
+1d
+
+ |
+
+3 KiB
+
+ |
+|
+
+[...js/punycode-1.4.1.min.js](https://cdn.jotfor.ms/s/static/1e8069a6850/js/punycode-1.4.1.min.js)
+
+(cdn.jotfor.ms)
+
+ |
+
+1d
+
+ |
+
+2 KiB
+
+ |
+|
+
+[...latest/for-form-embed-handler.js](https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js)
+
+(cdn.jotfor.ms)
+
+ |
+
+1d
+
+ |
+
+2 KiB
+
+ |
+|
+
+[...static/form-common.css?v=e6bb3ef](https://cdn.jotfor.ms/stylebuilder/static/form-common.css?v=e6bb3ef)
+
+(cdn.jotfor.ms)
+
+ |
+
+1d
+
+ |
+
+2 KiB
+
+ |
+|
+
+[...payments/payment_form_embedded.js](https://cdn.jotfor.ms/s/static/1e8069a6850/js/payments/payment_form_embedded.js)
+
+(cdn.jotfor.ms)
+
+ |
+
+1d
+
+ |
+
+1 KiB
+
+ |
+|
+
+[/fonts/?family=Inter&display=swap](https://cdn.jotfor.ms/fonts/?family=Inter&display=swap)
+
+(cdn.jotfor.ms)
+
+ |
+
+8h
+
+ |
+
+1 KiB
+
+ |
+|
+
+Clarity
+
+ utility [](https://clarity.microsoft.com/ "Open in a new tab") |  |
+
+25 KiB
+
+ |
+|
+
+[/0.8.38/clarity.js](https://scripts.clarity.ms/0.8.38/clarity.js)
+
+(scripts.clarity.ms)
+
+ |
+
+1d
+
+ |
+
+25 KiB
+
+ |
+|
+
+clickiocmp.com
+
+ |  |
+
+6 KiB
+
+ |
+|
+
+[/t/consent_245040.js](https://clickiocmp.com/t/consent_245040.js)
+
+(clickiocmp.com)
+
+ |
+
+1m
+
+ |
+
+6 KiB
+
+ |
+|
+
+MailMunch
+
+ ad |  |
+
+12 KiB
+
+ |
+|
+
+[...v1/site.js](https://a.mailmunch.co/app/v1/site.js)
+
+(a.mailmunch.co)
+
+ |
+
+2d
+
+ |
+
+9 KiB
+
+ |
+|
+
+[...v1/styles.css](https://a.mailmunch.co/app/v1/styles.css)
+
+(a.mailmunch.co)
+
+ |
+
+2d
+
+ |
+
+3 KiB
+
+ |
+|
+
+nitroscripts.com
+
+ |  |
+
+1 KiB
+
+ |
+|
+
+[/ZGPyRGlFyhskcOJmLDIbirdHrGahQEpB](https://nitroscripts.com/ZGPyRGlFyhskcOJmLDIbirdHrGahQEpB)
+
+(nitroscripts.com)
+
+ |
+
+10m
+
+ |
+
+1 KiB
+
+ |
+
+Improve image delivery Est savings of 927 KiB
+
+Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery?utm_source=lighthouse&utm_medium=lr)LCPFCPUnscored
+
+|  |
+
+URL
+
+ |
+
+Resource Size
+
+ |
+
+Est Savings
+
+ |
+| --- | --- | --- | --- |
+|
+
+lebanese-arabic.com
+
+ 1st party |  |
+
+970.3 KiB
+
+ |
+
+926.8 KiB
+
+ |
+|
+
+Mireille
+
+<img decoding="async" src="https://lebanese-arabic.com/wp-content/uploads/2022/09/mireille.png" alt="Mireille" class="teacher-img">
+
+ |
+
+[...09/mireille.png](https://lebanese-arabic.com/wp-content/uploads/2022/09/mireille.png)
+
+(lebanese-arabic.com)
+
+ |
+
+734.6 KiB
+
+ |
+
+723.3 KiB
+
+ |
+|  |
+
+Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.
+
+ |  |
+
+669.5 KiB
+
+ |
+|  |
+
+This image file is larger than it needs to be (632x633) for its displayed dimensions (265x263). Use responsive images to reduce the image download size.
+
+ |  |
+
+606.6 KiB
+
+ |
+|
+
+Ella
+
+<img decoding="async" src="https://lebanese-arabic.com/wp-content/uploads/2023/12/Bio-Pic-Ella.webp" alt="Ella" class="teacher-img">
+
+ |
+
+[...12/Bio-Pic-Ella.webp](https://lebanese-arabic.com/wp-content/uploads/2023/12/Bio-Pic-Ella.webp)
+
+(lebanese-arabic.com)
+
+ |
+
+192.5 KiB
+
+ |
+
+173.8 KiB
+
+ |
+|  |
+
+Increasing the image compression factor could improve this image's download size.
+
+ |  |
+
+161.3 KiB
+
+ |
+|  |
+
+This image file is larger than it needs to be (439x437) for its displayed dimensions (439x263). Use responsive images to reduce the image download size.
+
+ |  |
+
+76.8 KiB
+
+ |
+|
+
+Logo of Lebanese Arabic with Hiba
+
+<img width="175" height="49" src="https://lebanese-arabic.com/wp-content/uploads/2023/08/hiba-logo-white-wit..." class="custom-logo" alt="Logo of Lebanese Arabic with Hiba" decoding="async" srcset="https://lebanese-arabic.com/wp-content/uploads/2023/08/hiba-logo-white-wit..." sizes="(max-width: 175px) 100vw, 175px">
+
+ |
+
+[...08/hiba-logo-white-without-najem.png](https://lebanese-arabic.com/wp-content/uploads/2023/08/hiba-logo-white-without-najem.png)
+
+(lebanese-arabic.com)
+
+ |
+
+16.3 KiB
+
+ |
+
+14.9 KiB
+
+ |
+|  |
+
+Using a modern image format (WebP, AVIF) or increasing the image compression could improve this image's download size.
+
+ |  |
+
+6.9 KiB
+
+ |
+|  |
+
+This image file is larger than it needs to be (457x127) for its displayed dimensions (175x49). Use responsive images to reduce the image download size.
+
+ |  |
+
+13.9 KiB
+
+ |
+|
+
+background picture of a laptop on a desk on the right, and a top view of a lapt...
+
+<img fetchpriority="high" decoding="async" width="1024" height="512" class="wp-block-cover__image-background wp-image-4339 size-large" alt="background picture of a laptop on a desk on the right, and a top view of a..." src="https://lebanese-arabic.com/wp-content/uploads/2023/06/Blog-Header-1200x60..." data-object-fit="cover" srcset="https://lebanese-arabic.com/wp-content/uploads/2023/06/Blog-Header-1200x60..." sizes="(max-width: 1024px) 100vw, 1024px">
+
+ |
+
+[...06/Blog-Header-1200x600-px-compressed-768x384.webp](https://lebanese-arabic.com/wp-content/uploads/2023/06/Blog-Header-1200x600-px-compressed-768x384.webp)
+
+(lebanese-arabic.com)
+
+ |
+
+26.8 KiB
+
+ |
+
+14.8 KiB
+
+ |
+|  |
+
+Increasing the image compression factor could improve this image's download size.
+
+ |  |
+
+14.8 KiB
+
+ |
+
+Forced reflow
+
+A forced reflow occurs when JavaScript queries geometric properties (such as offsetWidth) after styles have been invalidated by a change to the DOM state. This can result in poor performance. Learn more about [forced reflows](https://developer.chrome.com/docs/performance/insights/forced-reflow?utm_source=lighthouse&utm_medium=lr) and possible mitigations.Unscored
+
+|
+
+Source
+
+ |
+
+Total reflow time
+
+ |
+| --- | --- |
+|
+
+[...static/prototype.forms.js:3127:25](https://cdn.jotfor.ms/s/static/1e8069a6850/static/prototype.forms.js)
+
+(cdn.jotfor.ms)
+
+ |
+
+92 ms
+
+ |
+
+Network dependency tree
+
+[Avoid chaining critical requests](https://developer.chrome.com/docs/performance/insights/network-dependency-tree?utm_source=lighthouse&utm_medium=lr) by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load.LCPUnscored
+
+Maximum critical path latency: **1,482 ms**
+
+Initial Navigation
+
+[/lebanese-lessons-risk-free/](https://lebanese-arabic.com/lebanese-lessons-risk-free/)
+
+(lebanese-arabic.com)
+
+ - 137 ms, 41.70 KiB
+
+[...scripts/js.cookie-2.1.3.min.js?ver=2.1.3](https://lebanese-arabic.com/wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3)
+
+(lebanese-arabic.com)
+
+ - 586 ms, 1.62 KiB
+
+[...latest/for-form-embed-handler.js](https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js)
+
+(cdn.jotfor.ms)
+
+ - 157 ms, 2.00 KiB
+
+[...minified/frontend.min.js?ver=4.11.13](https://lebanese-arabic.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.11.13)
+
+(lebanese-arabic.com)
+
+ - 1,477 ms, 9.58 KiB
+
+[...js/bt_conversion-min.js?ver=2.2.1](https://lebanese-arabic.com/wp-content/plugins/bt-bb-ab/js/bt_conversion-min.js?ver=2.2.1)
+
+(lebanese-arabic.com)
+
+ - 1,482 ms, 26.16 KiB
+
+[...css/experiment-frontend.css?ver=6.8.3](https://lebanese-arabic.com/wp-content/plugins/bt-bb-ab/css/experiment-frontend.css?ver=6.8.3)
+
+(lebanese-arabic.com)
+
+ - 705 ms, 16.90 KiB
+
+Preconnected origins
+
+[preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/?utm_source=lighthouse&utm_medium=lr) hints help the browser establish a connection earlier in the page load, saving time when the first request for that origin is made. The following are the origins that the page preconnected to.
+
+no origins were preconnected
+
+Preconnect candidates
+
+Add [preconnect](https://developer.chrome.com/docs/lighthouse/performance/uses-rel-preconnect/?utm_source=lighthouse&utm_medium=lr) hints to your most important origins, but try to use no more than 4.
+
+|
+
+Origin
+
+ |
+
+Est LCP savings
+
+ |
+| --- | --- |
+|
+
+https://clickiocmp.com
+
+ |
+
+350 ms
+
+ |
+|
+
+https://form.jotform.com
+
+ |
+
+310 ms
+
+ |
+|
+
+https://cdn.jotfor.ms
+
+ |
+
+310 ms
+
+ |
+|
+
+https://js.stripe.com
+
+ |
+
+310 ms
+
+ |
+
+Render blocking requests
+
+Requests are blocking the page's initial render, which may delay LCP. [Deferring or inlining](https://developer.chrome.com/docs/performance/insights/render-blocking?utm_source=lighthouse&utm_medium=lr) can move these network requests out of the critical path.LCPFCPUnscored
+
+|
+
+URL
+
+ |
+
+Transfer Size
+
+ |
+
+Duration
+
+ |
+| --- | --- | --- |
+|
+
+lebanese-arabic.com
+
+ 1st party |
+
+18.5 KiB
+
+ |
+
+1,140 ms
+
+ |
+|
+
+[...css/experiment-frontend.css?ver=6.8.3](https://lebanese-arabic.com/wp-content/plugins/bt-bb-ab/css/experiment-frontend.css?ver=6.8.3)
+
+(lebanese-arabic.com)
+
+ |
+
+16.9 KiB
+
+ |
+
+970 ms
+
+ |
+|
+
+[...scripts/js.cookie-2.1.3.min.js?ver=2.1.3](https://lebanese-arabic.com/wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3)
+
+(lebanese-arabic.com)
+
+ |
+
+1.6 KiB
+
+ |
+
+170 ms
+
+ |
+
+Legacy JavaScript Est savings of 21 KiB
+
+Polyfills and transforms enable older browsers to use new JavaScript features. However, many aren't necessary for modern browsers. Consider modifying your JavaScript build process to not transpile [Baseline](https://web.dev/articles/baseline-and-polyfills?utm_source=lighthouse&utm_medium=lr) features, unless you know you must support older browsers. [Learn why most sites can deploy ES6+ code without transpiling](https://developer.chrome.com/docs/performance/insights/legacy-javascript?utm_source=lighthouse&utm_medium=lr)LCPFCPUnscored
+
+|
+
+URL
+
+ |  |
+
+Wasted bytes
+
+ |
+| --- | --- | --- |
+|
+
+MailMunch
+
+ ad |  |
+
+10.7 KiB
+
+ |
+|
+
+[...v1/site.js](https://a.mailmunch.co/app/v1/site.js)
+
+(a.mailmunch.co)
+
+ |  |
+
+10.7 KiB
+
+ |
+|
+
+[...v1/site.js:1:85](https://a.mailmunch.co/app/v1/site.js)
+
+(a.mailmunch.co)
+
+ |
+
+@babel/plugin-transform-classes
+
+ |  |
+|
+
+[...v1/site.js:1:4232](https://a.mailmunch.co/app/v1/site.js)
+
+(a.mailmunch.co)
+
+ |
+
+Array.prototype.indexOf
+
+ |  |
+|
+
+[...v1/site.js:1:4137](https://a.mailmunch.co/app/v1/site.js)
+
+(a.mailmunch.co)
+
+ |
+
+Object.create
+
+ |  |
+|
+
+lebanese-arabic.com
+
+ 1st party |  |
+
+9.9 KiB
+
+ |
+|
+
+[...js/bt_conversion-min.js?ver=2.2.1](https://lebanese-arabic.com/wp-content/plugins/bt-bb-ab/js/bt_conversion-min.js?ver=2.2.1)
+
+(lebanese-arabic.com)
+
+ |  |
+
+9.9 KiB
+
+ |
+|
+
+[...js/bt_conversion-min.js?ver=2.2.1:1:69797](https://lebanese-arabic.com/wp-content/plugins/bt-bb-ab/js/bt_conversion-min.js?ver=2.2.1)
+
+(lebanese-arabic.com)
+
+ |
+
+String.prototype.endsWith
+
+ |  |
+
+Layout shift culprits
+
+Optimize DOM size
+
+LCP breakdown
+
+3rd parties
+
+These insights are also available in the Chrome DevTools Performance Panel - [record a trace](https://developer.chrome.com/docs/devtools/performance/reference?utm_source=lighthouse&utm_medium=lr) to view more detailed information.
+
+Diagnostics
+
+Reduce unused JavaScript Est savings of 468 KiB
+
+Minify JavaScript Est savings of 139 KiB
+
+Reduce unused CSS Est savings of 157 KiB
+
+Minify CSS Est savings of 6 KiB
+
+Avoid enormous network payloads Total size was 2,750 KiB
+
+Avoid long main-thread tasks 6 long tasks found
+
+More information about the performance of your application. These numbers don't [directly affect](https://developer.chrome.com/docs/lighthouse/performance/performance-scoring/?utm_source=lighthouse&utm_medium=lr) the Performance score.
+
+Passed audits (11)
+
+Show
+
+88
+
+Accessibility
+
+These checks highlight opportunities to [improve the accessibility of your web app](https://developer.chrome.com/docs/lighthouse/accessibility/?utm_source=lighthouse&utm_medium=lr). Automatic detection can only detect a subset of issues and does not guarantee the accessibility of your web app, so [manual testing](https://web.dev/articles/how-to-review?utm_source=lighthouse&utm_medium=lr) is also encouraged.
+
+Names and labels
+
+Form elements do not have associated labels
+
+These are opportunities to improve the semantics of the controls in your application. This may enhance the experience for users of assistive technology, like a screen reader.
+
+Contrast
+
+Background and foreground colors do not have a sufficient contrast ratio.
+
+Links rely on color to be distinguishable.
+
+These are opportunities to improve the legibility of your content.
+
+Additional items to manually check (10)
+
+Show
+
+These items address areas which an automated testing tool cannot cover. Learn more in our guide on [conducting an accessibility review](https://web.dev/articles/how-to-review?utm_source=lighthouse&utm_medium=lr).
+
+Passed audits (23)
+
+Show
+
+Not applicable (34)
+
+Show
+
+81
+
+Best Practices
+
+General
+
+Uses deprecated APIs 1 warning found
+
+Detected JavaScript libraries
+
+Trust and Safety
+
+Ensure CSP is effective against XSS attacks
+
+Use a strong HSTS policy
+
+Ensure proper origin isolation with COOP
+
+Mitigate clickjacking with XFO or CSP
+
+Mitigate DOM-based XSS with Trusted Types
+
+Passed audits (12)
+
+Show
+
+Not applicable (1)
+
+Show
+
+85
+
+SEO
+
+These checks ensure that your page is following basic search engine optimization advice. There are many additional factors Lighthouse does not score here that may affect your search ranking, including performance on [Core Web Vitals](https://web.dev/explore/vitals?utm_source=lighthouse&utm_medium=lr). [Learn more about Google Search Essentials](https://support.google.com/webmasters/answer/35769).
+
+Content Best Practices
+
+Document does not have a meta description
+
+Format your HTML in a way that enables crawlers to better understand your app's content.
+
+Crawling and Indexing
+
+Links are not crawlable
+
+To appear in search results, crawlers need access to your app.
+
+Additional items to manually check (1)
+
+Show
+
+Run these additional validators on your site to check additional SEO best practices.
+
+Passed audits (8)
+
+Show
+
+More on PageSpeed Insights[What's new](https://developers.google.com/speed/docs/insights/release_notes)[Documentation](https://developers.google.com/speed/docs/insights/v5/about)[Learn about Web Performance](https://developers.google.com/speed)[Ask questions on Stack Overflow](https://stackoverflow.com/questions/tagged/pagespeed-insights)[Mailing list](https://groups.google.com/g/pagespeed-insights-discuss)
+
+Related Content[Updates](https://developer.chrome.com/blog)[Web Fundamentals](https://developers.google.com/focus/web-development)[Case Studies](https://web.dev/case-studies)[Podcasts](https://web.dev/shows)
+
+Connect[Twitter](https://twitter.com/ChromiumDev)[Youtube](https://www.youtube.com/user/ChromeDevelopers)
+
+[![Google Developers Logo](https://gstatic.com/webvitalsdashboard/img/google_developers.svg)](https://developers.google.com/)[Chrome](https://developer.chrome.com/)[Firebase](https://firebase.google.com/)[All products](https://developers.google.com/products/)
+
+[Terms and Privacy Policy](https://policies.google.com/)
+
+For details, see the [Google Developers Site Policies](https://developers.google.com/terms/site-policies).
+
+[](chrome://extensions/shortcuts)
