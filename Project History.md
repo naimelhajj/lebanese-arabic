@@ -208,6 +208,34 @@ This section contains the official, user-verified history of all strategic phase
     *   **Strategic Decision: Sequential A/B Testing for Wave 2:** Agreed to a sequential testing plan for the "Organic Ambush" module. The current A/B test will determine the winning banner design. Once a winner is identified, a subsequent A/B test will compare the winning banner linking directly to `/lebanese-lessons/` (control) against the same banner linking to `home-v2` (challenger), to determine the optimal conversion path for organic traffic.
 
 
+### **Phase 18: Consolidated A/B Testing Focus (LIVE)**
+
+*   **Status: LIVE as of November 12, 2025.**
+*   **Catalyst:** Low organic traffic volumes (~15 visits/day per page) necessitate consolidating testing efforts to gain actionable insights faster, especially given the ongoing debt crisis.
+*   **Primary Live Test:** `homepage` (control) vs. `home-v2` (challenger).
+    *   **Objective:** Determine which homepage variant drives more trial purchases and traffic to `/lebanese-lessons/`.
+    *   **Rationale:** The homepage is a critical entry point and, as confirmed by Clarity analysis, often serves as a "hub" for users building trust.
+*   **Secondary Test (PAUSED):** The "Organic Ambush" banner test on content pages (`/lesson15/`, `/lesson1/`, `/lebanese-love-phrases/`).
+    *   **Rationale:** Paused to direct all available organic traffic to the primary homepage test, preventing dilution of data and accelerating learning.
+*   **Decision Rule:** Due to low traffic, we will aim for a "directional winner" after a fixed period (e.g., 7 days), combining quantitative data with qualitative Clarity insights, rather than waiting for strict statistical significance.
+
+#### Execution Log:
+
+*   **November 12, 2025:**
+    *   **Strategic Simplification (Lane A):** Re-evaluated the parallel track plan. The task to create a new `home-v2-organic-hub.html` file was deemed an unnecessary step. The existing, optimized `home-v2` page is confirmed to be sufficient for the upcoming "Hub vs. Direct" A/B test. Lane A is now marked as complete.
+
+### **Phase 19: A/B Test Acceleration Campaign (LIVE)**
+
+*   **Status: LIVE as of November 12, 2025.**
+*   **Rationale:** To break the "wait and see" holding pattern caused by low organic traffic. This campaign's primary goal is to drive traffic to the live `homepage` vs. `home-v2` A/B test to get actionable data faster. Its secondary goal is to open a new, parallel purchase channel.
+*   **Setup:** A `$10/day` CBO `Traffic` campaign targeting a `Lookalike 1% of the "Purchase" audience`, driving users to the main homepage.
+    *   **Creative Selection (3 Ads):**
+        *   **Ad 1 (Founder/Trust):** Static image of Hiba at the cafe (`ad-creatives/images/29792122_1866701130067076_6344550432957792256_n.jpg`). (Note: Original video version had inaccurate text, so static image used for copy control).
+        *   **Ad 2 (Social Proof):** 29-second video clip from JD's testimonial. (Selected for its direct comparison to alternatives and clear outcome).
+        *   **Ad 3 (Product Preview):** Video version of the screen displaying Lebanese Arabic words and English translations (`ad-creatives/images/30729454_1882003295203526_8186836058546110464_n.jpg`).
+    *   **Status (Nov 13, 2025):** Campaign launched. Now in monitoring phase with a 3-day kill switch (pause if < 40 LPV or 0 purchases after $30 spent).
+*   **Kill/Scale Rule:** The campaign will be killed if, after 3 days ($30 spent), it has generated fewer than 40 landing page views OR zero trial purchases. Otherwise, it will run for the full 7-day sprint.
+
 ## **Part III: Management & Reporting**
 
 

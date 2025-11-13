@@ -1,0 +1,231 @@
+Session info
+
+Date & time:
+09/20/2025, at 04:16 AM
+User ID:
+k1hpz7
+Location:
+Spartanburg, South Carolina, United States
+Device details:
+390 x 669 - ChromeMobile - iOS 18 - Mobile
+Clicks:
+20
+Page views:
+7
+User intent:
+High
+Entry URL:
+.../lebanese-lessons/
+Exit URL:
+.../videos/
+Referrer:
+https://duckduckgo.com/
+
+Session insights
+
+The visitor arrived from DuckDuckGo and explored the Online Lebanese Arabic Lessons page, clicking on “Reserve Your Spot” multiple times. At 00:21 and again at 02:04, attempts to reserve triggered a JavaScript error (openBooking not found), potentially blocking booking actions.
+After submitting an inquiry form (visible in the Lessons Inquiry Thank You Page at 05:16), they returned to the lessons page and engaged extensively with pricing and FAQ sections — including “Prepared Prices,” lesson types, cancellation policy, teaching languages, platforms used, payment methods (10:22), and recording policies.
+Near the end of the session, they navigated between pricing anchors (19:18) before visiting the Videos section at 19:45, clicking on a video thumbnail just before ending their visit.
+
+Events:
+
+Page visit:.../lebanese-lessons/
+00:00
+Duration
+05:16
+Load time
+00:07
+Event count28
+Click:
+"Learn Lebanese Your Way –"
+00:14
+Resized page
+00:17
+Resized page
+00:18
+Click:
+"Reserve Your Spot"
+00:21
+Click
+00:29
+Resized page
+00:39
+Resized page
+00:52
+Resized page
+00:53
+Resized page
+00:56
+Resized page
+00:57
+Resized page
+01:04
+Resized page
+01:09
+Resized page
+01:12
+Resized page
+01:14
+Resized page
+01:49
+Click:
+"Reserve Your Spot"
+02:04
+Click error:
+"Can't find variable: openBooking"
+02:04
+JavaScript error:
+"Can't find variable: openBooking"
+02:04
+Resized page
+02:18
+Resized page
+02:25
+Resized page
+02:31
+Resized page
+02:33
+Resized page
+02:44
+Click:
+"Claim Your $15 Trial Less"
+03:21
+Resized page
+04:24
+Resized page
+04:25
+Click
+04:35
+Resized page
+04:41
+Page visit:.../lessons-inquiry-thank-you-page/?email1=&email2=&email3=&email4=dthoenen@nc.rr.com&inWhich=&whatGot=&howDid=&id=6341440864346615171
+05:16
+Duration
+01:01
+Load time
+00:02
+Event count4
+Resized page
+05:24
+Resized page
+05:46
+Resized page
+06:04
+Click:
+"Logo of Lebanese Arabic w"
+06:17
+Page visit:.../lebanese-lessons/
+06:22
+Duration
+12:53
+Load time
+00:01
+Event count30
+Resized page
+06:24
+Selected text
+06:36
+Selected text
+06:36
+Resized page
+06:38
+Quick back click
+07:09
+Click:
+"See Prepared Prices"
+07:09
+Click:
+"Transparent Pricing Choos"
+07:30
+Resized page
+07:36
+Resized page
+07:43
+Resized page
+08:16
+Resized page
+08:21
+Resized page
+08:25
+Resized page
+08:30
+Click:
+"What are “Prepared” lesso"
+08:31
+Click:
+"What are “Prepared” lesso"
+08:41
+Click:
+"What are “Conversational”"
+08:48
+Click:
+"What if I need to cancel "
+09:06
+Click:
+"Do you teach Modern Stand"
+09:27
+Click:
+"Do you use Latin or Arabi"
+09:52
+Click:
+"Which languages do teache"
+10:04
+Resized page
+10:08
+Click:
+"Which platform do you use"
+10:10
+Smart event:
+Purchase
+10:22
+Click:
+"How and when do I pay? ▼"
+10:22
+Resized page
+10:24
+Resized page
+10:31
+Click:
+"Will sessions be recorded"
+10:31
+Resized page
+10:33
+Resized page
+10:34
+Page hidden
+10:49
+Page visit:.../lebanese-lessons/
+19:19
+Duration
+00:06
+Load time
+00:01
+Event count1
+Refreshed page
+19:25
+Page visit:.../lebanese-lessons/
+19:25
+Duration
+00:02
+Load time
+00:00
+Event count0
+Page visit:.../lebanese-lessons/
+19:28
+Duration
+00:01
+Load time
+00:00
+Event count1
+Resized page
+19:28
+Page visit:.../videos/
+19:46
+Duration
+00:08
+Load time
+00:00
+Event count1
+Click:
+"This is the thumbnail of "
+19:54

@@ -1,0 +1,487 @@
+Session info
+
+Date & time:
+09/09/2025, at 09:27 PM
+User ID:
+o21rkx
+Location:
+Montreal, Quebec, Canada
+Device details:
+1905 x 911 - Chrome - Windows 15.0.0 - PC
+Clicks:
+46
+Page views:
+13
+User intent:
+Medium
+Entry URL:
+.../lesson13/
+Exit URL:
+.../terms-of-service/
+Referrer:
+https://www.google.com/
+
+Session insights
+
+The visitor began by exploring the "Conjugating 'To Go' Across Tenses" lesson, briefly checked the "To Eat" conjugation page, then returned to the original lesson for an extended period. During this revisit, they actively clicked through multiple pronoun forms and tenses such as I will go, We are going, and They went (00:19:39, 00:23:17, 00:27:16).
+Mid-session, they navigated from a specific verb lesson to the Online Lebanese Arabic Lessons overview via quick back-and-forth clicks (00:48:26), explored course availability options (00:49:12), and reached a thank-you page after submitting an inquiry form containing their email address.
+Toward the end, the user reviewed the Terms of Service page with multiple interactions (00:56:21) before returning again to lessons information and revisiting both the thank-you confirmation and terms pages until session close.
+
+Events:
+
+Tab 1 :.../lesson13/
+00:00
+Duration
+10:57
+Load time
+00:00
+Event count1
+LCP
+0.18s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Click:
+"Agree & Close"
+00:01
+Tab 1 :.../lesson16/
+10:57
+Duration
+00:00
+Load time
+Not available
+Event count1
+Page hidden
+10:57
+Tab 1 :.../lesson13/
+13:29
+Duration
+18:59
+Load time
+00:00
+Event count58
+LCP
+0.18s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Click:
+"Conjugating ‘To Go’ Acros"
+13:33
+Selected text
+13:34
+Click:
+"In this video, I’ll dive "
+13:34
+Selected text
+13:34
+Page hidden
+17:38
+Page visible
+17:39
+Page hidden
+17:40
+Page visible
+19:22
+Click:
+"I will go: ana ▪▪▫ ▪▪▪▫"
+19:39
+Click:
+"I will go: ana ▪▪▫ ▪▪▪▫"
+19:39
+Selected text
+19:40
+Click:
+"Today, I’ll be focusing o"
+20:03
+Click:
+"Hello guys! If you’re wat"
+20:03
+Selected text
+20:04
+Click:
+"Hello guys! If you’re wat"
+20:05
+Click:
+"Hello guys! If you’re wat"
+20:05
+Selected text
+20:06
+Click:
+"Hello guys! If you’re wat"
+20:07
+Selected text
+20:07
+Click:
+"Hello guys! If you’re wat"
+20:08
+Selected text
+20:08
+Click:
+"We are going: ▪▪▫▪▪ ▪▪▪▫▪"
+23:17
+Selected text
+23:17
+Click:
+"You all are going: ento r"
+23:17
+Selected text
+23:18
+Click:
+"They are going: henneh ra"
+23:18
+Selected text
+23:18
+Selected text
+23:19
+Click:
+"We are going: ▪▪▫▪▪ ▪▪▪▫▪"
+23:19
+Selected text
+23:19
+Selected text
+23:20
+Click:
+"I am going: ana ▪▪▪▫▪ You"
+23:20
+Selected text
+23:20
+Click:
+"They are going: henneh ra"
+23:21
+Selected text
+23:21
+Click:
+"They are going: henneh ra"
+23:21
+Selected text
+23:21
+Click:
+"They are going: henneh ra"
+23:22
+Selected text
+23:22
+Click:
+"He is going: howeh ▪▪▪▪▫"
+23:23
+Selected text
+23:23
+Selected text
+23:23
+Click:
+"I am going: ana ▪▪▪▫▪ You"
+23:23
+Selected text
+23:24
+Selected text
+23:24
+Click:
+"We are going: ▪▪▫▪▪ ▪▪▪▫▪"
+23:25
+Click:
+"I am going: ana ▪▪▪▫▪ You"
+23:25
+Click:
+"She is going: hiyeh ▪▪▪▫▪"
+23:25
+Selected text
+23:26
+Click:
+"Today, I’ll be focusing o"
+24:12
+Click:
+"Today, I’ll be focusing o"
+24:12
+Selected text
+24:12
+Click:
+"I went: ana ▪▪▫▪▪ You wen"
+27:16
+Selected text
+27:16
+Click:
+"They went: henneh ▪▪▫▪"
+27:16
+Selected text
+27:17
+Click:
+"They went: henneh ▪▪▫▪"
+27:17
+Selected text
+27:17
+Tab 1 :.../lesson13/
+40:29
+Duration
+05:22
+Load time
+00:00
+Event count0
+LCP
+0.18s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Tab 1 :.../lesson13/
+46:55
+Duration
+01:31
+Load time
+00:00
+Event count21
+LCP
+0.18s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Page hidden
+47:13
+Page visible
+48:00
+Selected text
+48:12
+Click:
+"enta ▪▪▪▪▫"
+48:12
+Selected text
+48:13
+Selected text
+48:13
+Click:
+"ente ▪▪▪▫▪"
+48:13
+Selected text
+48:14
+Selected text
+48:15
+Click:
+"howeh ▪▪▪▪▫"
+48:15
+Selected text
+48:15
+Selected text
+48:15
+Click:
+"She is goinghiyeh ▪▪▪▫▪▪▪"
+48:16
+Selected text
+48:16
+Selected text
+48:16
+Click:
+"IanaأناYou (male)entaانتY"
+48:16
+Selected text
+48:17
+Click:
+"ana ▪▪▫▪▪"
+48:17
+Selected text
+48:18
+Quick back click
+48:26
+Click:
+"Lessons"
+48:26
+Tab 1 :.../lebanese-lessons/
+48:28
+Duration
+00:06
+Load time
+00:05
+Event count2
+LCP
+2.8s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Quick back click
+48:34
+Click:
+"Home"
+48:34
+Tab 1 :lebanese-arabic.com
+48:36
+Duration
+00:01
+Load time
+00:00
+Event count1
+LCP
+0.18s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Click:
+"Online Lessons"
+48:37
+Tab 1 :.../lebanese-lessons/
+48:37
+Duration
+01:02
+Load time
+00:02
+Event count3
+LCP
+2s
+INP
+Not available
+CLS
+0.018
+Peformance score
+0
+Page hidden
+48:37
+Click:
+"Check Availability Save u"
+48:38
+Click:
+"Learn Lebanese Your Way –"
+49:12
+Tab 1 :.../lessons-inquiry-thank-you-page/?email1=&email2=&email3=&email4=viccormi@gmail.com&inWhich=&whatGot=&howDid=&id=6332582240025576421
+49:41
+Duration
+05:08
+Load time
+00:03
+Event count1
+LCP
+1.9s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Page hidden
+49:44
+Tab 1 :.../lessons-inquiry-thank-you-page/?email1=&email2=&email3=&email4=viccormi@gmail.com&inWhich=&whatGot=&howDid=&id=6332582240025576421
+55:23
+Duration
+00:29
+Load time
+00:03
+Event count5
+LCP
+1.9s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Page hidden
+55:24
+Page visible
+55:26
+Page hidden
+55:28
+Page visible
+55:51
+Page hidden
+55:52
+Tab 2 :.../terms-of-service/
+56:16
+Duration
+00:40
+Load time
+00:01
+Event count9
+LCP
+1.7s
+INP
+Not available
+CLS
+0.001
+Peformance score
+0
+Selected text
+56:21
+Click:
+"Welcome to Lebanese Arabi"
+56:21
+Click:
+"Welcome to Lebanese Arabi"
+56:25
+Selected text
+56:26
+Click:
+"Welcome to Lebanese Arabi"
+56:26
+Click:
+"Lebanese Arabic with Hiba"
+56:27
+Selected text
+56:27
+Quick back click
+56:56
+Click:
+"Lebanese Arabic with Hiba"
+56:56
+Tab 2 :.../lebanese-lessons/
+56:57
+Duration
+00:09
+Load time
+00:01
+Event count1
+LCP
+0.13s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Click:
+"Check Availability Save u"
+57:03
+Tab 1 :.../lessons-inquiry-thank-you-page/?email1=&email2=&email3=&email4=viccormi@gmail.com&inWhich=&whatGot=&howDid=&id=6332582240025576421
+57:06
+Duration
+00:01
+Load time
+00:03
+Event count0
+LCP
+1.9s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Tab 3 :.../terms-of-service/
+57:19
+Duration
+06:54
+Load time
+00:00
+Event count1
+LCP
+0.12s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Page hidden
+59:09

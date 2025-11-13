@@ -32,7 +32,7 @@ This document is the single source of truth for everything we learn about the bu
 
 *   **Direct Booking Form is Validated (Learned Nov 7-11, 2025):** The frictionless Jotform that allows direct payment is a proven conversion mechanism, responsible for both our recent email sale and organic sale. The old manual follow-up process is obsolete.
 *   **Homepage is the "Safety Net" (Learned Nov 11, 2025):** When users encounter friction or are uncertain, they retreat to the homepage to re-orient. This makes the homepage the most critical asset for rebuilding and redirecting user intent.
-*   **Cart Abandonment is Happening (Learned Nov 11, 2025 - User `9bt7rl`):** A converting user was distracted or hit a technical issue, abandoning the checkout process for 9 minutes before returning to complete the purchase. This indicates an opportunity for future cart abandonment recovery tactics.
+*   **Conversion Funnel Abandonment is Happening (Learned Nov 11, 2025 - User `9bt7rl`):** A converting user showed strong intent by visiting the `/lebanese-lessons/` conversion page multiple times over a ~10 minute period before finally completing the purchase. This behavior, analogous to cart abandonment, shows that even highly motivated users can get distracted or delayed. This indicates an opportunity for future recovery tactics.
 *   **Win-Back Email Campaigns Work (Learned Nov 11, 2025):** Wave 1, targeting recent (post-August) unconverted leads with a low-friction $10 offer, generated a sale within 24 hours. This is a valid, zero-cost revenue channel.
 *   **Long-Dormant Leads Can Be Reactivated with a Strong Offer (Learned Nov 11, 2025 - Dina Dada's Case):** Dina Dada, a lead from 2020, converted to a $15 trial after receiving a targeted email campaign and confirming the availability of a trial lesson. This demonstrates the power of a compelling offer and re-engagement.
 *   **Cold Reactivation Email Campaigns Do NOT Work (Learned Nov 11, 2025):** Wave 3, targeting old (pre-August) cold leads, resulted in zero clicks and zero sales from over 100 sends. This channel is not worth further investment at this time.
@@ -42,15 +42,13 @@ This document is the single source of truth for everything we learn about the bu
 
 ## Technical & Tracking Insights
 
-*   **JS Errors at Checkout (Learned Nov 11, 2025 - User `9bt7rl`):** A `fbq is not defined` error occurred during the checkout process. While the user eventually converted, this represents technical friction that could cause less motivated users to churn.
-
 ---
 
 ## Chronological Log
 
 *   **Nov 11, 2025 - User `9bt7rl` (Successful Conversion):**
-    *   **Summary:** User entered on the homepage, navigated to the checkout page, encountered friction (multiple clicks, a 9-minute pause, a JS error), retreated to the homepage to re-orient, and then successfully navigated back through the funnel to complete the purchase.
-    *   **Learning:** This is the second recorded instance of the "Organic Explorer" persona, strongly validating the "Hook -> Hub -> Checkout" model. It also confirms that cart abandonment is occurring and that the "Risk-Free Trial" offer is strong enough to overcome significant friction.
+    *   **Summary:** User entered on the homepage and quickly navigated to the `/lebanese-lessons/` conversion page. They showed strong but delayed intent, clicking the "Book Your Risk-Free Trial" button multiple times over a ~10 minute period before finally converting. During this time, they retreated to the homepage to re-orient before successfully navigating back to complete the purchase.
+    *   **Learning:** This is the second recorded instance of the "Organic Explorer" persona, strongly validating the "Hook -> Hub -> Checkout" model. It also confirms that conversion funnel abandonment is occurring and that the "Risk-Free Trial" offer is strong enough to overcome significant friction.
 *   **Nov 11, 2025 - Dina Dada's Case (Successful Conversion):**
     *   **Summary:** Long-dormant lead (initial inquiry 2020) re-engaged via application form Oct 2025, then converted to a $15 trial via the "New Leads" email campaign. Explicitly asked about the "$15 class" (trial lesson).
     *   **Learning:** The $15 trial offer is a powerful re-engagement tool. The "trial lesson" concept is highly appealing and can reactivate even very old leads. The previous "no trial lessons" policy was a significant barrier.

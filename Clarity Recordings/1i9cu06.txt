@@ -1,0 +1,112 @@
+Session info
+
+Date & time:
+10/26/2025, at 11:42 AM
+User ID:
+1i9cu06
+Location:
+Sydney, New South Wales, Australia
+Device details:
+430 x 739 - MobileSafari - iOS 18 - Mobile
+Clicks:
+12
+Page views:
+2
+User intent:
+High
+Entry URL:
+.../lebanese-lessons/
+Exit URL:
+.../lessons-inquiry-thank-you-page/?email1=&email2=&email3=&email4=jelessraoui@gmail.com&inWhich=&whatGot=&howDid=&id=6372845955129538279
+Referrer:
+https://lebanese-arabic.com/
+
+Session insights
+
+The visitor navigated to the Online Lebanese Arabic Lessons page from the homepage and quickly engaged with the content by accepting cookies at 00:02 and clicking on "Reserve Your Spot" at 00:04.
+They proceeded through the lesson reservation form, selecting Online Prepared Lessons at 00:11, choosing a Monday schedule at 00:33, and submitting their inquiry form at 00:43.
+After submission, they reached the Lessons Inquiry Thank You Page, where there were brief periods of page visibility changes between 01:21 and 01:39, possibly indicating tab switching before ending the session.
+
+Page visit:.../lebanese-lessons/
+00:00
+Duration
+00:45
+Load time
+00:05
+Event count19
+Custom tags
+5459-visit =
+1096
+form_step =
+In which lesson type are you interested?*
+Click:
+"Agree & Close"
+00:02
+Click:
+"Reserve Your Spot"
+00:04
+Click:
+"Online Prepared Lessons"
+00:11
+Click:
+"Online Prepared Lessons"
+00:11
+Entered text
+00:11
+Click:
+"Next"
+00:17
+Click
+00:18
+Entered text
+00:24
+Click
+00:24
+Entered text
+00:26
+Click
+00:26
+Entered text
+00:30
+Click:
+"Next"
+00:31
+Click:
+"Mondays"
+00:33
+Entered text
+00:33
+Click:
+"Next"
+00:41
+Smart event:
+Submit form
+00:43
+Click:
+"Submit"
+00:43
+Smart event:
+Submit form
+00:43
+Page visit:.../lessons-inquiry-thank-you-page/?email1=&email2=&email3=&email4=jelessraoui@gmail.com&inWhich=&whatGot=&howDid=&id=6372845955129538279
+00:47
+Duration
+00:55
+Load time
+00:02
+Event count6
+Custom tags
+5459-conversion =
+1096
+Resized page
+00:49
+Page hidden
+01:21
+Page visible
+01:29
+Page hidden
+01:30
+Page visible
+01:36
+Page hidden
+01:39

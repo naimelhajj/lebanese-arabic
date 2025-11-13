@@ -1,106 +1,417 @@
-# Master Strategic History & Action Log
-**Last Updated: November 8, 2025**
+# Task Master AI - Claude Code Integration Guide
+
+## Essential Commands
+
+### Core Workflow Commands
+
+```bash
+# Project Setup
+task-master init                                    # Initialize Task Master in current project
+task-master parse-prd .taskmaster/docs/prd.txt      # Generate tasks from PRD document
+task-master models --setup                        # Configure AI models interactively
+
+# Daily Development Workflow
+task-master list                                   # Show all tasks with status
+task-master next                                   # Get next available task to work on
+task-master show <id>                             # View detailed task information (e.g., task-master show 1.2)
+task-master set-status --id=<id> --status=done    # Mark task complete
+
+# Task Management
+task-master add-task --prompt="description" --research        # Add new task with AI assistance
+task-master expand --id=<id> --research --force              # Break task into subtasks
+task-master update-task --id=<id> --prompt="changes"         # Update specific task
+task-master update --from=<id> --prompt="changes"            # Update multiple tasks from ID onwards
+task-master update-subtask --id=<id> --prompt="notes"        # Add implementation notes to subtask
+
+# Analysis & Planning
+task-master analyze-complexity --research          # Analyze task complexity
+task-master complexity-report                      # View complexity analysis
+task-master expand --all --research               # Expand all eligible tasks
+
+# Dependencies & Organization
+task-master add-dependency --id=<id> --depends-on=<id>       # Add task dependency
+task-master move --from=<id> --to=<id>                       # Reorganize task hierarchy
+task-master validate-dependencies                            # Check for dependency issues
+task-master generate                                         # Update task markdown files (usually auto-called)
+```
+
+## Key Files & Project Structure
+
+### Core Files
+
+- `.taskmaster/tasks/tasks.json` - Main task data file (auto-managed)
+- `.taskmaster/config.json` - AI model configuration (use `task-master models` to modify)
+- `.taskmaster/docs/prd.txt` - Product Requirements Document for parsing
+- `.taskmaster/tasks/*.txt` - Individual task files (auto-generated from tasks.json)
+- `.env` - API keys for CLI usage
+
+### Claude Code Integration Files
+
+- `CLAUDE.md` - Auto-loaded context for Claude Code (this file)
+- `.claude/settings.json` - Claude Code tool allowlist and preferences
+- `.claude/commands/` - Custom slash commands for repeated workflows
+- `.mcp.json` - MCP server configuration (project-specific)
+
+### Directory Structure
+
+```
+project/
+├── .taskmaster/
+│   ├── tasks/              # Task files directory
+│   │   ├── tasks.json      # Main task database
+│   │   ├── task-1.md      # Individual task files
+│   │   └── task-2.md
+│   ├── docs/              # Documentation directory
+│   │   ├── prd.txt        # Product requirements
+│   ├── reports/           # Analysis reports directory
+│   │   └── task-complexity-report.json
+│   ├── templates/         # Template files
+│   │   └── example_prd.txt  # Example PRD template
+│   └── config.json        # AI models & settings
+├── .claude/
+│   ├── settings.json      # Claude Code configuration
+│   └── commands/         # Custom slash commands
+├── .env                  # API keys
+├── .mcp.json            # MCP configuration
+└── CLAUDE.md            # This file - auto-loaded by Claude Code
+```
+
+## MCP Integration
+
+Task Master provides an MCP server that Claude Code can connect to. Configure in `.mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "task-master-ai": {
+      "command": "npx",
+      "args": ["-y", "--package=task-master-ai", "task-master-ai"],
+      "env": {
+        "ANTHROPIC_API_KEY": "your_key_here",
+        "PERPLEXITY_API_KEY": "your_key_here",
+        "OPENAI_API_KEY": "OPENAI_API_KEY_HERE",
+        "GOOGLE_API_KEY": "GOOGLE_API_KEY_HERE",
+        "XAI_API_KEY": "XAI_API_KEY_HERE",
+        "OPENROUTER_API_KEY": "OPENROUTER_API_KEY_HERE",
+        "MISTRAL_API_KEY": "MISTRAL_API_KEY_HERE",
+        "AZURE_OPENAI_API_KEY": "AZURE_OPENAI_API_KEY_HERE",
+        "OLLAMA_API_KEY": "OLLAMA_API_KEY_HERE"
+      }
+    }
+  }
+}
+```
+
+### Essential MCP Tools
+
+```javascript
+help; // = shows available taskmaster commands
+// Project setup
+initialize_project; // = task-master init
+parse_prd; // = task-master parse-prd
+
+// Daily workflow
+get_tasks; // = task-master list
+next_task; // = task-master next
+get_task; // = task-master show <id>
+set_task_status; // = task-master set-status
+
+// Task management
+add_task; // = task-master add-task
+expand_task; // = task-master expand
+update_task; // = task-master update-task
+update_subtask; // = task-master update-subtask
+update; // = task-master update
+
+// Analysis
+analyze_project_complexity; // = task-master analyze-complexity
+complexity_report; // = task-master complexity-report
+```
+
+## Claude Code Workflow Integration
+
+### Standard Development Workflow
+
+#### 1. Project Initialization
+
+```bash
+# Initialize Task Master
+task-master init
+
+# Create or obtain PRD, then parse it
+task-master parse-prd .taskmaster/docs/prd.txt
+
+# Analyze complexity and expand tasks
+task-master analyze-complexity --research
+task-master expand --all --research
+```
+
+If tasks already exist, another PRD can be parsed (with new information only!) using parse-prd with --append flag. This will add the generated tasks to the existing list of tasks..
+
+#### 2. Daily Development Loop
+
+```bash
+# Start each session
+task-master next                           # Find next available task
+task-master show <id>                     # Review task details
+
+# During implementation, check in code context into the tasks and subtasks
+task-master update-subtask --id=<id> --prompt="implementation notes..."
+
+# Complete tasks
+task-master set-status --id=<id> --status=done
+```
+
+#### 3. Multi-Claude Workflows
+
+For complex projects, use multiple Claude Code sessions:
+
+```bash
+# Terminal 1: Main implementation
+cd project && claude
+
+# Terminal 2: Testing and validation
+cd project-test-worktree && claude
+
+# Terminal 3: Documentation updates
+cd project-docs-worktree && claude
+```
+
+### Custom Slash Commands
+
+Create `.claude/commands/taskmaster-next.md`:
+
+```markdown
+Find the next available Task Master task and show its details.
+
+Steps:
+
+1. Run `task-master next` to get the next task
+2. If a task is available, run `task-master show <id>` for full details
+3. Provide a summary of what needs to be implemented
+4. Suggest the first implementation step
+```
+
+Create `.claude/commands/taskmaster-complete.md`:
+
+```markdown
+Complete a Task Master task: $ARGUMENTS
+
+Steps:
+
+1. Review the current task with `task-master show $ARGUMENTS`
+2. Verify all implementation is complete
+3. Run any tests related to this task
+4. Mark as complete: `task-master set-status --id=$ARGUMENTS --status=done`
+5. Show the next available task with `task-master next`
+```
+
+## Tool Allowlist Recommendations
+
+Add to `.claude/settings.json`:
+
+```json
+{
+  "allowedTools": [
+    "Edit",
+    "Bash(task-master *)",
+    "Bash(git commit:*)",
+    "Bash(git add:*)",
+    "Bash(npm run *)",
+    "mcp__task_master_ai__*"
+  ]
+}
+```
+
+## Configuration & Setup
+
+### API Keys Required
+
+At least **one** of these API keys must be configured:
+
+- `ANTHROPIC_API_KEY` (Claude models) - **Recommended**
+- `PERPLEXITY_API_KEY` (Research features) - **Highly recommended**
+- `OPENAI_API_KEY` (GPT models)
+- `GOOGLE_API_KEY` (Gemini models)
+- `MISTRAL_API_KEY` (Mistral models)
+- `OPENROUTER_API_KEY` (Multiple models)
+- `XAI_API_KEY` (Grok models)
+
+An API key is required for any provider used across any of the 3 roles defined in the `models` command.
+
+### Model Configuration
+
+```bash
+# Interactive setup (recommended)
+task-master models --setup
+
+# Set specific models
+task-master models --set-main claude-3-5-sonnet-20241022
+task-master models --set-research perplexity-llama-3.1-sonar-large-128k-online
+task-master models --set-fallback gpt-4o-mini
+```
+
+## Task Structure & IDs
+
+### Task ID Format
+
+- Main tasks: `1`, `2`, `3`, etc.
+- Subtasks: `1.1`, `1.2`, `2.1`, etc.
+- Sub-subtasks: `1.1.1`, `1.1.2`, etc.
+
+### Task Status Values
+
+- `pending` - Ready to work on
+- `in-progress` - Currently being worked on
+- `done` - Completed and verified
+- `deferred` - Postponed
+- `cancelled` - No longer needed
+- `blocked` - Waiting on external factors
+
+### Task Fields
+
+```json
+{
+  "id": "1.2",
+  "title": "Implement user authentication",
+  "description": "Set up JWT-based auth system",
+  "status": "pending",
+  "priority": "high",
+  "dependencies": ["1.1"],
+  "details": "Use bcrypt for hashing, JWT for tokens...",
+  "testStrategy": "Unit tests for auth functions, integration tests for login flow",
+  "subtasks": []
+}
+```
+
+## Claude Code Best Practices with Task Master
+
+### Context Management
+
+- Use `/clear` between different tasks to maintain focus
+- This CLAUDE.md file is automatically loaded for context
+- Use `task-master show <id>` to pull specific task context when needed
+
+### Iterative Implementation
+
+1. `task-master show <subtask-id>` - Understand requirements
+2. Explore codebase and plan implementation
+3. `task-master update-subtask --id=<id> --prompt="detailed plan"` - Log plan
+4. `task-master set-status --id=<id> --status=in-progress` - Start work
+5. Implement code following logged plan
+6. `task-master update-subtask --id=<id> --prompt="what worked/didn't work"` - Log progress
+7. `task-master set-status --id=<id> --status=done` - Complete task
+
+### Complex Workflows with Checklists
+
+For large migrations or multi-step processes:
+
+1. Create a markdown PRD file describing the new changes: `touch task-migration-checklist.md` (prds can be .txt or .md)
+2. Use Taskmaster to parse the new prd with `task-master parse-prd --append` (also available in MCP)
+3. Use Taskmaster to expand the newly generated tasks into subtasks. Consdier using `analyze-complexity` with the correct --to and --from IDs (the new ids) to identify the ideal subtask amounts for each task. Then expand them.
+4. Work through items systematically, checking them off as completed
+5. Use `task-master update-subtask` to log progress on each task/subtask and/or updating/researching them before/during implementation if getting stuck
+
+### Git Integration
+
+Task Master works well with `gh` CLI:
+
+```bash
+# Create PR for completed task
+gh pr create --title "Complete task 1.2: User authentication" --body "Implements JWT auth system as specified in task 1.2"
+
+# Reference task in commits
+git commit -m "feat: implement JWT auth (task 1.2)"
+```
+
+### Parallel Development with Git Worktrees
+
+```bash
+# Create worktrees for parallel task development
+git worktree add ../project-auth feature/auth-system
+git worktree add ../project-api feature/api-refactor
+
+# Run Claude Code in each worktree
+cd ../project-auth && claude    # Terminal 1: Auth work
+cd ../project-api && claude     # Terminal 2: API work
+```
+
+## Troubleshooting
+
+### AI Commands Failing
+
+```bash
+# Check API keys are configured
+cat .env                           # For CLI usage
+
+# Verify model configuration
+task-master models
+
+# Test with different model
+task-master models --set-fallback gpt-4o-mini
+```
+
+### MCP Connection Issues
+
+- Check `.mcp.json` configuration
+- Verify Node.js installation
+- Use `--mcp-debug` flag when starting Claude Code
+- Use CLI as fallback if MCP unavailable
+
+### Task File Sync Issues
+
+```bash
+# Regenerate task files from tasks.json
+task-master generate
+
+# Fix dependency issues
+task-master fix-dependencies
+```
+
+DO NOT RE-INITIALIZE. That will not do anything beyond re-adding the same Taskmaster core files.
+
+## Important Notes
+
+### AI-Powered Operations
+
+These commands make AI calls and may take up to a minute:
+
+- `parse_prd` / `task-master parse-prd`
+- `analyze_project_complexity` / `task-master analyze-complexity`
+- `expand_task` / `task-master expand`
+- `expand_all` / `task-master expand --all`
+- `add_task` / `task-master add-task`
+- `update` / `task-master update`
+- `update_task` / `task-master update-task`
+- `update_subtask` / `task-master update-subtask`
+
+### File Management
+
+- Never manually edit `tasks.json` - use commands instead
+- Never manually edit `.taskmaster/config.json` - use `task-master models`
+- Task markdown files in `tasks/` are auto-generated
+- Run `task-master generate` after manual changes to tasks.json
+
+### Claude Code Session Management
+
+- Use `/clear` frequently to maintain focused context
+- Create custom slash commands for repeated Task Master workflows
+- Configure tool allowlist to streamline permissions
+- Use headless mode for automation: `claude -p "task-master next"`
+
+### Multi-Task Updates
+
+- Use `update --from=<id>` to update multiple future tasks
+- Use `update-task --id=<id>` for single task updates
+- Use `update-subtask --id=<id>` for implementation logging
+
+### Research Mode
+
+- Add `--research` flag for research-based AI enhancement
+- Requires a research model API key like Perplexity (`PERPLEXITY_API_KEY`) in environment
+- Provides more informed task creation and updates
+- Recommended for complex technical tasks
 
 ---
 
-## **Part I: Definitive Historical Phases (Pre-November 5th)**
-
-This section contains the official, user-verified history of all strategic phases leading up to the "Tip of the Spear" offensive.
-
-### **Phase 1: Initial Analysis & The Core Problem (Late October 2025)**
-*   **Trigger:** Analysis of the `lead generation/` folder to assess the sales process.
-*   **Findings:** The manual lead conversion process was a catastrophic failure, with a lead-to-trial conversion rate of approximately **6%**. The process was identified as the primary bottleneck and reason for wasted ad spend.
-
-### **Phase 2: Strategic Misstep and Course Correction**
-*   **Initial (Incorrect) Mandate:** A pivot was ordered to a direct "Sales" funnel, abandoning the proven "Leads" campaign.
-*   **User Rebuttal (Correct):** The user correctly pointed out that a recent A/B test had already proven the "Sales" funnel was a complete failure (0 conversions), while the "Leads" funnel was successful.
-*   **Course Correction:** The incorrect directive was rescinded. The "Leads" campaign was re-established as the foundation of the strategy.
-
-### **Phase 3: The "Frictionless Machine" Plan**
-*   **Action:** A plan was established to fix the broken manual process by replacing the lead-capture form on the landing page with an integrated booking/payment tool.
-*   **Goal:** Create a single, frictionless funnel where a user can select a time and pay the $15 trial fee in one session.
-
-### **Phase 4: The V1 vs. V2 Landing Page Test**
-*   **Action:** A new `Sales` campaign was launched to A/B test two landing page variants (V1 vs. V2) to the `Buyers LAL 1%` audience in the US and UK.
-*   **The Only Metric:** Cost Per Purchase (CPP).
-
-### **Phase 5: Final Launch Preparations (Pre-November 2)**
-*   **Refinements:** Critical refinements were made before launch, including reinstating social proof, verifying conversion tracking, and sharpening the ad copy and geographic targeting (US/UK only).
-
-### **Phase 6: V1/V2 Test Execution (November 2, 2025)**
-*   **Action:** The A/B test campaign was launched.
-*   **Status:** The campaign entered its initial learning phase.
-
-### **Phase 7: Recalibrated LTV & New Success Framework (November 3, 2025)**
-*   **New Data:** Analysis of organic trial students revealed a **50%** trial-to-package conversion rate.
-*   **New LTV:** The Lifetime Value of a trial customer was updated to **$104**.
-*   **New Framework:** The "GREEN/YELLOW/RED LIGHT" framework was established based on the new LTV, defining a RED LIGHT (failure) as a CPP > $80.
-
-### **Phase 8: RED LIGHT Action Plan (Contingency)**
-*   **Action:** A structured "Diagnostic Waterfall" was created to analyze failures if the RED LIGHT threshold was breached, focusing sequentially on Ad-Level, Landing Page, and Audience metrics.
-
-### **Phase 9: V3 Landing Page Development ("Social Proof Focus")**
-*   **Action:** A third landing page variant (`v3-final-social-proof.html`) was developed as a contingency. It focused on a "Wall of Faces" concept with strong video and text testimonials to build trust.
-*   **Status:** The V3 page was deployed and verified as ready.
-
-### **Phase 10: V1/V2 Test Monitoring & Strategic Stance**
-*   **Status:** The V1/V2 test showed no conversions. The directive was to hold the budget steady and wait for the learning phase to complete.
-
-### **Phase 11: Strategic Pivot - The "Hook Failure" (November 3, 2025)**
-*   **Catalyst:** Qualitative data from session recordings (Clarity) revealed a "Hook Failure." Users were abandoning both V1 and V2 landing pages within seconds.
-*   **Diagnosis:** The test was invalidated because both variants were fundamentally flawed.
-*   **New Action Plan:** The V1 test was halted. A new A/B test, **V2 vs. V3**, was launched to determine which *type* of hook (transactional vs. emotional) was more effective.
-
-### **Phase 12: Macro-Pivot to Organic First Strategy (November 3, 2025)**
-*   **Catalyst:** A comprehensive analysis revealed the overwhelming strength and ROI of the organic channel, based on the proven formula of adding video transcripts to posts.
-*   **New Strategic Directive:** The primary focus of the business was officially shifted to organic optimization. The paid campaign was demoted to a secondary, data-gathering tool.
-*   **Action Plan:** A 7-day "Organic Optimization Sprint" was initiated.
-
-### **Phase 13: Financial Restructuring (Effective Dec 1, 2025)**
-*   **Action:** A key teacher's contract was renegotiated, reducing fixed monthly costs by **$375**.
-*   **Strategic Impact:** This directly addressed the root cause of the business's fragility, extending the financial runway and increasing operational resilience.
-
-### **Phase 14: The Consultant's Challenge & The "Tip of the Spear" Offensive (Nov 4, 2025)**
-*   **Catalyst:** An external consultant challenged the "Organic First" strategy as too slow for the immediate cash crisis, proposing an aggressive "harvesting" plan.
-*   **Iteration:** Through rapid debate, the plan was refined to include a better offer ("Risk-Free Trial"), a superior paid audience (high-intent retargeting), and a corrected landing page strategy.
-*   **Final Directive:** All previous plans were abandoned in favor of the "Tip of the Spear" offensive, a two-pronged assault (Paid + Organic) aimed at a new, dedicated conversion page.
-
----
-
-## **Part II: Live Execution & Current Strategy (November 5th Onwards)**
-
-### **Phase 15: Execution of "Tip of the Spear" & Pivot to "Organic Spear" (Nov 6-7, 2025)**
-*   **Action:** The "Tip of the Spear" plan was executed.
-*   **Result: PARTIAL FAILURE & PIVOT.**
-    *   **Paid Prong:** The retargeting campaign spent $14.67 and generated **0 conversions**. It was terminated to conserve cash.
-    *   **Organic Prong:** An A/B test on the `/lebanese-lessons/` URL produced a single $15 sale on the new variant.
-*   **Strategic Pivot:** The strategy was modified to the "Organic Spear," focusing all effort on the winning organic channel. This strategy ultimately **failed** due to targeting a URL with insufficient traffic (5-6 visits, $0 revenue).
-
-### **Phase 16: The "Surgical Strike" A/B Test (LIVE)**
-*   **Status: LIVE as of November 8, 2025.**
-*   **Rationale:** This strategy corrects the critical flaw of the "Organic Spear" by redirecting focus to the **true source of organic traffic: `/lesson15/`**. The objective is to find the optimal Call-To-Action to convert this existing, high-volume traffic stream.
-
-#### **A/B Test Structure**
-*   **Objective:** Determine which CTA variant on `/lesson15/` is most effective at driving conversions on the unified payment page.
-*   **Traffic Source:** 100% of traffic to `/lesson15/`.
-*   **Destination URL (for both variants):** `/lebanese-lessons/` (which contains the direct-payment content).
-
-*   **Variant A (Control): `/lesson15/`**
-    *   **Description:** The existing page with its original content and four distinct CTAs linking to the payment page.
-
-*   **Variant B (Challenger): `/lesson15-v2/`**
-    *   **Description:** The page with the new "Surgical Strike" module injected at the top, containing a single, direct CTA to the payment page.
-
----
-
-## **Part III: Management & Reporting**
-
-### **SMART Goal (14-Day Sprint: Nov 8 - Nov 22)**
-*   **Objective:** Conclusively determine the winning variant based on total revenue generated. The variant that produces the most revenue will be rolled out to 100% of traffic. A minimum of two conversions is required to declare a statistically relevant winner.
-
-### **Mandatory Daily Reporting**
-A daily report is required with the following four metrics:
-1.  **Total Visits to `/lesson15/` (Variant A)**
-2.  **Total Visits to `/lesson15-v2/` (Variant B)**
-3.  **Total Cash Collected (from Variant A)**
-4.  **Total Cash Collected (from Variant B)**
+_This guide ensures Claude Code has immediate access to Task Master's essential functionality for agentic development workflows._

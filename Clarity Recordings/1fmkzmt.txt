@@ -1,0 +1,73 @@
+Session info
+
+Date & time:
+09/22/2025, at 11:49 PM
+User ID:
+1fmkzmt
+Location:
+Newcastle, New South Wales, Australia
+Device details:
+440 x 752 - MobileSafari - iOS 18 - Mobile
+Clicks:
+3
+Page views:
+3
+User intent:
+Medium
+Entry URL:
+lebanese-arabic.com
+Exit URL:
+.../lessons-inquiry-thank-you-page/?email1=&email2=&email3=&email4=bre1508@hotmail.com&inWhich=&whatGot=&howDid=&id=6343870864117858593
+Referrer:
+https://www.google.com/
+
+Session insights
+
+The visitor arrived from Google to the homepage, quickly accepted cookies at 00:02, and navigated to the Online Lessons section within seconds.
+On the lessons page, they spent over a minute reviewing content before clicking Reserve Your Spot at 01:29, indicating strong interest in booking.
+The session concluded with a visit to the thank-you page after submitting an inquiry form, confirming successful lead capture.
+
+
+
+Events:
+
+Page visit:lebanese-arabic.com
+00:00
+Duration
+00:09
+Load time
+00:01
+Event count3
+Click:
+"Agree & Close"
+00:02
+Resized page
+00:08
+Click:
+"Online Lessons"
+00:09
+Page visit:.../lebanese-lessons/
+00:11
+Duration
+02:05
+Load time
+00:01
+Event count3
+Resized page
+00:14
+Resized page
+01:20
+Click:
+"Reserve Your Spot"
+01:29
+Page visit:.../lessons-inquiry-thank-you-page/?email1=&email2=&email3=&email4=bre1508@hotmail.com&inWhich=&whatGot=&howDid=&id=6343870864117858593
+02:17
+Duration
+00:10
+Load time
+00:04
+Event count2
+Resized page
+02:21
+Resized page
+02:26

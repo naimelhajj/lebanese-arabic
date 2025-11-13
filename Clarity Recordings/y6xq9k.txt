@@ -1,0 +1,49 @@
+Entry:
+.../lebanese-lessons-v3/
+Exit:
+.../lessons-inquiry-thank-you-page/?email1=&email2=&email3=&email4=joshua.trachtenberg@gmail.com&inWhich=&whatGot=&howDid=&id=6369898336227372225
+02:49 AM
+Oct. 23
+Referrer:.../lebanese-lessons/
+Duration:
+01:43
+Clicks:
+15
+Pages:
+2
+User ID: y6xq9k
+United States
+MobileSafari
+Mobile
+Session insights
+Your insights are powered by AI, so mistakes are possible.
+Share feedback so we can improve!
+
+The visitor navigated from the older lessons page to the updated Lebanese Lessons v3 interface, quickly exploring lesson types and pricing options within the first few seconds (00:02, 00:09).
+They proceeded through multiple form steps, selecting preferred days such as Mondays, Tuesdays, and Wednesdays (00:42, 00:46, 00:47), before entering personal details.
+The session concluded with a form submission (01:32) leading to the Lessons Inquiry Thank You Page, indicating successful completion of an inquiry process.
+Entry:
+lebanese-arabic.com
+Exit:
+lebanese-arabic.com
+02:48 AM
+Oct. 23
+Referrer:www.google.com
+Duration:
+00:13
+Clicks:
+5
+Pages:
+1
+User ID: y6xq9k
+United States
+MobileSafari
+Mobile
+Session insights
+Your insights are powered by AI, so mistakes are possible.
+Share feedback so we can improve!
+
+The visitor arrived from Google and landed on the homepage, Lebanese Arabic with Hiba - Your Guide to Mastering the Dialect.
+Shortly after arrival, they interacted with the Privacy Center at 00:01, making multiple clicks and an input before saving their preferences at 00:09.
+At the end of this brief session, they clicked on the Online Lessons link at 00:13, indicating interest in exploring lesson offerings.
+

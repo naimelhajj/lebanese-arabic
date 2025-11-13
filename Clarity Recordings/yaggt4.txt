@@ -1,0 +1,86 @@
+Session info
+
+Date & time:
+09/26/2025, at 11:42 AM
+User ID:
+yaggt4
+Location:
+Prague, Prague, Czech Republic
+Device details:
+1497 x 865 - Safari - MacOS 10 - PC
+Clicks:
+4
+Page views:
+5
+User intent:
+Medium
+Entry URL:
+.../lesson13/
+Exit URL:
+.../books/
+
+Session insights
+
+The visitor began on a grammar-focused lesson about conjugating "to go" in Lebanese Arabic, then navigated to the main lessons overview by clicking Lessons at 00:03:48.
+On the lessons overview page, they clicked Reserve Your Spot at 00:04:02, leading to a form submission and arrival on the thank-you page around 00:06:50.
+After completing the inquiry, they returned to the lessons page's contact section and clicked Books at 00:07:24, ending their session browsing the Lebanese Arabic phrasebook.
+
+Events:
+
+Page visit:.../lesson13/
+00:00
+Duration
+03:49
+Load time
+00:02
+Event count3
+Page hidden
+00:01
+Click:
+"Agree & Close"
+00:01
+Click:
+"Lessons"
+03:48
+Page visit:.../lebanese-lessons/
+03:50
+Duration
+03:00
+Load time
+00:04
+Event count3
+Click:
+"Reserve Your Spot"
+04:02
+Page hidden
+04:36
+Page visible
+04:38
+Page visit:.../lessons-inquiry-thank-you-page/?email1=&email2=&email3=&email4=tomhal430@gmail.com&inWhich=&whatGot=&howDid=&id=6346893294711954845
+06:52
+Duration
+00:22
+Load time
+00:02
+Event count2
+Page hidden
+07:10
+Page visible
+07:11
+Page visit:.../lebanese-lessons/
+07:14
+Duration
+00:11
+Load time
+00:00
+Event count1
+Click:
+"Books"
+07:24
+Page visit:.../books/
+07:26
+Duration
+00:28
+Load time
+00:01
+Event count0

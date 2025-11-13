@@ -1,0 +1,303 @@
+Session info
+
+Date & time:
+11/11/2025, at 12:17 PM
+User ID:
+fb61t3
+Location:
+Dubai, Dubai, United Arab Emirates
+Device details:
+1696 x 1026 - Chrome - MacOS 10 - PC
+Clicks:
+7
+Page views:
+8
+User intent:
+High
+Entry URL:
+lebanese-arabic.com
+Exit URL:
+.../trial-payment-confirmed/
+Referrer:
+https://www.google.com/
+
+Insights
+
+The visitor began on the homepage from a Google search, accepted cookies, and quickly navigated to the Online Lessons page where they clicked Book Your Risk-Free Trial at 00:13.
+They explored multiple sections including Classes, Videos, and Books, with notable navigation between pages such as moving from Videos to Books at 01:01, indicating interest in learning materials.
+The user completed a trial booking process, reaching the Trial Payment Confirmed page at 03:06, and revisited both the Books section and confirmation page several times afterwards.
+
+Events:
+
+Tab 1 :lebanese-arabic.com
+00:00
+Duration
+00:05
+Load time
+00:07
+Event count2
+LCP
+1.8Ks
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Click:
+"Agree & Close"
+00:01
+Click:
+"Online Lessons"
+00:05
+Tab 1 :.../lebanese-lessons/
+00:07
+Duration
+00:31
+Load time
+00:05
+Event count6
+LCP
+2.6s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Resized page
+00:08
+Smart event:
+Book
+00:13
+Click:
+"Book Your Risk-Free Trial"
+00:13
+Quick back click
+00:37
+Click:
+"learn arabic with hiba wh"
+00:37
+Page hidden
+00:38
+Tab 2 :lebanese-arabic.com
+00:39
+Duration
+00:01
+Load time
+Not available
+Event count0
+Tab 2 :.../home-v2/
+00:40
+Duration
+00:01
+Load time
+Not available
+Event count3
+Custom tags
+5833-visit =
+5771
+Resized page
+00:40
+Quick back click
+00:41
+Click:
+"Classes"
+00:41
+Tab 2 :.../lebanese-lessons/
+00:42
+Duration
+00:07
+Load time
+00:02
+Event count2
+LCP
+0.21s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Custom tags
+5833-1 =
+5771
+Quick back click
+00:48
+Click:
+"Videos"
+00:48
+Tab 2 :.../videos/
+00:51
+Duration
+00:11
+Load time
+Not available
+Event count2
+Resized page
+00:53
+Click:
+"Books"
+01:01
+Tab 2 :.../books/
+01:03
+Duration
+00:41
+Load time
+00:03
+Event count1
+LCP
+2.9s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Page hidden
+01:44
+Tab 1 :.../lebanese-lessons/
+01:45
+Duration
+00:09
+Load time
+00:05
+Event count0
+LCP
+2.6s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Tab 1 :.../trial-payment-confirmed/
+03:06
+Duration
+00:17
+Load time
+00:03
+Event count2
+LCP
+2.7s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Custom tags
+5833-conversion =
+5771
+Smart event:
+Order success
+03:06
+Page hidden
+03:23
+Tab 2 :.../books/
+03:23
+Duration
+00:01
+Load time
+00:03
+Event count1
+LCP
+2.9s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Page hidden
+03:24
+Tab 1 :.../trial-payment-confirmed/
+03:24
+Duration
+00:01
+Load time
+00:03
+Event count1
+LCP
+2.7s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Custom tags
+5833-conversion =
+5771
+Page hidden
+03:25
+Tab 2 :.../books/
+03:34
+Duration
+00:02
+Load time
+00:03
+Event count1
+LCP
+2.9s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Page hidden
+03:36
+Tab 1 :.../trial-payment-confirmed/
+03:36
+Duration
+00:02
+Load time
+00:03
+Event count1
+LCP
+2.7s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Custom tags
+5833-conversion =
+5771
+Page hidden
+03:39
+Tab 2 :.../books/
+08:37
+Duration
+00:01
+Load time
+00:03
+Event count0
+LCP
+2.9s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Tab 1 :.../trial-payment-confirmed/
+08:40
+Duration
+00:01
+Load time
+00:03
+Event count0
+LCP
+2.7s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Custom tags
+5833-conversion =
+5771

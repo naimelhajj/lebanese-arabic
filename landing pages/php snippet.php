@@ -1,22 +1,26 @@
 <?php
 /**
- * Smart Optimiser – v5.3
- * • Reservation-style pages:  /reserve-lebanese-trial/ , /book-lebanese-trial-v1/ , /book-lebanese-trial-v2/ , /lebanese-lessons-risk-free/
- * • Lesson posts (+ optional BT A/B tests)
- * • All logic identical to v5.2, just recognises an extra landing-page slug.
+ * Smart Optimiser – v5.5 (A/B Test Script Interference Removed)
+ * • All references to 'bt-conversion' have been removed to allow the A/B test
+ *   plugin to load normally, pending investigation of its internal consent mode features.
  */
 
 /* ─── helpers ────────────────────────────────────────────────────────── */
 function ho_is_reservation() : bool {
-	$slugs = [ 'reserve-lebanese-trial', 'book-lebanese-trial-v1', 'book-lebanese-trial-v2', 'lebanese-lessons-risk-free' ];
+	$slugs = [ 'reserve-lebanese-trial', 'book-lebanese-trial-v1', 'book-lebanese-trial-v2', 'lebanese-lessons' ];
 	return !is_admin()
 	       && !is_preview()
 	       && is_page( $slugs );
 }
+function ho_is_home_v2() : bool {
+    return !is_admin()
+           && !is_preview()
+           && is_page( 'home-v2' );
+}
 function ho_is_lesson() : bool {
 	return !is_admin() && !is_preview()
 	       && is_singular( 'post' )
-	       && has_category( [ 'lessons', 'learn lebanese: videos' ] );
+	       && has_category( [ 'lessons', 'learn lebanese: videos', 'blogposts' ] );
 }
 function ho_has_ab_test() : bool {
 	if ( ! ho_is_lesson() ) return false;
@@ -25,9 +29,9 @@ function ho_has_ab_test() : bool {
 	       (bool) get_post_meta( $post->ID, '_fl_builder_ab_version', true );
 }
 
-/* ─── 0. silence MailMunch inline JS on reservation pages ───────────── */
+/* ─── 0. silence MailMunch inline JS on specific pages ───────────── */
 add_action( 'wp_footer', function () {
-	if ( ho_is_reservation() ) {
+	if ( ho_is_reservation() || ho_is_home_v2() ) {
 		if ( ! defined( 'MAILMUNCH_NO_RENDER' ) ) define( 'MAILMUNCH_NO_RENDER', true );
 		remove_action( 'wp_footer', 'mailmunch_insert_script' );
 	}
@@ -35,25 +39,24 @@ add_action( 'wp_footer', function () {
 
 /* ─── 1. drop jquery-migrate everywhere ─────────────────────────────── */
 add_action( 'wp_default_scripts', function ( $s ) {
-	if ( ! ho_is_reservation() && ! ho_is_lesson() ) return;
+	if ( ! ho_is_reservation() && ! ho_is_lesson() && ! ho_is_home_v2() ) return;
 	if ( isset( $s->registered['jquery'] ) )
 		$s->registered['jquery']->deps = [ 'jquery-core' ];
 	$s->remove( 'jquery-migrate' );
 }, 10);
 add_action( 'wp_print_scripts', function () {
-	if ( ho_is_reservation() || ho_is_lesson() )
+	if ( ho_is_reservation() || ho_is_lesson() || ho_is_home_v2() )
 		wp_deregister_script( 'jquery-migrate' );
 }, 100);
 
-/* ─── 2. kill unused assets on reservation pages ────────────────────── */
+/* ─── 2. kill unused assets on specific pages ────────────────────── */
 add_action( 'wp_enqueue_scripts', function () {
-	if ( ! ho_is_reservation() ) return;
+	if ( ! ho_is_reservation() && ! ho_is_home_v2() ) return;
 	$kill = [
 		'site','mailmunch','mailmunch-forms','mailmunch-popover',
 		'wp-customer-reviews','wp-customer-reviews-css',
 		'social-pug','social-pug-style','ai-share-summarize-css',
 		'cv','cv-css','yarpp-thumbnails','yarpp-thumbnails-css',
-		'bt-conversion','bt-conversion-css',
 	];
 	foreach ( $kill as $h ) {
 		wp_dequeue_style( $h );  wp_deregister_style( $h );
@@ -64,13 +67,12 @@ add_action( 'wp_enqueue_scripts', function () {
 /* ─── 3. defer heavy JS ─────────────────────────────────────────────── */
 add_filter( 'script_loader_tag', function ( $tag, $handle ) {
 
-	if ( ho_is_reservation() ) {
+	if ( ho_is_reservation() || ho_is_home_v2() ) {
 		$defer = [ 'astra-frontend','pys-public','pys-tld','js-cookie' ];
 	}
 	elseif ( ho_is_lesson() ) {
 		$defer = [ 'astra-frontend','pys-public','pys-tld','js-cookie',
 		           'wp-customer-reviews','social-pug','site' ];
-		if ( ! ho_has_ab_test() ) $defer[] = 'bt-conversion';
 	}
 	else return $tag;
 
@@ -82,8 +84,9 @@ add_filter( 'script_loader_tag', function ( $tag, $handle ) {
 /* ─── 4. async-load Astra & plugin CSS (core block CSS untouched) ───── */
 add_filter( 'style_loader_tag', function ( $html, $handle ) {
 
-	if ( ho_is_reservation() ) {
-		        $async = [ 'wp-customer-reviews-3-frontend','pt-cv-public-style','astra-theme-css','astra-menu-animation','ayudawp-aiss-styles','wp-block-library' ];	}
+	if ( ho_is_reservation() || ho_is_home_v2() ) {
+		$async = [ 'wp-customer-reviews-3-frontend','pt-cv-public-style','astra-theme-css','astra-menu-animation','ayudawp-aiss-styles','wp-block-library' ];
+	}
 	elseif ( ho_is_lesson() ) {
 		$async = [ 'astra-main','astra-menu-animation','experiment-frontend',
 		           'wp-customer-reviews-css','social-pug-style',
@@ -114,6 +117,11 @@ add_action( 'wp_head', function () {
 		<link rel="dns-prefetch" href="https://cdn.jotfor.ms">
 		<link rel="dns-prefetch" href="//www.googletagmanager.com">
 		<link rel="dns-prefetch" href="//connect.facebook.net">
-	<?php elseif ( ho_is_lesson() ) : ?>
-<?php endif;
+	<?php elseif ( ho_is_home_v2() ) : ?>
+        <!-- Smart Optimiser is Active for Home-V2 -->
+        <link rel="preconnect" href="https://player.vimeo.com" crossorigin>
+        <link rel="dns-prefetch" href="//player.vimeo.com">
+        <link rel="dns-prefetch" href="//www.googletagmanager.com">
+        <link rel="dns-prefetch" href="//connect.facebook.net">
+    <?php endif;
 }, 1);

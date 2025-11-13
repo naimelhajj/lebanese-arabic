@@ -1,0 +1,261 @@
+Multiple visits, and this person after sending the lead form and negtiating his time, bought a trial lesson, then eventually bought a package:
+9:39 AM
+Oct 24
+Entry: .../lebanese-lessons-v2/
+Exit: .../lessons-inquiry-thank-you-page/?email1=&email2=&email3=&email4=alihassan3334455@gmail.com&inWhich=&whatGot=&howDid=&id=6371012083176519644
+2
+00:07:19
+23
+Submit
+8:48 PM
+Oct 6
+Entry: .../lebanese-lessons/
+Exit: .../lebanese-lessons/
+1
+00:00:09
+0
+9:28 AM
+Oct 6
+Entry: .../lebanese-lessons/
+Exit: .../lebanese-lessons/
+1
+00:00:11
+0
+4:57 AM
+Oct 5
+Entry: .../lebanese-lessons/
+Exit: .../lebanese-lessons/
+1
+00:00:25
+0
+9:14 AM
+Oct 4
+Entry: .../lebanese-lessons/
+Exit: .../lebanese-lessons/
+1
+00:00:01
+0
+7:31 AM
+Oct 4
+Entry: .../lebanese-lessons/
+Exit: .../lebanese-lessons/
+1
+00:00:01
+0
+5:51 AM
+Oct 4
+Entry: .../lebanese-lessons/
+Exit: .../lebanese-lessons/
+1
+00:00:01
+0
+12:50 AM
+Oct 4
+Entry: .../lebanese-lessons/
+Exit: .../lebanese-lessons/
+1
+00:00:25
+0
+10:59 AM
+Oct 3
+Entry: .../lebanese-lessons/
+Exit: .../lebanese-lessons/
+1
+00:00:15
+0
+4:13 AM
+Oct 3
+Entry: .../lebanese-lessons/
+Exit: .../lebanese-lessons/
+1
+00:00:02
+0
+4:09 AM
+Oct 3
+Entry: .../lebanese-lessons/
+Exit: .../lebanese-lessons/
+1
+00:00:01
+0
+1:18 AM
+Oct 2
+Entry: .../lebanese-lessons/
+Exit: .../lebanese-lessons/
+1
+00:00:54
+1
+
+
+Most significant recordings:
+
+Entry:
+.../lebanese-lessons-v2/
+Exit:
+.../lessons-inquiry-thank-you-page/?email1=&email2=&email3=&email4=alihassan3334455@gmail.com&inWhich=&whatGot=&howDid=&id=6371012083176519644
+09:39 AM
+Oct. 24
+Referrer:.../lebanese-lessons/
+Duration:
+07:19
+Clicks:
+23
+Pages:
+2
+User ID: 10us1cn
+Australia
+ChromeMobile
+Mobile
+Session insights
+Your insights are powered by AI, so mistakes are possible.
+Share feedback so we can improve!
+
+The visitor navigated from the older lessons page to the updated Lebanese Lessons v2 interface, starting an interactive form at 00:02:00 by selecting “Prepared Lessons For non‑” and progressing through multiple “Next” steps.
+There were several pauses where the page was hidden and later revisited, notably between 03:27 and 05:44, after which the user actively selected multiple weekday options such as Thursdays, Fridays, and Wednesdays in quick succession.
+The session concluded with a series of text inputs before clicking Submit at 07:05, leading to the Lessons Inquiry Thank You Page, indicating successful completion of the inquiry process.
+---------------
+Entry:
+.../lebanese-lessons/
+Exit:
+.../lebanese-lessons/
+09:28 AM
+Oct. 6
+Duration:
+00:11
+Clicks:
+0
+Pages:
+1
+User ID: 10us1cn
+Australia
+ChromeMobile
+Mobile
+-----------------
+Entry:
+.../lebanese-lessons/
+Exit:
+.../lebanese-lessons/
+04:57 AM
+Oct. 5
+Duration:
+00:25
+Clicks:
+0
+Pages:
+1
+User ID: 10us1cn
+Australia
+ChromeMobile
+Mobile
+Session insights
+Your insights are powered by AI, so mistakes are possible.
+Share feedback so we can improve!
+
+The visitor accessed the Online Lebanese Arabic Lessons page and remained there for the entire session duration.
+Shortly after arriving, at 00:01, the page was hidden, suggesting the user may have switched tabs or minimized the browser.
+No further interactions occurred before the session ended, indicating no engagement with lesson content during this visit.
+----------------
+Entry:
+.../lebanese-lessons/
+Exit:
+.../lebanese-lessons/
+07:31 AM
+Oct. 4
+Duration:
+00:01
+Clicks:
+0
+Pages:
+1
+User ID: 10us1cn
+Australia
+ChromeMobile
+Mobile
+--------------
+Entry:
+.../lebanese-lessons/
+Exit:
+.../lebanese-lessons/
+05:51 AM
+Oct. 4
+Duration:
+00:01
+Clicks:
+0
+Pages:
+1
+User ID: 10us1cn
+Australia
+ChromeMobile
+Mobile
+-------------
+Entry:
+.../lebanese-lessons/
+Exit:
+.../lebanese-lessons/
+12:50 AM
+Oct. 4
+Duration:
+00:25
+Clicks:
+0
+Pages:
+1
+User ID: 10us1cn
+Australia
+ChromeMobile
+Mobile
+Session insights
+Your insights are powered by AI, so mistakes are possible.
+Share feedback so we can improve!
+
+The visitor accessed the Online Lebanese Arabic Lessons page and remained there for the entire session duration.
+Shortly after arriving (00:01), the page was hidden, suggesting a possible switch to another tab or window.
+No further interactions occurred before the session ended, indicating no engagement with on-page content during this visit.
+--------------------
+Entry:
+.../lebanese-lessons/
+Exit:
+.../lebanese-lessons/
+10:59 AM
+Oct. 3
+Duration:
+00:15
+Clicks:
+0
+Pages:
+1
+User ID: 10us1cn
+Australia
+ChromeMobile
+Mobile
+Session insights
+Your insights are powered by AI, so mistakes are possible.
+Share feedback so we can improve!
+
+The visitor landed directly on the Online Lebanese Arabic Lessons page and remained there for the entire session duration.
+Shortly after arriving (00:01), the page was hidden, suggesting the user may have switched tabs or minimized the browser.
+No further interactions occurred before the session ended at 00:15, indicating no engagement with lesson content during this visit.
+------------------
+Entry:
+.../lebanese-lessons/
+Exit:
+.../lebanese-lessons/
+01:18 AM
+Oct. 2
+Duration:
+00:54
+Clicks:
+1
+Pages:
+1
+User ID: 10us1cn
+Australia
+ChromeMobile
+Mobile
+Session insights
+Your insights are powered by AI, so mistakes are possible.
+Share feedback so we can improve!
+
+The visitor landed directly on the Online Lebanese Arabic Lessons page and stayed for nearly a minute, indicating some level of interest in the content.
+Shortly after arrival, they interacted with the cookie consent banner by clicking Reject all and Close at 00:02, suggesting privacy-conscious behavior.
+No further navigation or interactions occurred before leaving at 54 seconds, implying they may have only skimmed the initial page content without exploring other sections.

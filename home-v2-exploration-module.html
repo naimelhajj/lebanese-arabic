@@ -1,0 +1,96 @@
+<style>
+    .exploration-section {
+        background-color: #ffffff;
+        padding: 5rem 1rem;
+        text-align: center;
+    }
+    .exploration-section h2 {
+        font-size: 2.25rem;
+        font-weight: 700;
+        margin-bottom: 3rem;
+        color: #1a202c;
+    }
+    .exploration-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    @media (min-width: 768px) {
+        .exploration-grid {
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        }
+    }
+    /* The card is now the anchor tag */
+    .exploration-card {
+        display: flex;
+        flex-direction: column;
+        background-color: #f9f9f9;
+        border: 1px solid #e2e8f0;
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        text-align: left;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        text-decoration: none; /* Remove underline from card link */
+    }
+    .exploration-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+    .exploration-card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 0.25rem;
+        margin-bottom: 1rem;
+    }
+    .exploration-card h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #2d3748;
+        margin-bottom: 0.5rem;
+    }
+    .exploration-card p {
+        font-size: 1rem;
+        color: #4a5568;
+        flex-grow: 1;
+        margin-bottom: 1.5rem;
+    }
+    /* This is now a span, not a link */
+    .exploration-card .explore-link-text {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #368D83; /* Teal color */
+        transition: color 0.2s;
+        display: inline-block;
+        margin-top: auto; /* Pushes text to the bottom */
+    }
+    .exploration-card:hover .explore-link-text {
+        color: #2c6b62;
+    }
+</style>
+
+<section class="exploration-section" aria-labelledby="exploration-heading">
+    <h2 id="exploration-heading">Explore Our Free Resources</h2>
+    <div class="exploration-grid">
+        <a href="/lesson15/" class="exploration-card">
+            <img src="https://lebanese-arabic.com/wp-content/uploads/2025/11/lesson-15-introductions.webp?text=Lesson+15+Thumbnail" alt="Thumbnail for Lesson 15: Introductions">
+            <h3>Lesson 15: Introductions</h3>
+            <p>Discover the lesson that thousands of visitors use every month to learn about introductions in Lebanese Arabic.</p>
+            <span class="explore-link-text">Read Lesson 15 →</span>
+        </a>
+        <a href="/lebanese-love-phrases/" class="exploration-card">
+            <img src="https://lebanese-arabic.com/wp-content/uploads/2025/11/lebanese-love-phrases.webp?text=Love+Phrases+Thumbnail" alt="Thumbnail for Lebanese Love Phrases">
+            <h3>Lebanese Love Phrases</h3>
+            <p>Find the perfect words for family, friends, and loved ones with our popular phrase guides.</p>
+            <span class="explore-link-text">Find Phrases →</span>
+        </a>
+        <a href="/lesson1/" class="exploration-card">
+            <img src="https://lebanese-arabic.com/wp-content/uploads/2025/11/learn-lebanese-arabic-lesson-1.webp?text=Lesson+1+Thumbnail" alt="Thumbnail for Lesson 1: Absolute Basics">
+            <h3>Lesson 1: Absolute Basics</h3>
+            <p>New to the dialect? Our first lesson is the perfect place to build a strong foundation.</p>
+            <span class="explore-link-text">Start with Lesson 1 →</span>
+        </a>
+    </div>
+</section>

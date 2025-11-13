@@ -1,0 +1,222 @@
+
+
+Session info
+
+Date & time:
+10/31/2025, at 05:53 AM
+User ID:
+11n6c3b
+Location:
+Chicago, Illinois, United States
+Device details:
+1521 x 834 - Chrome - Windows 10.0.0 - PC
+Clicks:
+28
+Page views:
+4
+User intent:
+High
+Entry URL:
+lebanese-arabic.com
+Exit URL:
+.../lebanese-lessons/
+
+Session insights
+
+The visitor navigated from the homepage to the Online Lebanese Arabic Lessons page, quickly clicked on Reserve Your Spot and selected Online Prepared Lessons, initiating a multi-step booking form at 00:10 and progressing through several input fields.
+They spent time selecting multiple preferred days for lessons — including Mondays, Wednesdays, Fridays, and Tuesdays — with repeated changes before finalizing their selection and submitting the form at 01:56, leading to the thank-you page.
+After reaching the confirmation page, they returned to the lessons page to view pricing details by clicking See Prepared Prices at 02:33 and exploring group size options shortly after.
+
+Events:
+
+Page visit:lebanese-arabic.com
+00:00
+Duration
+00:06
+Load time
+00:01
+Event count1
+LCP
+1.3s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Click:
+"Online Lessons"
+00:06
+Page visit:.../lebanese-lessons/
+00:07
+Duration
+01:50
+Load time
+00:01
+Event count45
+LCP
+0.98s
+INP
+100ms
+CLS
+0.003
+Peformance score
+95
+Custom tags
+5459-visit =
+1096
+form_step =
+In which lesson type are you interested?*
+Resized page
+00:07
+Click:
+"Reserve Your Spot"
+00:10
+Click:
+"Online Prepared Lessons"
+00:14
+Click:
+"Online Prepared Lessons"
+00:14
+Entered text
+00:14
+Click:
+"Next"
+00:19
+Click
+00:21
+Entered text
+00:23
+Entered text
+00:27
+Entered text
+00:32
+Click
+00:34
+Entered text
+00:36
+Click
+00:37
+Entered text
+00:39
+Click:
+"Next"
+00:41
+Page hidden
+01:00
+Page visible
+01:28
+Click:
+"Mondays"
+01:33
+Entered text
+01:33
+Click:
+"Wednesdays"
+01:34
+Entered text
+01:35
+Click:
+"Fridays"
+01:36
+Entered text
+01:36
+Click:
+"Mondays"
+01:43
+Entered text
+01:43
+Click:
+"Tuesdays"
+01:43
+Entered text
+01:43
+Click
+01:45
+Click
+01:46
+Click:
+"Wednesdays"
+01:47
+Entered text
+01:47
+Click:
+"Fridays"
+01:47
+Entered text
+01:47
+Click
+01:48
+Click:
+"Fridays"
+01:49
+Entered text
+01:49
+Click:
+"Wednesdays"
+01:50
+Entered text
+01:50
+Click
+01:51
+Click:
+"Mondays"
+01:52
+Entered text
+01:52
+Click:
+"Next"
+01:53
+Smart event:
+Submit form
+01:56
+Click:
+"Submit"
+01:56
+Smart event:
+Submit form
+01:56
+Page visit:.../lessons-inquiry-thank-you-page/?email1=&email2=&email3=&email4=dc.dengchol@gmail.com&inWhich=&whatGot=&howDid=&id=6376957200418261345
+01:58
+Duration
+00:20
+Load time
+00:01
+Event count1
+LCP
+1.2s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Custom tags
+5459-conversion =
+1096
+Click:
+"Lessons"
+02:18
+Page visit:.../lebanese-lessons/
+02:19
+Duration
+06:45
+Load time
+00:00
+Event count3
+LCP
+0.37s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Click:
+"See Prepared Prices"
+02:33
+Click:
+"▫ People"
+03:04
+Page hidden
+03:15

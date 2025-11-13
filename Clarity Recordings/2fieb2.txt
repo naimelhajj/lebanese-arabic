@@ -1,0 +1,201 @@
+Session info
+
+Date & time:
+11/03/2025, at 04:50 PM
+User ID:
+2fieb2
+Location:
+Lebanon
+Device details:
+402 x 714 - MobileSafari - iOS 18 - Mobile
+Clicks:
+21
+Page views:
+3
+User intent:
+High
+Entry URL:
+lebanese-arabic.com
+Exit URL:
+.../lessons-inquiry-thank-you-page/?email1=&email2=&email3=&email4=jomeigreensall@gmail.com&inWhich=&whatGot=&howDid=&id=6379945333515978571
+Referrer:
+https://www.google.com/
+
+Session insights
+
+The visitor arrived from Google to the homepage, quickly accepted cookies at 00:04, and navigated to the live online Lebanese classes section at 01:41.
+On the lessons page, they clicked to claim a trial lesson at 02:58 and proceeded through multiple form steps, selecting preferred days such as Mondays, Tuesdays, Wednesdays, and Thursdays between 04:57 and 05:08.
+They submitted their inquiry form at 05:15 and reached the thank-you page shortly after, indicating successful completion of the sign-up process.
+
+Events:
+
+Page visit:lebanese-arabic.com
+00:00
+Duration
+01:42
+Load time
+00:02
+Event count11
+Click:
+"Agree & Close"
+00:04
+Resized page
+00:06
+Resized page
+00:30
+Resized page
+01:01
+Resized page
+01:04
+Resized page
+01:18
+Resized page
+01:23
+Resized page
+01:24
+Resized page
+01:29
+Resized page
+01:34
+Click:
+"Live Online Lebanese Clas"
+01:41
+Page visit:.../lebanese-lessons-v2/
+01:46
+Duration
+03:31
+Load time
+00:04
+Event count47
+Custom tags
+5459-visit =
+5151
+form_step =
+In which lesson type are you interested?*
+Resized page
+01:54
+Resized page
+02:21
+Resized page
+02:25
+Resized page
+02:29
+Resized page
+02:30
+Resized page
+02:46
+Resized page
+02:49
+Click:
+"Claim Your $15 Trial Less"
+02:58
+Resized page
+03:00
+Click:
+"Online Prepared Lessons"
+03:35
+Click:
+"Online Prepared Lessons"
+03:35
+Entered text
+03:35
+Click:
+"Next"
+03:37
+Resized page
+03:40
+Resized page
+03:47
+Resized page
+03:49
+Resized page
+03:50
+Resized page
+03:52
+Click
+03:52
+Entered text
+03:57
+Entered text
+04:05
+Click
+04:10
+Entered text
+04:14
+Click
+04:15
+Entered text
+04:16
+Resized page
+04:19
+Resized page
+04:21
+Resized page
+04:24
+Click:
+"Next"
+04:24
+Click:
+"Mondays"
+04:57
+Entered text
+04:57
+Click:
+"Tuesdays"
+04:57
+Entered text
+04:57
+Click
+04:58
+Click:
+"Wednesdays"
+05:00
+Entered text
+05:00
+Click:
+"Next"
+05:01
+Click:
+"Back"
+05:03
+Click:
+"Tuesdays"
+05:06
+Entered text
+05:06
+Click:
+"Thursdays"
+05:08
+Entered text
+05:08
+Click:
+"Next"
+05:10
+Resized page
+05:14
+Smart event:
+Submit form
+05:15
+Click:
+"Submit"
+05:15
+Smart event:
+Submit form
+05:15
+Page visit:.../lessons-inquiry-thank-you-page/?email1=&email2=&email3=&email4=jomeigreensall@gmail.com&inWhich=&whatGot=&howDid=&id=6379945333515978571
+05:18
+Duration
+00:44
+Load time
+00:01
+Event count3
+Custom tags
+5459-conversion =
+5151
+Resized page
+05:25
+Resized page
+05:36
+Click:
+"Shukran! Thank You! Your "
+05:43

@@ -1,0 +1,89 @@
+<style>
+    .final-cta-section {
+        background-color: #ffffff;
+        padding: 5rem 1rem;
+        text-align: center;
+    }
+    .final-cta-section h2 {
+        font-size: 2.25rem;
+        font-weight: 700;
+        margin-bottom: 3rem;
+        color: #1a202c;
+    }
+    .final-cta-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    @media (min-width: 768px) {
+        .final-cta-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    .cta-column {
+        background-color: #f9f9f9;
+        border: 1px solid #e2e8f0;
+        border-radius: 0.5rem;
+        padding: 2.5rem;
+    }
+    .cta-column h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #2d3748;
+        margin-bottom: 1rem;
+    }
+    .cta-column p {
+        font-size: 1rem;
+        color: #4a5568;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+    }
+    .cta-column .primary-button,
+    .cta-column .secondary-button {
+        display: inline-block;
+        padding: 1rem 2rem;
+        border-radius: 0.5rem;
+        text-decoration: none;
+        font-size: 1.125rem;
+        font-weight: 700;
+        text-align: center;
+        transition: all 0.2s ease-in-out;
+    }
+    .cta-column .primary-button {
+        background-color: #368D83; /* Teal */
+        color: #ffffff;
+        border: 2px solid #368D83;
+    }
+    .cta-column .primary-button:hover {
+        background-color: #2c6b62;
+        border-color: #2c6b62;
+    }
+    .cta-column .secondary-button {
+        background-color: transparent;
+        color: #368D83;
+        border: 2px solid #368D83;
+    }
+    .cta-column .secondary-button:hover {
+        background-color: #368D83;
+        color: #ffffff;
+    }
+</style>
+
+<section class="final-cta-section" aria-labelledby="final-cta-heading">
+    <h2 id="final-cta-heading">Ready to Start Your Lebanese Journey?</h2>
+    <div class="final-cta-grid">
+        <div class="cta-column">
+            <h3>Start Your $15 Risk-Free Trial</h3>
+            <p>Experience personalized 1-on-1 lessons with a native teacher. Your trial fee is fully credited towards any package.</p>
+            <a href="/lebanese-lessons/" class="primary-button">Book Your Risk-Free Trial</a>
+        </div>
+        <div class="cta-column">
+            <h3>Still Have Questions?</h3>
+            <p>We're here to help. Ask anything about our lessons, teaching style, or scheduling. We'll get back to you promptly.</p>
+            <a href="/contact/" class="secondary-button">Contact Us</a>
+        </div>
+    </div>
+</section>

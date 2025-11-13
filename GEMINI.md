@@ -500,25 +500,28 @@ Phase 13 & 14: Execution & Monitoring Log
 
 * * * * *
 
-New Strategic Offensive: The "Three-Wave Offensive" (LIVE)
----------------------------------------------------------
+New Strategic Offensive: The "Three-Wave Offensive" (Consolidated)
+--------------------------------------------------------------------
 
-This is the master plan to resolve the debt crisis by the end of November. It consists of three sequenced, overlapping sprints.
+This is the master plan to resolve the debt crisis. All efforts are consolidated around the highest-leverage activities.
 
-*   **Wave 1: Win-Back Campaign (LIVE)**
-    *   **Status:** LIVE as of Nov 10.
-    *   **Audience:** ~67 recent (post-August) cold leads.
-    *   **Goal:** Immediate cash generation from highest-probability segment.
+*   **Wave 1: Win-Back Campaign (Monitoring)**
+    *   **Status:** Monitoring. Email #1 generated one $10 sale. Email #2 was sent Nov 12. Email #3 is scheduled for Nov 17.
+    *   **Goal:** Squeeze any remaining value from this high-probability segment.
 
-*   **Wave 2: Organic Ambush & Homepage Test**
-    *   **Status:** IN PROGRESS / MONITORING
-    *   **Action:** Monitor the existing A/B tests on `/lesson15/`, `/lesson1/`, and `/lebanese-love-phrases/`. The challenger variant (Variant B), which contains a clear "Risk-Free Trial" banner, is the implementation of our "Organic Ambush" strategy. We will let these tests run for 3-5 days to gather data and determine a winner. No new development is needed.
-    *   **Sequential Testing Strategy:** Following the conclusion of the current A/B test (determining the best banner design), a subsequent A/B test will be launched. This new test will compare the winning banner design linking directly to `/lebanese-lessons/` (as the control) against the same winning banner design linking to `home-v2` (as the challenger), to determine the optimal conversion path for organic traffic.
+*   **Wave 2: Consolidated Homepage A/B Test (LIVE)**
+    *   **Status:** **LIVE and is the PRIMARY FOCUS.**
+    *   **Test:** `homepage` (control) vs. `home-v2` (challenger).
+    *   **Goal:** Determine which homepage variant is more effective at generating trial purchases.
+    *   **Rationale:** The homepage is a critical entry point and a proven "hub" for users building trust. Optimizing it is our highest-leverage action.
 
-*   **Wave 3: Cold Lead Reactivation (LIVE)**
-    *   **Status:** LIVE as of Nov 10 (in parallel with Wave 1).
-    *   **Audience:** 114 older (pre-August) cold leads.
-    *   **Goal:** Maximize outreach to a lower-probability segment.
+*   **Wave 2 (Secondary): Organic Ambush Banner Test (PAUSED)**
+    *   **Status:** PAUSED as of Nov 12.
+    *   **Rationale:** This test on content pages (`/lesson15/`, etc.) was paused to consolidate all available organic traffic onto the primary homepage test.
+
+*   **Wave 3: Cold Lead Reactivation (Terminated)**
+    *   **Status:** Terminated as of Nov 11.
+    *   **Rationale:** Confirmed failure with 0 clicks from 114 sends. No further resources will be allocated.
 
 * * * * *
 
@@ -526,37 +529,31 @@ This is the master plan to resolve the debt crisis by the end of November. It co
 
 Following a detailed discussion, the business will operate with a two-price strategy for trial lessons:
 
-*   **$10 Trial Offer:** Exclusively for email campaigns (Wave 1 & Wave 3). These campaigns link to dedicated, "orphan" pages (e.g., direct Jotform, `/book-lebanese-trial-v3/`) that are not organically discoverable.
-*   **$15 Trial Offer:** For all organic website traffic. This offer is presented on the main website pages (e.g., `/lebanese-lessons/`).
+*   **$10 Trial Offer:** Exclusively for email campaigns (Wave 1). These campaigns link to dedicated, "orphan" pages that are not organically discoverable.
+*   **$15 Trial Offer:** For all organic website traffic. This offer is presented on the main website pages.
 
 **Risk Mitigation:**
-The risks associated with a two-price strategy (user confusion, data contamination) have been successfully mitigated by the user's existing setup:
-1.  **User Journey Collision:** The $10 offer pages are "orphan" pages, ensuring strict URL discipline and preventing accidental navigation from the main site.
-2.  **Data Fragmentation:** A robust manual attribution system allows for clear tracking of individual purchases, ensuring data is not confused, but rather segmented by channel and offer.
+The risks associated with a two-price strategy have been successfully mitigated by the user's existing setup.
 
-**Decision:** We will proceed with this two-price strategy, leveraging the $10 offer for targeted email campaigns and the $15 offer for organic website traffic.
+**Decision:** We will proceed with this two-price strategy.
 
 * * * * *
 
 Management & Reporting
 ----------------------
 
-[](https://github.com/naimelhajj/lebanese-arabic/blob/master/GEMINI.md#management--reporting)
+### SMART Goal (7-Day Sprint: Nov 12 - Nov 19)
 
-### SMART Goal (7-Day Sprint: Nov 8 - Nov 15)
-
-[](https://github.com/naimelhajj/lebanese-arabic/blob/master/GEMINI.md#smart-goal-7-day-sprint-nov-8---nov-15)
-
--   Objective: Generate at least $30.00 USD in new revenue (two trial lesson conversions) from the `/lesson15/` page to validate the "Surgical Strike" as a viable strategy.
+-   **Objective:** Generate at least two trial purchases from the `homepage` vs. `home-v2` A/B test to determine a "directional winner" that we can roll out to 100% of traffic.
 
 ### Mandatory Daily Reporting
 
-[](https://github.com/naimelhajj/lebanese-arabic/blob/master/GEMINI.md#mandatory-daily-reporting)
+A daily report is required with the following four metrics:
 
-A daily report is required with two metrics:
-
-1.  Daily Cash Collected (from `/lesson15/`)
-2.  Daily Organic Visits to `/lesson15/`
+1.  Total Visits to Homepage (Control)
+2.  Total Visits to home-v2 (Challenger)
+3.  Total Cash Collected (from Control)
+4.  Total Cash Collected (from Challenger)
 
 * * * * *
 
@@ -588,3 +585,21 @@ I will keep this file updated as we gather more data and see the results of our 
 *   **`/lebanese-lessons/` (Live Page):** This is the current live page containing the content that previously resided in `lebanese-lessons-risk-free.html`. This is the page we should target for any new A/B tests.
 
 ---
+---
+
+## Phase 19: A/B Test Acceleration Campaign (Nov 13, 2025 - LIVE)
+
+### The Catalyst: Stalled A/B Test
+The primary A/B test on the homepage (`homepage` vs. `home-v2`) was not receiving enough organic traffic to produce a statistically significant result in a timely manner. To solve the debt crisis, a winning page variant must be identified quickly to optimize the site's main entry point.
+
+### The Strategy: Buy Data with a Surgical Paid Campaign
+A decision was made to launch a highly-focused, low-budget Meta Ads campaign with the sole objective of driving targeted traffic to the A/B test. This is a short-term investment in data to accelerate learning.
+
+### Campaign Setup & Status
+*   **Status:** **LIVE** as of Nov 13, 2025.
+*   **Objective:** Traffic, optimized for Landing Page Views.
+*   **Budget:** $10/day with CBO.
+*   **Audience:** 1% Lookalike of past purchasers in US/UK (excluding past purchasers).
+*   **Placements:** Facebook & Instagram Feeds only.
+*   **Creatives:** A/B testing three distinct angles: Founder/Trust (Static Image), Social Proof (29s Video), and Product Preview (Video).
+*   **Monitoring:** The campaign is under a strict 3-day kill switch: pause if < 40 Landing Page Views or 0 trial purchases are generated after $30 spent.

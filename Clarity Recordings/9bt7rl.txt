@@ -1,0 +1,191 @@
+Session info
+
+Date & time:
+11/05/2025, at 11:04 PM
+User ID:
+9bt7rl
+Location:
+Southwark, England, United Kingdom
+Device details:
+1512 x 771 - Chrome - MacOS 10 - PC
+Clicks:
+8
+Page views:
+8
+User intent:
+High
+Entry URL:
+lebanese-arabic.com
+Exit URL:
+.../trial-payment-confirmed/
+
+Insight:
+The visitor navigated from the homepage to the Online Lessons section within seconds, showing immediate interest in lesson offerings (00:11).
+They repeatedly clicked on Book Your Risk-Free Trial across multiple visits to the trial page (00:45, 10:29, 11:42), indicating strong intent to sign up.
+The session concluded with a visit to the Trial Payment Confirmed page after form submission via Jotform (14:40), confirming successful conversion.
+
+Events:
+
+Page visit:lebanese-arabic.com
+00:00
+Duration
+00:11
+Load time
+00:01
+Event count2
+LCP
+0.88s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Click:
+"Reject all and Close"
+00:02
+Click:
+"Online Lessons"
+00:11
+Page visit:.../lebanese-lessons/
+00:12
+Duration
+00:27
+Load time
+Not available
+Event count1
+Resized page
+00:12
+Page visit:.../lebanese-lessons-risk-free/
+00:40
+Duration
+01:23
+Load time
+00:29
+Event count3
+LCP
+28s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Custom tags
+5711-visit =
+5672
+Smart event:
+Book
+00:45
+Click:
+"Book Your Risk-Free Trial"
+00:45
+JavaScript error:
+"fbq is not defined"
+01:39
+Page visit:.../lebanese-lessons-risk-free/
+10:28
+Duration
+01:10
+Load time
+00:00
+Event count6
+LCP
+0.13s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Smart event:
+Book
+10:29
+Click:
+"Book Your Risk-Free Trial"
+10:29
+Smart event:
+Book
+11:06
+Click:
+"Book Your Risk-Free Trial"
+11:06
+Quick back click
+11:38
+Click:
+"learn arabic with hiba wh"
+11:38
+Page visit:lebanese-arabic.com
+11:38
+Duration
+00:01
+Load time
+00:00
+Event count2
+LCP
+0.088s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Quick back click
+11:40
+Click:
+"Lessons"
+11:40
+Page visit:.../lebanese-lessons/
+11:40
+Duration
+00:00
+Load time
+Not available
+Event count0
+Page visit:.../lebanese-lessons-risk-free/
+11:40
+Duration
+00:40
+Load time
+00:00
+Event count2
+LCP
+0.092s
+INP
+Not available
+CLS
+0.006
+Peformance score
+0
+Smart event:
+Book
+11:42
+Click:
+"Book Your Risk-Free Trial"
+11:42
+Page visit:.../trial-payment-confirmed/
+14:40
+Duration
+05:13
+Load time
+00:03
+Event count5
+LCP
+2.2s
+INP
+Not available
+CLS
+0
+Peformance score
+0
+Smart event:
+Order success
+14:40
+Page hidden
+17:11
+Page visible
+19:46
+Page hidden
+19:49
+Page visible
+19:50
