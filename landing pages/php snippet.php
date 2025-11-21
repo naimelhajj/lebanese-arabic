@@ -64,21 +64,41 @@ add_action( 'wp_enqueue_scripts', function () {
 	}
 }, 99);
 
-/* ─── 3. defer heavy JS ─────────────────────────────────────────────── */
+/* ─── 3. smart-load heavy JS (defer & delay) ────────────────────── */
 add_filter( 'script_loader_tag', function ( $tag, $handle ) {
 
+	// Define which scripts to defer and which to delay
+	$defer_handles = [];
+	$delay_handles = [];
+
 	if ( ho_is_reservation() || ho_is_home_v2() ) {
-		$defer = [ 'astra-frontend','pys-public','pys-tld','js-cookie' ];
+		// Defer theme scripts, but delay tracking scripts
+		$defer_handles = [ 'astra-frontend' ];
+		$delay_handles = [ 'pys-public', 'pys-tld', 'js-cookie' ];
 	}
 	elseif ( ho_is_lesson() ) {
-		$defer = [ 'astra-frontend','pys-public','pys-tld','js-cookie',
-		           'wp-customer-reviews','social-pug','site' ];
+		$defer_handles = [ 'astra-frontend', 'wp-customer-reviews', 'social-pug', 'site' ];
+		// No scripts delayed on lesson pages for now
+		$delay_handles = [];
 	}
-	else return $tag;
+	else {
+		return $tag; // Exit if not a target page
+	}
 
-	return in_array( $handle, $defer, true ) && ! str_contains( $tag, ' defer ' )
-		? str_replace( ' src', ' defer src', $tag )
-		: $tag;
+	// Apply DEFER attribute
+	if ( in_array( $handle, $defer_handles, true ) && ! str_contains( $tag, ' defer ' ) ) {
+		return str_replace( ' src', ' defer src', $tag );
+	}
+
+	// Apply DELAY attribute (by changing 'src' to 'data-src')
+	if ( in_array( $handle, $delay_handles, true ) ) {
+		// Ensure it's a valid script tag with a src attribute
+		if ( preg_match( '/<script\s+(.*?)src=[\'"]([^\'"]+)[\'"](.*?)>/i', $tag ) ) {
+			return str_replace( ' src=', ' data-src=', $tag );
+		}
+	}
+
+	return $tag;
 }, 99, 2);
 
 /* ─── 4. async-load Astra & plugin CSS (core block CSS untouched) ───── */
@@ -125,3 +145,22 @@ add_action( 'wp_head', function () {
         <link rel="dns-prefetch" href="//connect.facebook.net">
     <?php endif;
 }, 1);
+
+/* ─── 6. delay JS on user interaction ────────────────────────────── */
+add_action( 'wp_footer', function () {
+	if ( ! ho_is_reservation() && ! ho_is_home_v2() ) return;
+
+	// This script looks for <script> tags with a "data-src" attribute
+	// and changes it to "src" upon the first user interaction.
+	echo "<script type='text/javascript' id='ho-delay-js-loader'>
+	const HO_DELAY_JS_EVENTS = ['scroll', 'mousemove', 'touchstart', 'click'];
+	function HO_LOAD_DELAYED_JS() {
+		HO_DELAY_JS_EVENTS.forEach(e => window.removeEventListener(e, HO_LOAD_DELAYED_JS, { passive: true }));
+		document.querySelectorAll('script[data-src]').forEach(s => {
+			s.setAttribute('src', s.getAttribute('data-src'));
+			s.removeAttribute('data-src');
+		});
+	}
+	HO_DELAY_JS_EVENTS.forEach(e => window.addEventListener(e, HO_LOAD_DELAYED_JS, { passive: true }));
+	</script>";
+}, 99);

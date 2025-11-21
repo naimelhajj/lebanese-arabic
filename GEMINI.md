@@ -99,7 +99,7 @@ Start by confirming goal and gathering numbers **without** delaying an initial 8
 
 \* **Homepage/Top Landing:** Tighten headline ➔ pain-promise-proof; move primary CTA above the fold; add 3 proof tiles; add risk-reversal line; reduce form fields to essentials.
 \* **Booking Flow:** Remove optional fields; add slot-availability microcopy; add **“What happens next”** block; collapse extraneous steps.
-\* **Offer Framing:** Anchor with standard price ➔ limited-time trial; add guarantee; bold “start today in 60 seconds”.
+* **Offer Framing:** Anchor with standard price ➔ limited-time trial; add guarantee; bold “start today in 60 seconds”.
 \* **Owned Demand:** 3-email sequence (nudge ➔ proof ➔ deadline); segment by last activity.
 \* **Ads:** 3 angles (outcome, objection, social proof) × 3 creatives; daily apply Green/Yellow/Red.
 
@@ -603,3 +603,37 @@ A decision was made to launch a highly-focused, low-budget Meta Ads campaign wit
 *   **Placements:** Facebook & Instagram Feeds only.
 *   **Creatives:** A/B testing three distinct angles: Founder/Trust (Static Image), Social Proof (29s Video), and Product Preview (Video).
 *   **Monitoring:** The campaign is under a strict 3-day kill switch: pause if < 40 Landing Page Views or 0 trial purchases are generated after $30 spent.
+---
+
+## Phase 20: Technical Optimization Context (Nov 19, 2025)
+
+A detailed overview of the website's unique performance optimization strategy has been created and is available for reference. This document contains critical information about the use of NitroPack, the exclusion of key pages, and the manual optimization methods being used.
+
+*   **[Technical Optimization Overview](./technical_optimization_overview.md)**
+---
+
+## Phase 21: Mobile Performance Optimization Sprint (Nov 19, 2025)
+
+### Status: COMPLETED
+
+*   **Objective:** Resolve critical performance issues on the `/lebanese-lessons/` page, which is manually excluded from NitroPack optimization.
+*   **Action:** Implemented a manual JavaScript "delay" strategy within the custom `php snippet.php` file to target non-essential tracking scripts that were causing a high Time to Interactive (TTI).
+*   **Result:** The optimization was a major success, raising the mobile performance score from a regressed 89 to an exceptional **98**. TTI was significantly reduced, and the LCP now meets Core Web Vitals standards.
+*   **Reference:** A full report detailing the before-and-after metrics is available in the `turnaround-data` directory.
+    *   **[Performance Optimization Report](./turnaround-data/performance-optimization-report-nov-19.md)**
+---
+
+## Phase 22: The "Two-Front War" Strategy (LIVE as of Nov 19, 2025)
+- **Status: LIVE.**
+- **Catalyst:** The failure of the Acceleration Campaign (Phase 19) provided the definitive diagnosis: a single page cannot serve both warm organic and cold paid traffic effectively.
+- **New Strategic Directive:** All previous A/B tests are paused. We are now running two distinct, parallel strategies matched to traffic intent.
+
+- **Front #1: The Paid Traffic "Spearhead"**
+    - **Goal:** Convert cold paid traffic profitably.
+    - **Action:** A new, dedicated direct-response landing page (`ppc-trial-offer.html`) was built using a "greatest hits" combination of previously successful modules.
+    - **Campaign:** A new `Sales` campaign (`Meta - Sales - $15 Trial - PPC Spearhead - Nov 2025`) was launched, driving traffic from our best audience (`Buyers LAL 1% - US, UK`) to the new spearhead page (`https://lebanese-arabic.com/ppc-trial-offer/`).
+    - **KPI:** A strict Cost Per Purchase (CPP) limit of **$40**.
+
+- **Front #2: The Organic "Hub & Spoke"**
+    - **Goal:** Maximize revenue from high-intent organic traffic.
+    - **Action:** The homepage was reverted to its stable state. The winning `lesson15-v2` variant was deployed to 100% of traffic on that URL. An "Organic Ambush" banner was placed on the top 3 organic pages, funneling users to the proven `/lebanese-lessons/` conversion page.

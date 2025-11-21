@@ -1,0 +1,205 @@
+Images & Media:
+
+Lazy load images: On
+Hidden image Loading: Default
+Size images preemptively: on
+DOM-rebuilding slider compatibility: on
+Excluded css selectors:
+"""img[fetchpriority="high"]
+.wp-block-cover__image-background"""
+
+Lazy Load iframes: off
+Lazy load self-hosted videos: on (can't turn it off)
+
+Image optimization: on, High 80%
+
+Video facades: on, Auto
+Detect theme video overlays: checked
+
+LCP preload: on
+
+
+JavaScript:
+
+Remove render-blocking resources: on
+use resource loader script: checked, styles first
+delay non-critical resources: on
+Delayed scripts: off
+Combine JavaScript: off
+
+HTML & CSS
+
+Keep HTML comments: off
+Minify JSON for linking data: off
+HTML normalization: off
+Generate critical css: on
+Remove @font-face rules from the critical CSS: unchecked
+Included CSS selectors in the critical CSS:
+""".wp-block-cover__inner-container
+.hero-title
+.wp-block-button .wp-element-button"""
+
+Custom CSS: off
+Remove unused CSS: on
+Remove duplicates: checked
+Inline the final css: checked
+Exclude critical css selectors for matching elements:
+""".jotform-form
+.form-all
+.form-section
+.page-section
+.form-line
+.form-label
+.form-label-top
+.form-label-auto
+.form-input
+.form-input-wide
+.form-textbox
+.form-textarea
+.form-checkbox
+.form-radio
+.form-dropdown
+.form-sub-label
+.form-sub-label-container
+.form-required
+/* JotForm Buttons */
+.form-submit-button
+.form-pagebreak
+.form-pagebreak-next
+.form-pagebreak-back
+.form-pagebreak-next-container
+.form-pagebreak-back-container
+.jf-form-buttons
+.form-buttons-wrapper
+.submit-button
+.jsTest-submitField
+.form-matrix-table
+.form-matrix-tr
+.form-matrix-th
+.form-matrix-headers
+.form-matrix-column-headers
+.form-matrix-row-headers
+.form-matrix-values
+.matrix-choice-label
+.matrix-checkbox-label
+.validate
+.jf-required
+.form-validation-error
+.form-error-message
+.form-error-arrow
+/* JotForm Layout */
+.form-section-closed
+.form-collapse-table
+.supernova
+.jf-form-labelhtml
+.form-address-table
+.form-address-line
+.form-submit-button-approvals-400
+[class*="jotform"]
+[class*="jf-"]
+[id*="id_"]
+[id*="input_"]
+[id*="label_"]
+[id*="cid_"]
+[id*="sublabel_"]
+.form-line-active
+.form-line-error
+.form-line-column
+.form-checkbox-item
+.form-radio-item
+.form-spinner
+.form-spinner-input
+.form-product-item
+.form-payment-total
+.form-payment-wrapper
+.appointmentSlot
+.form-header
+.form-header-group
+.pageInfo"""
+
+Combine CSS: on
+Merge screen and all media styles: checked
+
+Fonts:
+
+Override font rendering behavior: on
+Font-display value: swap
+
+Font loading strategy: Native
+Font Compression: on
+Optimize Google hosted fonts: on
+
+Cache:
+Cache expiration time: 30 days
+stale cache expiration time: 12 hours
+Optimize-only URLs: off
+Minify resources: on
+Optimize ads: off
+Cache AJAX URLs: off
+Ignored parameters:
+include the default ignored parameters: checked
+custom ignore parameters: fbclid*
+
+Excluded Resources:
+*fbevents.js*
+*connect.facebook.net*
+*/wp-content/plugins/pixelyoursite/*
+*clickiocmp.com/t/consent_*.js*
+*googletagmanager.com/gtm.js*
+pys-js-extra
+pysOptions
+wp-content/plugins/pixelyoursite/dist/scripts/public.js
+wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js
+wp-content/plugins/pixelyoursite/dist/scripts/sha256.js
+*jotform.com*
+*js.jotform.com*
+*cdn.jotform.io*
+*cdn.jotfor.ms*
+*cardforms.jotform.com*
+*submit.jotform.com*
+*api.jotform.com*
+*jotform*
+https://www.google.com/recaptcha/*
+https://www.gstatic.com/recaptcha/*
+https://www.googletagmanager.com/gtm.js*
+https://www.googletagmanager.com/gtag/js*
+https://www.google-analytics.com/analytics.js*
+https://*.clickio.com/*
+https://*.clickiocdn.com/*
+https://*.jotfor.ms/*
+prototype.forms.js
+jotform.forms.js
+jotform
+*form.jotform.com*
+*jotform.com/static/*
+*jotform.forms.js*
+*prototype.forms.js*
+*punycode*.js
+*smoothscroll*.js
+*bt-bb-ab*
+*bt_experiments*
+jquery
+*bt_conversion*
+https://form.jotform.com/*
+https://*.jotform.com/*
+https://cdn.jotform.io/*
+https://cdn.jotfor.ms/*
+*for-form-embed-handler.js
+bt_conversion-min.js
+
+Excluded URLs:
+https://lebanese-arabic.com/taught-lessons/
+*lebanese-lessons*
+*lebanese-arabic-clock*
+*wp-admin*
+
+Dynamic content cookies:
+np_wc_currency
+np_wc_currency_language
+_icl_current_language
+_fbp
+_fbc
+
+Exclude from optimization by cookie:
+wordpress_logged_in_*
+btab_5564
