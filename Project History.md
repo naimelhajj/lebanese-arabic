@@ -60,3 +60,13 @@ This section contains the official, user-verified history of all strategic phase
 - **Front #2: The Organic "Hub & Spoke"**
     - **Goal:** Maximize revenue from high-intent organic traffic.
     - **Action:** The homepage was reverted to its stable state. The winning `lesson15-v2` variant was deployed to 100% of traffic on that URL. An "Organic Ambush" banner was placed on the top 3 organic pages, funneling users to the proven `/lebanese-lessons/` conversion page.
+    
+### **Phase 21: Paid Spearhead V2 & Campaign Restructure (Nov 24, 2025)**
+- **Status: LIVE.**
+- **Catalyst:** Analysis of the V1 `ppc-trial-offer` page's performance showed it was a failure, with a catastrophic ~50% immediate bounce rate and only one conversion in ~15 sessions.
+- **Action 1 (Landing Page V2):** A new `ppc-trial-offer-v2.html` was built using the "Greatest Hits" method to fix the "Hook Failure." This new page includes an embedded Jotform for frictionless conversion and is optimized for performance.
+- **Action 2 (Campaign Restructure):** Ad placement data revealed the Facebook Feed was wasting over 70% of the budget with zero conversions. The campaign was rebuilt to isolate placements into two ad sets: `IG Feed - Buyers LAL 1% - US, UK` ($7/day) and `FB Feed - Buyers LAL 1% - US, UK` ($3/day).
+- **Action 3 (Advanced Tracking):**
+    - An `EngagedUser` custom event was implemented to track scroll depth (25%) as a key indicator of traffic quality.
+    - All ads now use the `utm_content={{ad.name}}` URL parameter to enable creative-level performance analysis in Clarity.
+- **Current Test:** This new, highly-instrumented campaign is now live, directing all traffic to the new V2 spearhead page. The primary KPI remains Cost Per Purchase (CPP) with a $40 limit.

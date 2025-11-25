@@ -637,3 +637,70 @@ A detailed overview of the website's unique performance optimization strategy ha
 - **Front #2: The Organic "Hub & Spoke"**
     - **Goal:** Maximize revenue from high-intent organic traffic.
     - **Action:** The homepage was reverted to its stable state. The winning `lesson15-v2` variant was deployed to 100% of traffic on that URL. An "Organic Ambush" banner was placed on the top 3 organic pages, funneling users to the proven `/lebanese-lessons/` conversion page.
+
+## Phase 23: Homepage LCP & TTFB Optimization Sprint (Nov 21, 2025)
+
+### Status: COMPLETED
+
+*   **Objective:** Diagnose and fix the high variability of the homepage's Largest Contentful Paint (LCP), which fluctuated between 1 second and 9+ seconds, with a persistent 7s+ LCP on mobile PSI tests.
+
+*   **Diagnosis Part 1: Server-Side Bottleneck**
+    *   Analysis revealed a high TTFB on uncached loads, caused by a **~2.6 second** page generation time. This was traced to a slow "Latest Posts" query and a lack of persistent object caching.
+
+*   **Action Part 1: Backend Optimization**
+    *   **"Latest Posts" Block Removed:** Eliminated the slow database query.
+    *   **APCu Object Cache Enabled:** Installed and configured the "APCu Manager" plugin, drastically reducing database load.
+    *   **Result:** Page generation time fell by ~45% to **~1.4s**.
+
+*   **Diagnosis Part 2: Caching Layer Conflict**
+    *   LCP variability persisted. The conflict was traced to **Cloudflare APO** and other caching rules competing with Nitropack, serving incorrect or un-optimized page versions.
+
+*   **Action Part 2: Caching Hierarchy Configuration**
+    *   **Cloudflare APO Disabled:** The competing service was turned off.
+    *   **Cloudflare Cache Rule Modified:** The primary HTML cache rule was set to **"Bypass cache"**.
+    *   **Cloudflare Performance Disabled:** "Auto Minify" and "Rocket Loader" were turned off.
+    *   **Result:** This established a correct, predictable caching flow (`Cloudflare: DYNAMIC`, `Nitropack: HIT`), but the poor mobile PSI score remained.
+
+*   **Diagnosis Part 3: Final Asset-Level Bottlenecks**
+    *   Despite a correct architecture, the 7s+ mobile LCP persisted. A final analysis of the PSI report pinpointed the remaining issues within the Nitropack-optimized page itself:
+        1.  **Render-Blocking Scripts:** `pixelyoursite` scripts were excluded from Nitropack's control and were blocking the main thread for over 3.5 seconds.
+        2.  **Oversized LCP Image:** The hero image was over 230 KiB, far too large for a throttled mobile connection.
+        3.  **Missing LCP Priority:** Nitropack's automatic LCP detection was failing, stripping the `fetchpriority="high"` hint and failing to preload the image.
+
+*   **Action Part 3: Final, Successful Optimizations**
+    *   **Render-Blocking Scripts Fixed:** The `pixelyoursite` plugin was **removed from Nitropack's exclusion list**, allowing Nitropack to correctly delay its execution.
+    *   **LCP Priority Fixed:** A manual **`<link rel="preload">` tag** for the hero image was added to the header via a custom PHP snippet (`hero images snippet.php`) to override Nitropack's failed detection.
+    *   **LCP Image Size Fixed:** The hero image was manually compressed to under 100 KiB and updated in the Media Library and all relevant code.
+
+*   **Final Outcome:** This three-pronged strategy (Backend Fixes + Caching Architecture + Asset & Script Optimization) was successful. The combination of a fast server response, a correct caching hierarchy, and properly optimized page content finally resolved the severe mobile LCP issue, leading to fast and consistent performance.
+---
+## Phase 24: Paid Traffic "Spearhead" V2 Launch (LIVE as of Nov 23, 2025)
+- **Status: LIVE.**
+- **Catalyst:** The original `ppc-trial-offer` page demonstrated a catastrophic "Hook Failure," with a nearly 50% immediate bounce rate, and critical technical issues like broken links.
+- **Diagnosis:** The page failed the "snap judgment" test for cold paid traffic and lacked a frictionless, self-contained conversion mechanism.
+- **Action:**
+    - A new, dedicated direct-response landing page (`ppc-trial-offer-v2.html`) was built using the "Greatest Hits" methodology.
+    - This new page combines the strongest visual elements, trust signals, and offer language from previous successful pages.
+    - It features an embedded Jotform to create a single-page, frictionless booking and payment experience.
+    - The hero image was updated to a compressed version to improve load times.
+- **Campaign:** The `Meta - Sales - $15 Trial - PPC Spearhead - Nov 2025` campaign is now driving all traffic to the new `https://lebanese-arabic.com/ppc-trial-offer-v2/` page.
+- **KPI & Guardrails:**
+    - The primary KPI is **Cost Per Purchase (CPP)**.
+    - The campaign is operating under a strict **RED LIGHT limit of $40 CPP**. If this is exceeded, the campaign will be killed.
+    - A 3-4 day monitoring period is in effect to gather data.
+
+### Final Campaign Structure (Launched Nov 24, 2025)
+- **Campaign Name:** `Meta - Sales - V2 Spearhead - Nov 2025`
+- **Objective:** `Sales`
+- **Optimization Event:** `Purchase`
+- **Ad Set 1: The Instagram Test**
+    - **Name:** `IG Feed - Buyers LAL 1% - US, UK`
+    - **Budget:** $7/day
+    - **Placements:** Manual -> Instagram Feed ONLY.
+- **Ad Set 2: The Facebook Test**
+    - **Name:** `FB Feed - Buyers LAL 1% - US, UK`
+    - **Budget:** $3/day
+    - **Placements:** Manual -> Facebook Feed ONLY.
+- **Advanced Tracking:**
+    - **Custom Event:** A new `EngagedUser` custom event fires on 25% scroll depth to measure traffic quality.
+    - **URL Parameters:** All ads use the `utm_content={{ad.name}}` parameter to allow for creative-level session analysis in Clarity.

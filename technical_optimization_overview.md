@@ -37,3 +37,33 @@ To combat a high Time to Interactive (TTI), a JavaScript "delay" strategy was im
 - **Technique:** Instead of only `defer`, non-essential tracking scripts (e.g., PixelYourSite) have their `src` attribute changed to `data-src`.
 - **Trigger:** A small footer script listens for the first user interaction (`scroll`, `mousemove`, `click`, etc.) and then loads these delayed scripts.
 - **Result:** This change dramatically improved the TTI and overall mobile performance score to **98**, proving it to be a highly effective, surgical optimization.
+
+## 5. Site-Wide Caching & Delivery Architecture (Effective Nov 21, 2025)
+
+Following a deep analysis to resolve inconsistent LCP and high TTFB, a multi-layer caching and delivery architecture was implemented site-wide. This architecture creates a clear hierarchy of responsibility to ensure stability and performance.
+
+### 1. Level 1: Server-Side (Origin)
+- **Problem:** High database load and slow page generation on uncached visits (~2.6s).
+- **Solution:** A persistent object cache was implemented using the server's available **APCu** PHP extension, connected to WordPress via the "APCu Manager" plugin.
+- **Impact:** This drastically reduced the number of database queries (from 88 to 9 on the homepage) and cut the uncached page generation time by ~45%, providing a much faster base for all downstream optimizers.
+
+### 2. Level 2: Primary Optimization (Nitropack)
+- **Role:** Nitropack remains the **sole and primary front-end optimization engine**. It is responsible for all HTML, CSS, and JavaScript optimization, image optimization, and serving device-specific (desktop/mobile) cached pages.
+
+### 3. Level 3: CDN & Delivery (Cloudflare)
+- **Problem:** Direct conflicts between Cloudflare's own optimization features (APO, "Cache Everything" rules) and Nitropack's optimizations were causing severe LCP inconsistency.
+- **Solution:** Cloudflare was reconfigured to act strictly as a CDN and security layer, handing off all performance-related tasks to Nitropack.
+- **Configuration:**
+    - **Automatic Platform Optimization (APO):** Turned **OFF**.
+    - **Cache Rules:** The primary rule for HTML content (`WordPress: Cache Everything`) was modified to **"Bypass cache"**. This forces Cloudflare to always fetch the latest HTML from Nitropack.
+    - **Performance Features:** "Rocket Loader" and "Auto Minify" were globally **DISABLED**.
+- **Impact:** This configuration eliminates the conflict between the two services. Cloudflare now serves static assets (images, JS, CSS) from its cache as a CDN, but relies on Nitropack to provide the fully-optimized HTML document for every request, ensuring consistency. The result is a predictable cache status (`Cloudflare: DYNAMIC`, `Nitropack: HIT`) and a stable LCP.
+
+### 4. Manual Overrides for LCP Stability
+Even with the correct architecture, PageSpeed Insights tests revealed that automated optimizations were insufficient or failing for mobile LCP. The final stable state was achieved by implementing the following manual overrides:
+
+- **Manual LCP Preloading:** Nitropack's "LCP Preload" feature failed to correctly identify or prioritize the homepage hero image. This was resolved by manually injecting a `<link rel="preload">` tag with `fetchpriority="high"` into the site's header for the homepage LCP image. This is managed in the `hero images snippet.php` file.
+
+- **Careful Script Exclusion Management:** The `pixelyoursite` plugin scripts were found to be render-blocking for over 3.5 seconds on mobile tests because they were in Nitropack's exclusion list. Removing them from the exclusion list allowed Nitropack's "Delay JS" feature to work correctly, preventing them from blocking the main thread. This highlights the principle that exclusions should be used sparingly and only when a script is definitively broken by optimization.
+
+- **Manual Asset Compression:** The LCP hero image, even after Nitropack's optimization, was too large (>230 KiB). The final fix required manually compressing the image to under 100 KiB and re-uploading it. This confirms that critical, high-impact assets may require manual optimization before being handled by automated systems.

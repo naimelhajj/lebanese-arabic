@@ -1,4 +1,3 @@
-<?php
 /**
  * Smart Optimiser – v5.5 (A/B Test Script Interference Removed)
  * • All references to 'bt-conversion' have been removed to allow the A/B test

@@ -1,0 +1,214 @@
+<style>
+/* Main container for a video section */
+.video-hub-section {
+  width: 100%;
+  margin: 40px 0 60px 0;
+}
+
+/* Section heading (e.g., "Learn Lebanese in English") */
+.video-hub-heading {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #e7a60f; /* Accent color border */
+  display: inline-block;
+}
+
+/* The CSS Grid container */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  width: 100%;
+}
+
+/* Individual video card */
+.video-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+  overflow: hidden;
+  text-decoration: none !important; /* Remove underline */
+  color: #34495e;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.1);
+}
+
+/* Thumbnail wrapper for aspect ratio */
+.video-thumbnail-wrapper {
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+  position: relative;
+  background-color: #ecf0f1;
+}
+
+.video-thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Title section of the card */
+.video-card-title {
+  padding: 18px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+  flex-grow: 1; /* Ensures cards in a row have the same height */
+  display: flex;
+  align-items: center;
+}
+
+/* "View More" button container */
+.view-more-container {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.view-more-button {
+  display: inline-block;
+  background-color: rgb(28, 92, 78); /* Matching site button color */
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none !important; /* Remove underline */
+  padding: 14px 35px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.view-more-button:hover {
+  background-color: rgb(22, 74, 62); /* Slightly darker for hover */
+  transform: translateY(-2px);
+}
+</style>
+
+<!-- ENGLISH VIDEOS SECTION -->
+<div class="video-hub-section">
+  <h2 class="video-hub-heading">Learn Lebanese in English</h2>
+  <div class="video-grid">
+
+    <!-- Video 1: Lesson 1 - Hello and How are you? -->
+    <a href="/lesson1/" class="video-card" title="Lebanese Lesson 1: Learn How to Say 'Hello' and 'How are you?'">
+      <div class="video-thumbnail-wrapper">
+        <img class="video-thumbnail" 
+             src="https://lebanese-arabic.com/wp-content/uploads/2015/12/learn-lebanese-arabic-lesson-1-1024x576.jpg" 
+             srcset="https://lebanese-arabic.com/wp-content/uploads/2015/12/learn-lebanese-arabic-lesson-1-300x169.jpg 300w, 
+                      https://lebanese-arabic.com/wp-content/uploads/2015/12/learn-lebanese-arabic-lesson-1-600x338.jpg 600w, 
+                      https://lebanese-arabic.com/wp-content/uploads/2015/12/learn-lebanese-arabic-lesson-1-1024x576.jpg 1024w"
+             sizes="(max-width: 640px) 100vw, (max-width: 900px) 50vw, 33vw"
+             alt="Thumbnail for Lebanese Lesson 1"
+             loading="lazy">
+      </div>
+      <h3 class="video-card-title">Lesson 1: 'Hello' and 'How are you?'</h3>
+    </a>
+
+    <!-- Video 2: Lesson 5 - Asking for Directions -->
+    <a href="/lebanese-arabic-lessons/lebanese-lesson-5-directions/" class="video-card" title="Asking for Directions in Lebanese Arabic | Lesson 5">
+      <div class="video-thumbnail-wrapper">
+        <img class="video-thumbnail"
+             src="https://lebanese-arabic.com/wp-content/uploads/2015/12/learn-arabic-lebanese-lesson-5-d.jpg"
+             alt="Thumbnail for Lebanese Lesson 5"
+             loading="lazy">
+      </div>
+      <h3 class="video-card-title">Lesson 5: Asking for Directions</h3>
+    </a>
+
+    <!-- Video 3: Lesson 2 - Traveling to Lebanon -->
+    <a href="/lebanese-arabic-lessons/learning-lebanese-lesson-2-airport/" class="video-card" title="Traveling to Lebanon? Learn How to Say 'Afwan' in Arabic">
+      <div class="video-thumbnail-wrapper">
+        <img class="video-thumbnail"
+             src="https://lebanese-arabic.com/wp-content/uploads/2015/12/learning-lebanese-lesson-2-airpo.jpg"
+             alt="Thumbnail for Lebanese Lesson 2"
+             loading="lazy">
+      </div>
+      <h3 class="video-card-title">Lesson 2: Traveling to Lebanon</h3>
+    </a>
+
+    <!-- Video 4: I Love You & Other Romantic Phrases -->
+    <a href="/lebanese-love-phrases/" class="video-card" title="I Love You in Lebanese & other Romantic words">
+      <div class="video-thumbnail-wrapper">
+        <img class="video-thumbnail"
+             src="https://lebanese-arabic.com/wp-content/uploads/2025/11/lebanese-love-phrases.webp"
+             alt="Thumbnail for Lebanese Love Phrases"
+             loading="lazy">
+      </div>
+      <h3 class="video-card-title">I Love You & Other Romantic Phrases</h3>
+    </a>
+    
+  </div>
+  <div class="view-more-container">
+    <a href="https://lebanese-arabic.com/videos/learn-lebanese-videos/" class="view-more-button">View More English Videos</a>
+  </div>
+</div>
+
+
+<!-- FRENCH VIDEOS SECTION -->
+<div class="video-hub-section">
+  <h2 class="video-hub-heading">Apprendre le Libanais en Français</h2>
+  <div class="video-grid">
+
+    <!-- Video 1: French Intro -->
+    <a href="/lebanese-arabic-lessons/apprendre-le-libanais-avec-hiba-une-introduction/" class="video-card" title="Apprendre le Libanais avec Hiba – Une introduction">
+      <div class="video-thumbnail-wrapper">
+        <img class="video-thumbnail" 
+             src="https://lebanese-arabic.com/wp-content/uploads/2015/12/apprendre-le-libanais-avec-hiba.jpg"
+             alt="Thumbnail for French Introduction"
+             loading="lazy">
+      </div>
+      <h3 class="video-card-title">Apprendre le Libanais – Une introduction</h3>
+    </a>
+
+    <!-- Video 2: Leçon 3 - Les Nombres -->
+    <a href="/lebanese-arabic-lessons/apprendre-le-libanais-lecon-3-les-nombres/" class="video-card" title="Apprendre le Libanais leçon 3: Les Nombres">
+      <div class="video-thumbnail-wrapper">
+        <img class="video-thumbnail"
+             src="https://lebanese-arabic.com/wp-content/uploads/2015/12/apprendre-le-libanais-lecon-3-le.jpg"
+             alt="Thumbnail for French Lesson 3"
+             loading="lazy">
+      </div>
+      <h3 class="video-card-title">Leçon 3: Les Nombres</h3>
+    </a>
+
+    <!-- Video 3: Leçon 1 - Les pronoms -->
+    <a href="/lebanese-arabic-lessons/apprendre-le-libanais-lecon-1-les-pronoms/" class="video-card" title="Apprendre le Libanais leçon 1: Les pronoms">
+      <div class="video-thumbnail-wrapper">
+        <img class="video-thumbnail"
+             src="https://lebanese-arabic.com/wp-content/uploads/2015/12/apprendre-le-libanais-lecon-1-le.jpg"
+             alt="Thumbnail for French Lesson 1"
+             loading="lazy">
+      </div>
+      <h3 class="video-card-title">Leçon 1: Les pronoms</h3>
+    </a>
+
+    <!-- Video 4: Leçon 2 - Les Salutations -->
+    <a href="/lebanese-arabic-lessons/apprendre-le-libanais-lecon-2-les-salutations/" class="video-card" title="Apprendre le Libanais leçon 2: Les Salutations">
+      <div class="video-thumbnail-wrapper">
+        <img class="video-thumbnail"
+             src="https://lebanese-arabic.com/wp-content/uploads/2015/12/apprendre-le-libanais-lecon-2-le.jpg"
+             alt="Thumbnail for French Lesson 2"
+             loading="lazy">
+      </div>
+      <h3 class="video-card-title">Leçon 2: Les Salutations</h3>
+    </a>
+
+  </div>
+  <div class="view-more-container">
+    <a href="https://lebanese-arabic.com/videos/fr/" class="view-more-button">Plus de Vidéos en Français</a>
+  </div>
+</div>

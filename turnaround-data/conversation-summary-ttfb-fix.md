@@ -145,3 +145,33 @@ This document summarizes the diagnostic steps, actions taken, and current status
 1.  **Deactivate `ultimate-addons-for-gutenberg` (Spectra)** on the staging site.
 2.  **Verify performance gain** (query count drop) with Query Monitor on staging.
 3.  **Begin rebuilding the homepage** content on the staging site using core Gutenberg blocks.
+
+---
+
+## 10. Final Optimization Results (MailMunch & Spectra Deactivated)
+
+After completing the migration of MailMunch and deactivating both `mailmunch` and `ultimate-addons-for-gutenberg` (Spectra), the following performance gains were measured on the origin server.
+
+### Homepage Performance Gains
+
+Comparison of the homepage before and after plugin deactivation.
+
+| Metric                 | Original State | **Final State** | Improvement       |
+| :--------------------- | :------------- | :-------------- | :---------------- |
+| **Total Queries**      | 119            | **88**          | **-31 (-26%)**    |
+| **Total Database Time**| 0.1631 s       | **0.1211 s**    | **-0.042s (-25.7%)** |
+
+### Base Load Performance Gains (on `/ppc-trial-offer/` page)
+
+Comparison of a simple page's base load, showing the reduction in "background noise".
+
+| Metric                 | Original State | **Final State** | Improvement      |
+| :--------------------- | :------------- | :-------------- | :--------------- |
+| **Total Queries**      | 114            | **76**          | **-38 (-33%)**   |
+| **Total Database Time**| 0.1297 s       | **0.0658 s**    | **-0.064s (-49%)** |
+
+### Conclusion
+
+The data confirms that `mailmunch` and `ultimate-addons-for-gutenberg` were major contributors to database load and latency. Deactivating them has resulted in a **significant improvement in origin server performance**, with base page generation time being cut by nearly half.
+
+The primary remaining bottleneck is the Theme's inefficient query load on the homepage template. The final step is to **rebuild the homepage content on the staging site** using performant, default Gutenberg blocks to address this.

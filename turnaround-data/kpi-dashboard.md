@@ -1,5 +1,5 @@
 # Turnaround Growth Dashboard - Lebanese-Arabic.com
-*Updated: 2025-11-20*
+*Updated: 2025-11-24*
 
 This document is the single source of truth for our key performance indicators (KPIs) during this turnaround sprint.
 
@@ -41,16 +41,25 @@ This checklist tracks the status of all critical data required for a complete si
 ## 3. LIVE INITIATIVES (The Two-Front War)
 
 ### **Front #1: Paid "Spearhead" Campaign (LIVE)**
-*   **Campaign:** `Meta - Sales - $15 Trial - PPC Spearhead - Nov 2025`
-*   **Status:** **LIVE** as of Nov 19, 2025.
-*   **Goal:** Acquire new customers at a profitable rate.
-*   **Kill Switch:** **PAUSE ENTIRE CAMPAIGN if CPP > $40** after $60 total spend.
+*   **Campaign:** `Meta - Sales - V2 Spearhead - Nov 2025`
+*   **Status:** **LIVE** as of Nov 24, 2025. **Monitoring Phase.**
+*   **Goal:** Acquire new customers at a profitable rate (CPP <= $40).
+*   **Kill Switch:** **PAUSE AD SET if CPP > $40** for that ad set after 3-4 days.
 
-| Metric | Today's Value (Nov 20) |
-| :--- | :--- |
-| **Daily Spend** | **[DATA NEEDED]** |
-| **Total Purchases** | **[DATA NEEDED]** |
-| **Cost Per Purchase (CPP)**| **[DATA NEEDED]** |
+| Metric | Today's Value (Nov 24) | Notes |
+| :--- | :--- | :--- |
+| **Daily Campaign Spend** | $10 (split $7 IG, $3 FB) | PENDING |
+| **IG Feed Ad Set Spend** | PENDING | PENDING |
+| **FB Feed Ad Set Spend** | PENDING | PENDING |
+| **Total Purchases** | PENDING | PENDING |
+| **Cost Per Purchase (CPP)**| PENDING | PENDING |
+| **EngagedUser Events** | PENDING | Tracking scroll > 25% |
+
+### **Ad Set Performance (Initial Monitoring)**
+| Ad Set Name | Spend | Purchases | Engaged Users | CPP | CPEG (Cost Per EngagedUser) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `IG Feed - Buyers LAL 1% - US, UK` | PENDING | PENDING | PENDING | PENDING | PENDING |
+| `FB Feed - Buyers LAL 1% - US, UK` | PENDING | PENDING | PENDING | PENDING | PENDING |
 
 ### **Front #2: Organic "Hub & Spoke" Initiative (LIVE)**
 *   **Status:** **LIVE** as of Nov 19, 2025.
@@ -66,13 +75,19 @@ This checklist tracks the status of all critical data required for a complete si
 
 ## 4. ARCHIVED PAID CAMPAIGNS
 
-### Advertising Funnel (Last 30 Days - Archived)
+### Advertising Funnel (Previous Campaign - Archived)
 
-| Metric | Value | Status |
-| :--- | :--- | :--- |
-| **Total Ad Spend** | $141.73 | **ARCHIVED** |
-| **Total Leads** | 7 | **ARCHIVED** |
-| **Cost Per Lead (CPL)** | **$20.25** | **ARCHIVED** |
+*Data from Nov 19 - Nov 24, 2025*
+
+| Placement | Spend (USD) | Purchases | Link Clicks | CPP |
+| :--- | :--- | :--- | :--- | :--- |
+| Facebook Feed (Desktop) | 7.63 | 0 | 3 | N/A |
+| Facebook Feed (In-app) | 48.89 | 0 | 26 | N/A |
+| Facebook Feed (Mobile web) | 2.79 | 0 | 0 | N/A |
+| Instagram Feed (Desktop) | 0.36 | 1 | 1 | $0.36 |
+| Instagram Feed (In-app) | 9.17 | 0 | 3 | N/A |
+| Instagram Feed (Mobile web) | 0.15 | 0 | 0 | N/A |
+| **TOTAL** | **~69.00** | **1** | **33** | **$69.00** |
 
 **Diagnosis:** All previous paid advertising efforts are now **archived**. The focus has shifted to the new "PPC Spearhead" campaign.
 
