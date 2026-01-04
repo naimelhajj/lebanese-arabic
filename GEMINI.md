@@ -754,15 +754,8 @@ A detailed overview of the website's unique performance optimization strategy ha
     *   The "Social Proof" ad (JD Video) is a winner at **$17 CPP**.
     *   The "Founder" ad was a loser at **$80 CPP**.
     *   **Action (Jan 4):** **PAUSED** the "Founder" ad (Ad 1). Budget now flows exclusively to the winning "Social Proof" ad (Ad 2).
+*   **Active Tactics (Jan 4):**
+    *   **Email:** Launched 2-step New Year sequence to reactivate cold leads.
+    *   **Offer:** Deployed "Bring a Partner for Free" hook to drive higher-margin "Private Group" sales (Lever 3).
 
-**Strategic Pivot (Jan 4):** The focus is now on **Cash Extraction**.
-
-1.  **Debt Repayment:** Maintain the agreed **$500/month** repayment to Eedama.
-
-2.  **Salary Restoration:** Target a **
-,200/mo Net Profit** benchmark. This funds the debt payment ($500) and leaves ~$700 for your salary.
-
-3.  **Low-Risk Growth:** We will fill the existing 15-hour capacity buffer (3 Mireille, 12 Ghina) using the high-efficiency "Social Proof" ad (
-7 CPP). 
-
-4.  **No New Hires:** We will NOT hire new teachers until the debt is significantly reduced.
+**Strategic Pivot:** The bottleneck has been mitigated by a flexible contract with Ghina. We have room for **~15 new students/week**. We are now scaling the high-efficiency "Social Proof" ad and the "Private Group" offer to fill this buffer at a low acquisition cost.
