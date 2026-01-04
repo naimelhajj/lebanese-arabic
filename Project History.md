@@ -78,15 +78,15 @@ This section contains the official, user-verified history of all strategic phase
 - **Reporting Update:** Created a "Custom Conversion" for the `EngagedUser` event to force it to appear in Ads Manager columns for real-time quality monitoring.
 
 ### **Phase 22: Stabilization & New Year Update (Jan 4, 2026)**
-
 - **Status: STABILIZED.**
-
 - **Financial Turnaround:** The business achieved consecutive net profits in Nov and Dec 2025, halting the debt crisis.
-
-- **Capacity Management:** While the fixed-contract hours are full, a flexible agreement with Teacher Ghina (12h/week additional at 
-1/h) plus Mireille's remaining 3h provides a **15-hour/week capacity buffer** for new students.
-
+- **Capacity Management:** While the fixed-contract hours are full, a flexible agreement with Teacher Ghina (12h/week additional at $11/h) plus Mireille's remaining 3h provides a **15-hour/week capacity buffer** for new students.
 - **Cost Actions:** Cancelled non-essential subscriptions (Zoom, Ab Split Test) and downgraded JotForm to free tier.
+- **Strategic Shift:** The focus is on filling the 15-hour capacity buffer using the high-efficiency "Social Proof" ad variant ($17 CPP) while maintaining a low fixed-cost base.
 
-- **Strategic Shift:** The focus is on filling the 15-hour capacity buffer using the high-efficiency "Social Proof" ad variant (
-7 CPP) while maintaining a low fixed-cost base.
+### **Phase 23: The "Harvesting" Offensive (Launched Jan 4, 2026)**
+- **Objective:** Repay the $5,000 Eedama debt and reinstate founder salary.
+- **Action 1 (Ads):** Paused "Ad 1 - Founder" ($80 CPP); consolidated $10/day budget into "Ad 2 - Social Proof" ($17 CPP).
+- **Action 2 (Lever 3 - Private Groups):** Updated the paid landing page (`ppc-trial-offer-v2`) with a "Bring a Partner for Free" offer to increase profit per hour from ~$10.50 to ~$35.
+- **Action 3 (Email Reactivation):** Launched a 2-step New Year sequence. Email 1 (Warm-up) sent Jan 4. Email 2 (Group Offer) scheduled for Jan 7.
+- **Strategic Pivot:** Transitioned from "Survival Mode" to "Cash Extraction," targeting a $1,200/mo net profit benchmark.

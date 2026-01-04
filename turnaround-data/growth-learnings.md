@@ -36,7 +36,12 @@ This document is the single source of truth for everything we learn about the bu
 *   **Win-Back Email Campaigns Work (Learned Nov 11, 2025):** Wave 1, targeting recent (post-August) unconverted leads with a low-friction $10 offer, generated a sale within 24 hours. This is a valid, zero-cost revenue channel.
 *   **Long-Dormant Leads Can Be Reactivated with a Strong Offer (Learned Nov 11, 2025 - Dina Dada's Case):** Dina Dada, a lead from 2020, converted to a $15 trial after receiving a targeted email campaign and confirming the availability of a trial lesson. This demonstrates the power of a compelling offer and re-engagement.
 *   **Cold Reactivation Email Campaigns Do NOT Work (Learned Nov 11, 2025):** Wave 3, targeting old (pre-August) cold leads, resulted in zero clicks and zero sales from over 100 sends. This channel is not worth further investment at this time.
-*   **The "Hook -> Hub -> Checkout" Model (Learned Nov 11, 2025):** Based on the "Organic Explorer" insight, the optimal path for converting organic traffic is not a direct link from a content page ("Hook") to the checkout. The best path sends them to a high-context page with social proof first (the "Hub," i.e., `home-v2`), which then links to the final checkout page. This is the strategy we will test after the current A/B test concludes.
+*   **Direct Payment vs. Leads (Learned Nov 19, 2025)::** The direct-payment model on the homepage failed for cold traffic, confirming that paid traffic needs a dedicated landing page while organic traffic needs a high-trust hub.
+
+*   **Lever 3: Private Groups (Active Jan 4, 2026):**
+    *   **Hypothesis:** By offering a "Bring a Friend for Free" trial hook, we can convert solo leads into higher-margin private groups (2-4 people).
+    *   **Expected Outcome:** Increase profit per teacher hour from ~$10.50 to ~$35.00 (3.3x lift).
+    *   **Implementation:** Added partner bonus callout to `ppc-trial-offer-v2` and included in New Year email sequence.
 
 ---
 
