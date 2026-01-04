@@ -1,0 +1,102 @@
+<style>
+    .guided-pathways-section {
+        background-color: #f9f9f9;
+        padding: 4rem 1rem;
+        text-align: center;
+    }
+    .guided-pathways-section h2 {
+        font-size: 2.25rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        color: #1a202c;
+    }
+    .guided-pathways-section .pathways-subtitle {
+        font-size: 1.125rem;
+        color: #4a5568;
+        margin-bottom: 3rem;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pathways-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    @media (min-width: 768px) {
+        .pathways-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media (min-width: 1024px) {
+        .pathways-grid {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+    .pathway-card {
+        background-color: #ffffff;
+        border: 1px solid #e2e8f0;
+        border-radius: 0.5rem;
+        padding: 2rem;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    }
+    .pathway-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+    .pathway-card h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #2d3748;
+        margin-bottom: 0.75rem;
+    }
+    .pathway-card p {
+        font-size: 1rem;
+        color: #4a5568;
+        flex-grow: 1;
+        margin-bottom: 1.5rem;
+    }
+    .pathway-card .cta-link {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #368D83; /* Teal color from checklist */
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+    .pathway-card .cta-link:hover {
+        color: #2c6b62;
+    }
+</style>
+
+<section class="guided-pathways-section" aria-labelledby="pathways-heading">
+    <h2 id="pathways-heading">What are you looking for?</h2>
+    <p class="pathways-subtitle">Select a path that matches your goal. We’ll guide you to the best resources.</p>
+    <div class="pathways-grid">
+        <article class="pathway-card">
+            <h3>Start Your Journey</h3>
+            <p>Ready to speak Lebanese? Jump right in and book a $15 trial lesson with a native teacher.</p>
+            <a href="/lebanese-lessons/" class="cta-link">Book a Trial Lesson →</a>
+        </article>
+        <article class="pathway-card">
+            <h3>Explore Our Most Popular Lesson</h3>
+            <p>Discover the lesson that thousands of visitors use every month to learn about introductions.</p>
+            <a href="/lesson15/" class="cta-link">See the #1 Lesson →</a>
+        </article>
+        <article class="pathway-card">
+            <h3>Learn Everyday Phrases</h3>
+            <p>Find the perfect words for family, friends, and loved ones with our popular phrase guides.</p>
+            <a href="/lebanese-love-phrases/" class="cta-link">Find a Phrase →</a>
+        </article>
+        <article class="pathway-card">
+            <h3>Master the Absolute Basics</h3>
+            <p>New to the dialect? Our first lesson is the perfect place to build a strong foundation.</p>
+            <a href="/lesson1/" class="cta-link">Start with Lesson 1 →</a>
+        </article>
+    </div>
+</section>

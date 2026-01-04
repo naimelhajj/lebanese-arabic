@@ -1,5 +1,5 @@
 # Turnaround Growth Dashboard - Lebanese-Arabic.com
-*Updated: 2025-11-24*
+*Updated: 2025-11-26*
 
 This document is the single source of truth for our key performance indicators (KPIs) during this turnaround sprint.
 
@@ -42,24 +42,24 @@ This checklist tracks the status of all critical data required for a complete si
 
 ### **Front #1: Paid "Spearhead" Campaign (LIVE)**
 *   **Campaign:** `Meta - Sales - V2 Spearhead - Nov 2025`
-*   **Status:** **LIVE** as of Nov 24, 2025. **Monitoring Phase.**
-*   **Goal:** Acquire new customers at a profitable rate (CPP <= $40).
-*   **Kill Switch:** **PAUSE AD SET if CPP > $40** for that ad set after 3-4 days.
+*   **Status:** **LIVE & OPTIMIZING** as of Dec 15.
+*   **Goal:** Acquire new customers at a profitable rate (CPP <= $65).
+*   **Action:** **KILL Instagram Ad Set. SCALE Facebook Ad Set.**
 
-| Metric | Today's Value (Nov 24) | Notes |
+| Metric | Dec 3-15 Value | Notes |
 | :--- | :--- | :--- |
-| **Daily Campaign Spend** | $10 (split $7 IG, $3 FB) | PENDING |
-| **IG Feed Ad Set Spend** | PENDING | PENDING |
-| **FB Feed Ad Set Spend** | PENDING | PENDING |
-| **Total Purchases** | PENDING | PENDING |
-| **Cost Per Purchase (CPP)**| PENDING | PENDING |
-| **EngagedUser Events** | PENDING | Tracking scroll > 25% |
+| **Total Spend** | $112.06 | High waste from IG ($78). |
+| **IG Feed Ad Set Spend** | $77.94 | **🔴 FAILED (0 Conv)** |
+| **FB Feed Ad Set Spend** | $34.12 | **🟢 WINNER (1 Conv)** |
+| **Total Purchases** | 1 (Melikie) | |
+| **Blended CPP** | $112.06 | Misleading due to IG waste. |
+| **Facebook-Only CPP** | **$34.12** | **✅ Below $40 Target** |
 
-### **Ad Set Performance (Initial Monitoring)**
-| Ad Set Name | Spend | Purchases | Engaged Users | CPP | CPEG (Cost Per EngagedUser) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| `IG Feed - Buyers LAL 1% - US, UK` | PENDING | PENDING | PENDING | PENDING | PENDING |
-| `FB Feed - Buyers LAL 1% - US, UK` | PENDING | PENDING | PENDING | PENDING | PENDING |
+### **Ad Set Performance (Dec 15 Analysis)**
+| Ad Set Name | Spend | Purchases | CPP | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| `IG Feed - Buyers LAL 1% - US, UK` | $77.94 | 0 | Infinite | **🔴 KILL** |
+| `FB Feed - Buyers LAL 1% - US, UK` | $34.12 | 1 | **$34.12** | **🟢 SCALE** |
 
 ### **Front #2: Organic "Hub & Spoke" Initiative (LIVE)**
 *   **Status:** **LIVE** as of Nov 19, 2025.
@@ -172,3 +172,21 @@ This checklist tracks the status of all critical data required for a complete si
 *   **Ad 1 (Founder/Trust):** Static image of Hiba at the cafe (`ad-creatives/images/29792122_1866701130067076_6344550432957792256_n.jpg`).
 *   **Ad 2 (Social Proof):** 29-second video clip from JD's testimonial.
 *   **Ad 3 (Product Preview):** Video version of the screen displaying Lebanese Arabic words and English translations (`ad-creatives/images/30729454_1882003295203526_8186836058546110464_n.jpg`).
+
+---
+
+## 7. COHORT ANALYSIS (Dec 15 Update)
+
+**Data Source:** All-time trial purchaser list (17 customers).
+
+| Metric | Value | Status |
+| :--- | :--- | :--- |
+| **Trial-to-Package CVR** | **58.8%** (10/17) | **✅ EXCEPTIONAL** |
+| **Blended LTV** | **$129.82** | **✅ VALIDATED** |
+| **AOV (Converted)** | **$210.70** | |
+| **Paid Ads Attribution** | 2 Customers (Laura, Melikie) | **$460 Revenue** |
+
+**Strategic Implication:**
+The funnel works. At a **59% conversion rate**, every $15 trial sold is worth **~$130** to the business.
+*   **Green Light CPP:** <= $40 (3.25x ROAS)
+*   **Break-even CPP:** ~$65 (2.0x ROAS)

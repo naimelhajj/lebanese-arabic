@@ -70,3 +70,9 @@ This section contains the official, user-verified history of all strategic phase
     - An `EngagedUser` custom event was implemented to track scroll depth (25%) as a key indicator of traffic quality.
     - All ads now use the `utm_content={{ad.name}}` URL parameter to enable creative-level performance analysis in Clarity.
 - **Current Test:** This new, highly-instrumented campaign is now live, directing all traffic to the new V2 spearhead page. The primary KPI remains Cost Per Purchase (CPP) with a $40 limit.
+
+### **Phase 21.5: Tactical Adjustment - Audience Unlocking (Nov 26, 2025)**
+- **Action:** Removed the "Lebanon (Place)" interest narrowing from both ad sets.
+- **Rationale:** Review of Meta's "Andromeda" engineering docs revealed that combining a small 1% LAL with a hard interest constraint (~81k size) was "throttling" the AI.
+- **New State:** The 1% LAL is now a "Suggestion" only, allowing the algorithm to find buyers anywhere in the broad US/UK populations based on creative signals.
+- **Reporting Update:** Created a "Custom Conversion" for the `EngagedUser` event to force it to appear in Ads Manager columns for real-time quality monitoring.

@@ -697,10 +697,42 @@ A detailed overview of the website's unique performance optimization strategy ha
     - **Name:** `IG Feed - Buyers LAL 1% - US, UK`
     - **Budget:** $7/day
     - **Placements:** Manual -> Instagram Feed ONLY.
+    - **Audience:** Broadened (Nov 26). Removed "Lebanon" interest constraint. 1% LAL is now a "Suggestion" only.
 - **Ad Set 2: The Facebook Test**
     - **Name:** `FB Feed - Buyers LAL 1% - US, UK`
     - **Budget:** $3/day
     - **Placements:** Manual -> Facebook Feed ONLY.
+    - **Audience:** Broadened (Nov 26). Removed "Lebanon" interest constraint. 1% LAL is now a "Suggestion" only.
 - **Advanced Tracking:**
-    - **Custom Event:** A new `EngagedUser` custom event fires on 25% scroll depth to measure traffic quality.
-    - **URL Parameters:** All ads use the `utm_content={{ad.name}}` parameter to allow for creative-level session analysis in Clarity.
+    - **Custom Event:** A new `EngagedUser` custom event fires on 25% scroll depth.
+    - **Reporting:** "Engaged User (25% Scroll)" set up as a **Custom Conversion** to force visibility in Ads Manager columns.
+    - **URL Parameters:** All ads use the `utm_content={{ad.name}}` parameter.
+
+**Next Check-in:** Monday, December 1st (to review 5 days of data).
+
+## Phase 25: Cohort Analysis & LTV Validation (Dec 15, 2025)
+
+### Status: COMPLETED
+**Data Source:** Full list of 17 trial purchasers provided by the user.
+
+*   **Trial-to-Package Conversion Rate:** **58.8%** (10/17 converted).
+*   **Blended LTV (All Trial Buyers):** **$129.82**.
+*   **AOV (Converted Users):** **$210.70**.
+*   **Paid Attribution:** 2 confirmed conversions (Laura, Melikie) contributing **$460** in revenue.
+*   **Strategic Verdict:** The funnel economics are sound. The "Green Light" CPP target of **$40** is validated as highly profitable (3.25x ROAS). The focus must remain on scaling volume into this high-converting funnel.
+
+## Phase 26: Paid Traffic Correction - Kill IG, Scale FB (Dec 15, 2025)
+
+### Status: LIVE
+**Data Source:** `156457642-Ads-Dec-3-2025-Dec-15-2025.csv` and Clarity Logs.
+
+*   **Diagnosis:** The campaign has a split personality.
+    *   **Instagram Feed:** Spent **$77.94** for **0 conversions**. High bounce rate (1-4s). **Status: FAILED.**
+    *   **Facebook Feed:** Spent **$34.12** for **1 conversion** (Melikie). CPP **$34.12**. Higher engagement/dwell time. **Status: WINNER.**
+*   **Action Plan:**
+    1.  **IMMEDIATE:** Turn **OFF** the "IG Feed" Ad Set.
+    2.  **IMMEDIATE:** Shift the full daily budget ($10/day) to the "FB Feed" Ad Set.
+    3.  **Monitor:** Watch for CPP stability on Facebook as spend increases.
+*   **Forecast:** By cutting the waste, the blended CPP should drop from $112 to ~$35-40, aligning perfectly with our "Green Light" target.
+
+

@@ -1,0 +1,17 @@
+<!-- wp:cover {"url":"https://lebanese-arabic.com/wp-content/uploads/2025/11/lebanese-arabic-hero-compressed.jpg","id":4339,"dimRatio":40,"minHeight":100,"minHeightUnit":"vh","align":"full"} -->
+<div class="wp-block-cover alignfull" style="min-height:100vh"><img class="wp-block-cover__image-background wp-image-4339" alt="" src="https://lebanese-arabic.com/wp-content/uploads/2025/11/lebanese-arabic-hero-compressed.jpg" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-background-dim-40 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"wide","align":"wide","style":{"typography":{"fontSize":"48px","lineHeight":"1.2"}},"textColor":"white"} -->
+<h2 class="wp-block-heading alignwide has-text-align-wide has-white-color has-text-color" style="font-size:48px;line-height:1.2"><strong><em>Lebanese Arabic</em></strong> <strong><em>with Hiba</em></strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"width":"60%"} -->
+<div class="wp-block-column" style="flex-basis:60%"><!-- wp:paragraph {"textColor":"white"} -->
+<p class="has-white-color has-text-color">Experience Lebanese Arabic in a Fun and Engaging Way</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"textColor":"white","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-white-color has-text-color has-link-color wp-element-button" href="https://lebanese-arabic.com/lebanese-lessons/">Online Lessons</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->

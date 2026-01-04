@@ -1,0 +1,159 @@
+<section class="hero-section" aria-label="Hero Section">
+    <style>
+        .hero-section {
+            position: relative;
+            min-height: 75vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            color: #ffffff;
+            padding: 20px;
+            box-sizing: border-box;
+            max-width: none !important;
+        }
+
+        .hero-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+
+        .hero-background img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .hero-background .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero-content h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            color: inherit;
+        }
+
+        .hero-content .hero-quote {
+            font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+            font-style: italic;
+            margin-bottom: 1rem;
+            color: inherit;
+            line-height: 1.4;
+        }
+        
+        .hero-content .proof-points {
+            font-size: clamp(0.9rem, 1.8vw, 1.1rem);
+            margin-bottom: 2.5rem;
+            opacity: 0.9;
+            color: inherit;
+        }
+
+        .hero-content .cta-buttons {
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .primary-cta-button {
+            background-color: #368D83;
+            color: #ffffff;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none !important;
+            font-size: 1.125rem;
+            font-weight: bold;
+            display: inline-block;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .primary-cta-button:hover {
+            background-color: #2a6e66;
+            transform: translateY(-2px);
+        }
+
+        .primary-cta-button:focus-visible {
+            outline: none;
+            border-color: #ffffff;
+            box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+        }
+
+        .secondary-cta-text {
+            font-size: 0.9rem;
+            margin-top: 1rem;
+            color: inherit;
+        }
+
+        .secondary-cta-link {
+            color: #ffffff;
+            text-decoration: underline;
+            transition: color 0.3s ease;
+        }
+
+        .secondary-cta-link:hover,
+        .secondary-cta-link:focus-visible {
+            color: #b0bfbe;
+            outline: none;
+        }
+
+        @media (max-width: 768px) {
+            .hero-section {
+                min-height: 60vh;
+            }
+            .hero-content h1 {
+                font-size: clamp(2rem, 8vw, 3rem);
+            }
+            .primary-cta-button {
+                padding: 12px 25px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+
+    <div class="hero-background">
+        <img 
+            decoding="async" 
+            src="https://lebanese-arabic.com/wp-content/uploads/2025/08/lebanese-arabic-hero-2-1410x940-1.webp" 
+            srcset="
+                 https://lebanese-arabic.com/wp-content/uploads/2025/08/lebanese-arabic-hero-2-1410x940-1.webp 1410w,
+                 https://lebanese-arabic.com/wp-content/uploads/2025/08/lebanese-arabic-hero-2-1024x683-1.webp 1024w,
+                 https://lebanese-arabic.com/wp-content/uploads/2025/08/lebanese-arabic-hero-2-768x512-1.webp 768w
+             " 
+            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 100vw, 100vw" 
+            alt="Hero image" 
+            fetchpriority="high" 
+            loading="eager"
+            width="1410"
+            height="940">
+        <div class="overlay"></div>
+    </div>
+
+    <div class="hero-content">
+        <h1>Learn to Speak Lebanese Arabic</h1>
+        <p class="hero-quote">'You will soon also experience that magical moment when you realize when watching a Lebanese film that you are understanding what is being said.' - Marcel</p>
+        <p class="proof-points">Join 400+ learners</p>
+        <div class="cta-buttons">
+            <a href="/lebanese-lessons/" class="primary-cta-button">Book Your $15 Trial</a>
+        </div>
+        <p class="secondary-cta-text">Not ready? <a href="/videos/" class="secondary-cta-link">Explore our free lessons first.</a></p>
+    </div>
+</section>

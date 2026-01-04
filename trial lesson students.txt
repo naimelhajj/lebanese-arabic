@@ -1,0 +1,18 @@
+Below are all the people who have purchased a trial lessons, and what happened with them, and the cash collected from them. These customers came through different ways, but these are all that have purchased a trial lesson since we've started offering it last month:
+"""
+Mason: 15$, will not continue
+Shannon: 15$, will not continue
+raneem: 15$, then 165$ package
+Tatiana: 15$, then 215$ package
+ali hassan: 15$, then 215$ package
+jamal: 15$, then 215$ package
+dina Menzies: 15$, will not continue
+dina dada: 10$, might continue (from "New Leads" Email campaign)
+hana Boushey: 15$, took 1 single for 19$
+zia: 15$, might continue
+laura: 15$, might continue
+Georgia: 15$, then 215$ package
+Mohammad Khaliq: 15$, trial upcoming
+Marc Becker: 15$, trial upcoming
+Elena F: 15$, trial upcoming
+"""

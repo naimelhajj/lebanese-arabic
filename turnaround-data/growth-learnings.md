@@ -55,3 +55,18 @@ This document is the single source of truth for everything we learn about the bu
 *   **Nov 11, 2025 - Deng's Case (Lost Lead - Price Objection):**
     *   **Summary:** Lead inquired about availability, received personalized options, but ultimately churned due to finding "affordable rates somewhere else."
     *   **Learning:** Competitor pricing is a significant objection. Even with personalized service, a perceived price disadvantage can lead to lost sales. This highlights a need to either justify our pricing, offer more competitive entry points, or better articulate value against competitors.
+*   **Dec 15, 2025 - Meta Platform Divergence & Mobile UX (Analysis of Dec 3-15 Data):**
+    *   **Summary:** A detailed audit of the "V2 Spearhead" campaign revealed a stark contrast. Instagram traffic had a near-instant bounce rate (1-4s), while Facebook traffic showed deep engagement (20s-6m). This led to the strategic decision to kill IG ads and consolidate budget on FB.
+    *   **Learning 1 (Platform Split):** Instagram users in this niche/creative mix are "Accidental Clickers." Facebook users are "Readers." Optimizing for the latter is the path to profitability.
+    *   **Learning 2 (Mobile Friction):** Clarity logs showed frequent "Resized page" events on Facebook mobile sessions, indicating a "Pinch-to-Zoom" necessity. We must use larger base fonts (18px+) for mobile readability.
+    *   **Learning 3 (Dead Clicks):** Users attempted to click on non-interactive "Trust Metrics" (e.g., "400+ Learners"). We must make these elements clickable links that scroll to the social proof section to satisfy this skepticism.
+
+---
+
+## Technical & Tracking Insights
+
+*   **Preloading is Critical (Learned Dec 15, 2025):** Despite optimizations, some users still experience 7s+ load times. Preloading the LCP image/video is a non-negotiable requirement for paid traffic pages.
+
+## Creative Insights
+
+*   **Static Image > Video (Learned Dec 15, 2025):** The "Ad 1 - Founder - Group Photo" creative (static image) outperformed all video variations on Facebook, generating the only attributable purchase. This suggests that for a high-trust service like tutoring, a "real" photo of the teacher builds trust faster than a polished video ad.

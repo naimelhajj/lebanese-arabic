@@ -1,0 +1,32 @@
+### **Overview**
+The video is a short, animated advertisement (approximately 6 seconds long) promoting **"Lebanese Arabic with Hiba Najem."** It uses a split-screen layout to contrast a static, atmospheric background with a dynamic, educational animation.
+
+### **Visual Breakdown**
+
+**1. The Background**
+* **Setting:** A static photograph of a sunny street in a Lebanese city.
+* **Key Elements:**
+    * In the center distance, there is a large mosque with two tall minarets and a golden dome.
+    * Colorful bunting flags are strung across the street above.
+    * Cars are parked on both the left and right sides of the road.
+    * The lighting suggests a bright, sunny day.
+
+**2. The Left Side (Text & Branding)**
+On the left side of the screen, overlaid on the street image, is the core marketing copy in white text:
+* **Logo:** A "Play" button icon followed by the text **"Lebanese Arabic with Hiba Najem"**.
+* **Headline:** **"Online Lebanese Lessons"** (in large, bold font).
+* **Call to Action:** **"Apply now"** (bolded).
+
+**3. The Right Side (The Animation)**
+On the right, there is a large smartphone with a dark green case. The screen displays a chat interface (resembling WhatsApp or iMessage) that simulates a quick lesson between a teacher and a student. The conversation bubbles appear sequentially:
+
+* **Bubble 1 (Receiver):** An audio waveform (indicating a voice note was sent).
+* **Bubble 2 (Receiver):** Text definition: *"man: rejjel/ zalameh"*
+* **Bubble 3 (Receiver):** Text definition: *"men: rjeil"*
+* **Bubble 4 (Sender/Student):** A question appears: *"I met someone yesterday?"*
+* **Bubble 5 (Receiver/Teacher):** The translation appears in Arabizi (Arabic chat alphabet): *"t3arrafet 3a 7ada mberi7"*
+* **Bubble 6 (Receiver/Teacher):** A prompt appears: *"Now you try it"*
+
+### **Summary of Intent**
+The video is designed to show how the lessons work—likely emphasizing a conversational, mobile-friendly, and interactive teaching style that uses both audio and text to teach the Lebanese dialect.
+

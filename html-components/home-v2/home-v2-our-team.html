@@ -1,0 +1,130 @@
+<style>
+    .our-team-section {
+        background-color: #ffffff;
+        padding: 5rem 1rem;
+        text-align: center;
+    }
+    .our-team-section h2 {
+        font-size: 2.25rem;
+        font-weight: 700;
+        margin-bottom: 3rem;
+        color: #1a202c;
+    }
+    .team-category {
+        margin-bottom: 4rem;
+    }
+    .team-category h3 {
+        font-size: 1.75rem;
+        font-weight: 600;
+        margin-bottom: 2.5rem;
+        color: #368D83; /* Teal */
+        position: relative;
+        display: inline-block;
+    }
+    .team-category h3::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -10px;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 3px;
+        background-color: #e2e8f0;
+    }
+    .team-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    @media (min-width: 768px) {
+        .team-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media (min-width: 1024px) {
+        .team-grid.founders-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .team-grid.teachers-grid {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+    .team-member-card {
+        background-color: #f9f9f9;
+        border: 1px solid #e2e8f0;
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+    .team-member-card img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .team-member-card h4 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #2d3748;
+        margin-bottom: 0.5rem;
+    }
+    .team-member-card p {
+        font-size: 0.95rem;
+        color: #4a5568;
+        line-height: 1.5;
+    }
+</style>
+
+<section class="our-team-section" aria-labelledby="our-team-heading">
+    <h2 id="our-team-heading">Meet Our Dedicated Teachers</h2>
+
+    <div class="team-category">
+        <h3>Founders</h3>
+        <div class="team-grid founders-grid">
+            <div class="team-member-card">
+                <img src="https://lebanese-arabic.com/wp-content/uploads/2022/09/hiba-150x150.jpg" alt="Hiba Najem">
+                <h4>Hiba</h4>
+                <p>I’m a co-founder of Learn Lebanese Arabic. Since 2011 I worked on sharing my love of the Lebanese culture and dialect through my YouTube channel and books. After years of teaching I decided along side with Naim to focus on management and curriculum development of this school, and we love it!</p>
+            </div>
+            <div class="team-member-card">
+                <img src="https://lebanese-arabic.com/wp-content/uploads/2023/10/WhatsApp-Image-2023-10-30-at-09.41.36-150x150.webp" alt="Naim El Hajj Photo">
+                <h4>Naim</h4>
+                <p>I’m Naim, the other co-founder of Lebanese Arabic with Hiba. Hiba and I have been slowly building this school from almost nothing, for the past years, and it has been quite fun to do!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="team-category">
+        <h3>Teachers</h3>
+        <div class="team-grid teachers-grid">
+            <div class="team-member-card">
+                <img src="https://lebanese-arabic.com/wp-content/uploads/2022/09/mireille-150x150.png" alt="Mireille Fares">
+                <h4>Mireille</h4>
+                <p>Hello! I am Mireille, I’m a 39-year-old teacher. I’m Lebanese and I live in Beirut. I have a teaching degree and more than 10 years of experience in the field.</p>
+            </div>
+            <div class="team-member-card">
+                <img src="https://lebanese-arabic.com/wp-content/uploads/2023/10/Adon_s-photo-_1_-150x150.webp" alt="Adon Khoury Photo">
+                <h4>Adon</h4>
+                <p>I’m an actor, puppeteer and clown doctor. I’m Lebanese, I speak Lebanese and I write in Lebanese. I love what I’m doing, and I love to give all I know about my Lebanese mother language.</p>
+            </div>
+            <div class="team-member-card">
+                <img src="https://lebanese-arabic.com/wp-content/uploads/2023/12/Bio-Pic-Ella-150x150.webp" alt="Ella Nassar Portrait Image">
+                <h4>Ella</h4>
+                <p>I am Ella. I am Lebanese and live in Beirut. I have a background in Philosophy and Science and more than 10 years of private tutoring experience.</p>
+            </div>
+            <div class="team-member-card">
+                <img src="https://lebanese-arabic.com/wp-content/uploads/2025/01/ghina-kaddour-portrait-150x150.webp" alt="Ghina Kaddour Portrait">
+                <h4>Ghina</h4>
+                <p>Hello, I am Ghina from Lebanon. I am a teacher, duh, and I love food. If you want to know more about me, join us and ask ✨</p>
+            </div>
+        </div>
+    </div>
+</section>

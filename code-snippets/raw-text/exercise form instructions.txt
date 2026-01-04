@@ -1,0 +1,20 @@
+Javascript integration instructions
+Install the following snippet of Javascript on every page of your website right before the closing </head> tag. You only need to add this snippet once, even if you plan to have a few different web forms.
+
+<script>
+  (function (s, e, n, d, er) {
+    s['Sender'] = er;
+    s[er] = s[er] || function () {
+      (s[er].q = s[er].q || []).push(arguments)
+    }, s[er].l = 1 * new Date();
+    var a = e.createElement(n),
+        m = e.getElementsByTagName(n)[0];
+    a.async = 1;
+    a.src = d;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+  sender('5ca723f52d2904')
+</script>
+After installing Javascript code, you need to install the following snippet of HTML code where you want to embed this form.
+
+<div style="text-align: left" class="sender-form-field" data-sender-form-id="epYqV1"></div>

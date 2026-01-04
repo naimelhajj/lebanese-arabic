@@ -1,0 +1,63 @@
+<div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_text_1" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 20px;">
+    
+  <div class="v-color v-text-align v-line-height v-font-weight v-font-family v-font-size v-letter-spacing" style="font-size: 14px; line-height: 120%; text-align: left; word-wrap: break-word;">
+    <p style="font-size: 14px; line-height: 120%; text-align: center;"><span style="font-size: 18px; line-height: 21.6px; font-family: Cabin, sans-serif;">Thank you for purchasing the phrasebook!</span></p>
+  </div>
+
+  </div>
+
+  <div id="u_content_text_2" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-color v-text-align v-line-height v-font-weight v-font-family v-font-size v-letter-spacing" style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="font-size: 14px; line-height: 140%;"><span style="font-family: Cabin, sans-serif; font-size: 14px; line-height: 19.6px;">I'm hoping that you find the phrasebook to be useful, having reached the exercise chapter.</span></p>
+  </div>
+
+  </div>
+
+  <div id="u_content_text_3" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-color v-text-align v-line-height v-font-weight v-font-family v-font-size v-letter-spacing" style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="font-size: 14px; line-height: 140%;"><span style="font-family: Cabin, sans-serif; font-size: 14px; line-height: 19.6px;">I would really love to hear what you think about, so I would be really appreciate it if you could leave an honest review of the book on Amazon</span></p>
+  </div>
+
+  </div>
+
+  <div id="u_content_button_1" class="u_content_button v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div class="v-text-align" style="text-align: center;">
+  <a href="https://www.amazon.com/review/create-review?asin=9953031215" target="_blank" class="v-size-width v-line-height v-padding v-button-colors v-border v-border-radius v-font-family v-font-size v-font-weight v-letter-spacing" style="color:#ffffff;background-color:#e7a60f;border-radius: 4px;line-height:120%;display:inline-block;text-decoration:none;text-align:center;padding:10px 20px;width:auto;max-width:100%;word-wrap:break-word;font-size: 14px;">
+    <span style="font-size: 14px; line-height: 16.8px; font-family: Cabin, sans-serif;">Leave a Review</span>
+  </a>
+</div>
+
+  </div>
+
+  <div id="u_content_text_4" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-color v-text-align v-line-height v-font-weight v-font-family v-font-size v-letter-spacing" style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="font-size: 14px; line-height: 140%;"><span style="font-family: Cabin, sans-serif; font-size: 14px; line-height: 19.6px;">And without further ado, below is the exercise solutions PDF.</span></p>
+  </div>
+
+  </div>
+
+  <div id="u_content_text_5" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-color v-text-align v-line-height v-font-weight v-font-family v-font-size v-letter-spacing" style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="font-size: 14px; line-height: 140%;"><span style="font-family: Cabin, sans-serif; font-size: 14px; line-height: 19.6px;">Check it out, and see how many answers you got right from your first try. But don't be discouraged if you have lot of mistakes, you could just go back to the sentences in the book, and check out the related videos, and you'll be able to improve your vocabulary in no time.</span></p>
+  </div>
+
+  </div>
+
+  <div id="u_content_button_2" class="u_content_button v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div class="v-text-align" style="text-align: center;">
+  <a href="https://lebanese-arabic.com/ExercisesPDF.pdf" target="_blank" class="v-size-width v-line-height v-padding v-button-colors v-border v-border-radius v-font-family v-font-size v-font-weight v-letter-spacing" style="color:#FFFFFF;background-color:#3AAEE0;border-radius: 4px;line-height:120%;display:inline-block;text-decoration:none;text-align:center;padding:10px 20px;width:auto;max-width:100%;word-wrap:break-word;font-size: 14px;">
+    <span style="font-size: 14px; line-height: 16.8px; font-family: Cabin, sans-serif;">Download the PDF</span>
+  </a>
+</div>
+
+  </div>
+
+  </div>
