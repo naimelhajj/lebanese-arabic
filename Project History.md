@@ -84,9 +84,18 @@ This section contains the official, user-verified history of all strategic phase
 - **Cost Actions:** Cancelled non-essential subscriptions (Zoom, Ab Split Test) and downgraded JotForm to free tier.
 - **Strategic Shift:** The focus is on filling the 15-hour capacity buffer using the high-efficiency "Social Proof" ad variant ($17 CPP) while maintaining a low fixed-cost base.
 
-### **Phase 23: The "Harvesting" Offensive (Launched Jan 4, 2026)**
-- **Objective:** Repay the $5,000 Eedama debt and reinstate founder salary.
-- **Action 1 (Ads):** Paused "Ad 1 - Founder" ($80 CPP); consolidated $10/day budget into "Ad 2 - Social Proof" ($17 CPP).
-- **Action 2 (Lever 3 - Private Groups):** Updated the paid landing page (`ppc-trial-offer-v2`) with a "Bring a Partner for Free" offer to increase profit per hour from ~$10.50 to ~$35.
-- **Action 3 (Email Reactivation):** Launched a 2-step New Year sequence. Email 1 (Warm-up) sent Jan 4. Email 2 (Group Offer) scheduled for Jan 7.
-- **Strategic Pivot:** Transitioned from "Survival Mode" to "Cash Extraction," targeting a $1,200/mo net profit benchmark.
+### **Phase 23: The "Harvesting" Offensive (Executed Jan 4, 2026)**
+- **Objective:** Repay the $5,000 Eedama debt ($500/mo) and reinstate founder salary (Target: $1,200/mo Net Profit).
+- **Financial Baseline:**
+    -   **Status:** Stabilized. Consecutive net profits in Nov (+$115) and Dec (+$483).
+    -   **Funnel Economics:** **66.7% Trial-to-Package Conversion Rate** confirmed. Blended LTV per trial sold is **$118**.
+- **Operational Reality:**
+    -   **Supply Bottleneck:** Fixed teacher contracts are 100% full.
+    -   **Growth Buffer:** Identified ~15 hours of available capacity (3h Mireille + 12h Ghina variable) to sell without increasing fixed costs.
+- **Actions Taken:**
+    1.  **Ads:** Paused "Ad 1 - Founder" ($80 CPP); consolidated budget into the winner "Ad 2 - Social Proof" ($17 CPP).
+    2.  **Lever 3 (Private Groups):** Deployed the "Private Group" strategy to increase profit per hour from ~$10.50 (solo) to ~$35.00 (pair).
+        -   Updated `ppc-trial-offer-v2` with a "Bring a Partner for Free" callout.
+    3.  **Email Reactivation:** Launched a 2-step New Year sequence. Email 1 (Warm-up) sent Jan 4. Email 2 (Group Offer) scheduled for Jan 7.
+    4.  **Confirmation Upsell:** Updated the post-booking email template to offer free trial participation for "study buddies" and explicitly mention discounted long-term rates for groups to reduce price anxiety.
+- **Strategic Pivot:** Transitioned from "Survival Mode" (Sales at any cost) to "Cash Extraction" (High-margin sales to fill the limited 15h buffer).

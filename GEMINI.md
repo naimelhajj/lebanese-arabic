@@ -756,6 +756,7 @@ A detailed overview of the website's unique performance optimization strategy ha
     *   **Action (Jan 4):** **PAUSED** the "Founder" ad (Ad 1). Budget now flows exclusively to the winning "Social Proof" ad (Ad 2).
 *   **Active Tactics (Jan 4):**
     *   **Email:** Launched 2-step New Year sequence to reactivate cold leads.
-    *   **Offer:** Deployed "Bring a Partner for Free" hook to drive higher-margin "Private Group" sales (Lever 3).
+    *   **Landing Page:** Deployed "Bring a Study Buddy for Free" hook on `ppc-trial-offer-v2`.
+    *   **Confirmation:** Integrated "Study Buddy" offer into post-booking emails, explicitly mentioning long-term group discounts to increase the profit-per-hour from ~$10.50 to ~$35.00 (Lever 3).
 
 **Strategic Pivot:** The bottleneck has been mitigated by a flexible contract with Ghina. We have room for **~15 new students/week**. We are now scaling the high-efficiency "Social Proof" ad and the "Private Group" offer to fill this buffer at a low acquisition cost.
