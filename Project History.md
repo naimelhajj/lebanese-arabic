@@ -89,6 +89,7 @@ This section contains the official, user-verified history of all strategic phase
 - **Financial Baseline:**
     -   **Status:** Stabilized. Consecutive net profits in Nov (+$115) and Dec (+$483).
     -   **Funnel Economics:** **66.7% Trial-to-Package Conversion Rate** confirmed. Blended LTV per trial sold is **$118**.
+    -   **January Seasonality:** Forecasted a significant "January Jump" in revenue ($5,500 - $6,500) based on historical trends. Included "Cash Trap" warning.
 - **Operational Reality:**
     -   **Supply Bottleneck:** Fixed teacher contracts are 100% full.
     -   **Growth Buffer:** Identified ~15 hours of available capacity (3h Mireille + 12h Ghina variable) to sell without increasing fixed costs.
