@@ -1,0 +1,494 @@
+Below is a **2026-relevant SEO + AI-SEO checklist** specifically adapted for **new blog posts** on a site like **lebanese-arabic.com** (educational content). It combines:
+
+* **Classic SEO** (still essential)
+* **AEO (Answer Engine Optimization)**
+* **GEO (Generative Engine Optimization)**
+* **AI citation optimization** (ChatGPT / Perplexity / Gemini)
+
+This matters because AI answers are increasingly replacing classic search clicks, and platforms like Google AI Overviews and ChatGPT now serve hundreds of millions to billions of users monthly. ([Search Engine Land][1])
+
+---
+
+# 2026 SEO + AI-SEO Checklist for New Blog Posts
+
+## 1. Topic Selection (Before Writing)
+
+AI visibility begins **before the article is written**.
+
+### ✓ Query-driven topic
+
+Choose topics that match **natural language questions**.
+
+Example:
+
+* ❌ “Lebanese Arabic greetings lesson”
+* ✓ “How do you say hello in Lebanese Arabic?”
+
+Why: AI answer engines map queries to **questions and explanations**, not just keywords. ([Contentstack][2])
+
+### ✓ Target multiple query types
+
+Each post should cover:
+
+| Query type      | Example                                    |
+| --------------- | ------------------------------------------ |
+| informational   | “How to say thank you in Lebanese Arabic”  |
+| comparison      | “Lebanese Arabic vs MSA greetings”         |
+| learning intent | “Lebanese Arabic phrases for beginners”    |
+| conversational  | “How do Lebanese people greet each other?” |
+
+AI engines synthesize answers across **multiple intent types**.
+
+### ✓ Keyword cluster
+
+Target **one main query + 4-10 related questions**.
+
+Example cluster:
+
+Main:
+
+* Lebanese Arabic greetings
+
+Related:
+
+* hello in Lebanese Arabic
+* how to greet someone in Lebanon
+* Lebanese Arabic polite phrases
+* how to introduce yourself in Lebanese Arabic
+
+---
+
+# 2. AI-Friendly Article Structure (CRITICAL)
+
+AI engines prefer **extractable answers**.
+
+### ✓ H1
+
+Clear question or topic.
+
+Example:
+
+```
+H1: How to Say Hello in Lebanese Arabic
+```
+
+---
+
+### ✓ 40–60 word direct answer under the H1
+
+AI tools often quote this.
+
+Example:
+
+> “In Lebanese Arabic, the most common way to say hello is **‘marhaba’ (مرحبا)**. Informally, people often say **‘ahla’** or **‘kifak/kifik’**, meaning ‘how are you.’ Greetings change depending on formality and gender.”
+
+This **answer-first structure** greatly increases AI citation probability. ([Elementor][3])
+
+---
+
+### ✓ Section structure
+
+Use a **question → answer format**.
+
+Example:
+
+```
+H2: What is the most common Lebanese greeting?
+H2: How do you say hello formally in Lebanese Arabic?
+H2: How do Lebanese people greet friends?
+H2: Common greeting phrases in Lebanese Arabic
+```
+
+This mirrors how AI tools parse knowledge.
+
+---
+
+# 3. On-Page SEO Essentials
+
+### ✓ Title tag
+
+60 characters or less.
+
+Example:
+
+```
+How to Say Hello in Lebanese Arabic (Beginner Guide)
+```
+
+---
+
+### ✓ Meta description
+
+120–160 characters.
+
+Example:
+
+```
+Learn how to say hello in Lebanese Arabic with examples, pronunciation, and cultural tips used in everyday conversations in Lebanon.
+```
+
+---
+
+### ✓ URL
+
+Short and descriptive.
+
+Example:
+
+```
+/lebanese-arabic-greetings/
+```
+
+Avoid:
+
+```
+/lesson-28
+```
+
+---
+
+### ✓ Heading hierarchy
+
+```
+H1
+H2
+H3
+```
+
+Avoid skipping.
+
+---
+
+### ✓ Images with semantic filenames
+
+Example:
+
+```
+lebanese-arabic-greeting-marhaba.jpg
+```
+
+Alt text:
+
+```
+Lebanese Arabic greeting marhaba pronunciation
+```
+
+---
+
+# 4. AI-Citation Optimization
+
+AI tools quote content that is:
+
+* clear
+* authoritative
+* structured
+* fact-based
+
+### ✓ Definition boxes
+
+Example:
+
+**Marhaba (مرحبا)**
+Meaning: Hello
+Formality: Neutral
+Usage: All contexts
+
+AI models love **definition blocks**.
+
+---
+
+### ✓ Lists and tables
+
+AI often extracts lists.
+
+Example:
+
+| Phrase  | Meaning              |
+| ------- | -------------------- |
+| Marhaba | Hello                |
+| Ahla    | Hi                   |
+| Kifak   | How are you (male)   |
+| Kifik   | How are you (female) |
+
+---
+
+### ✓ Step-by-step explanations
+
+Example:
+
+```
+How to introduce yourself in Lebanese Arabic
+
+1. Say marhaba
+2. Say your name
+3. Ask kifak/kifik
+```
+
+---
+
+### ✓ Provide examples
+
+Example sentences help LLMs understand usage.
+
+```
+Marhaba, kifak?
+Hello, how are you?
+```
+
+---
+
+# 5. Structured Data (Very Important)
+
+Use **JSON-LD schema**.
+
+Recommended schemas:
+
+### Article schema
+
+```
+Article
+```
+
+### FAQ schema
+
+```
+FAQPage
+```
+
+### HowTo schema
+
+```
+HowTo
+```
+
+Structured data helps AI systems extract knowledge more easily. ([Contentstack][2])
+
+---
+
+# 6. Internal Linking Strategy
+
+For each new post:
+
+### ✓ Link to 3-6 relevant pages
+
+Example:
+
+```
+Learn more in our guide to Lebanese Arabic pronouns.
+```
+
+Link to:
+
+* lessons
+* vocabulary
+* grammar pages
+
+---
+
+### ✓ Create topical clusters
+
+Example cluster:
+
+```
+Lebanese Arabic Basics
+ ├ Greetings
+ ├ Introductions
+ ├ Pronouns
+ ├ Polite phrases
+```
+
+This builds **semantic authority**.
+
+---
+
+# 7. Authority Signals (Important for AI)
+
+AI engines prefer **trusted sources**.
+
+### ✓ Add sources
+
+Example:
+
+```
+Sources:
+Lebanese dialect linguistics
+Arabic dialect studies
+```
+
+---
+
+### ✓ Add author expertise
+
+Example:
+
+```
+Written by Lebanese Arabic teachers from Beirut.
+```
+
+---
+
+### ✓ Add context
+
+Example:
+
+```
+This guide is based on everyday speech used in Lebanon.
+```
+
+Original expertise is a ranking factor for AI summaries.
+
+---
+
+# 8. Content Depth Signals
+
+Target:
+
+* 800–2000 words
+* real examples
+* pronunciation
+* cultural notes
+
+AI engines prioritize **original, well-structured content** that is easy to summarize and cite. ([Search Engine Land][4])
+
+---
+
+# 9. AI Visibility Signals (Often Ignored)
+
+Track **brand mentions**.
+
+AI visibility correlates strongly with how often a brand is referenced online. ([WP SEO AI][5])
+
+Examples:
+
+Mention your site inside the article:
+
+```
+At Lebanese Arabic with Hiba, we teach...
+```
+
+---
+
+# 10. “AI Extractability” Checklist
+
+Before publishing ask:
+
+Can AI easily extract:
+
+✓ definitions
+✓ translations
+✓ pronunciation
+✓ examples
+✓ tables
+✓ summaries
+
+If yes → **high AI citation probability**.
+
+---
+
+# 11. Content Format That AI Loves
+
+Best formats:
+
+1. Glossaries
+2. Phrase lists
+3. Language guides
+4. Q&A posts
+5. comparison posts
+
+Example titles for your site:
+
+* “50 Lebanese Arabic phrases for beginners”
+* “Lebanese Arabic vs MSA: key differences”
+* “How to introduce yourself in Lebanese Arabic”
+* “Lebanese Arabic pronunciation guide”
+
+These perform extremely well in AI answers.
+
+---
+
+# 12. Post-Publishing AI SEO Tasks
+
+After publishing:
+
+### ✓ Submit to
+
+* Google Search Console
+
+---
+
+### ✓ Share in places AI crawls
+
+Examples:
+
+* Reddit
+* Quora
+* StackExchange
+* language forums
+
+Community presence strongly correlates with AI discovery. ([arXiv][6])
+
+---
+
+### ✓ Monitor AI mentions
+
+Search:
+
+```
+site:lebanese-arabic.com
+```
+
+Also test queries in:
+
+* ChatGPT
+* Perplexity
+* Google AI Overviews
+
+---
+
+# 13. Optional but Powerful (Few Sites Do This)
+
+Add a **site glossary**.
+
+Example:
+
+```
+/lebanese-arabic-glossary
+```
+
+AI engines love structured vocab databases.
+
+---
+
+# Example Ideal Post Structure
+
+```
+H1: How to Say Hello in Lebanese Arabic
+
+40-word answer summary
+
+H2: The most common Lebanese greetings
+table
+
+H2: Formal greetings in Lebanese Arabic
+examples
+
+H2: Informal greetings used with friends
+
+H2: Pronunciation guide
+
+H2: Cultural tips
+
+H2: FAQ
+```
+
+---
+
+
+These can significantly increase **AI traffic**, which is becoming a major discovery channel.
+
+[1]: https://searchengineland.com/how-to-optimize-content-for-ai-search-engines-a-step-by-step-guide-467272?utm_source=chatgpt.com "How to optimize content for AI search engines: A step-by- ..."
+[2]: https://www.contentstack.com/blog/ai/how-to-optimize-content-for-ai-answer-engines-aeo?utm_source=chatgpt.com "How to optimize content for AI answer engines (AEO)"
+[3]: https://elementor.com/blog/how-to-optimize-content-for-ai-search-engines/?utm_source=chatgpt.com "How to Optimize Content for AI Search Engines in 2026"
+[4]: https://searchengineland.com/optimize-content-generative-engines-actionable-tips-463036?utm_source=chatgpt.com "Optimizing content for generative engines: 17 actionable tips"
+[5]: https://wpseoai.com/blog/seo-checklist/?utm_source=chatgpt.com "SEO checklist to increase AI visibility in 2026"
+[6]: https://arxiv.org/abs/2601.00912?utm_source=chatgpt.com "The Discovery Gap: How Product Hunt Startups Vanish in LLM Organic Discovery Queries"

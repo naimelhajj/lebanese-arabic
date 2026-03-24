@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2440" height="1780" viewBox="0 0 2440 1780" role="img" aria-labelledby="title desc">
+  <title id="title">Lebanese Arabic family tree vocabulary chart</title>
+  <desc id="desc">A first-party SVG family tree built from local CSV and plain-text exports for lesson 12. It maps Lebanese Arabic family terms across immediate, maternal, and paternal branches.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fcfaf6" />
+      <stop offset="100%" stop-color="#f2ede5" />
+    </linearGradient>
+  </defs>
+  <style>
+    .bg { fill: url(#bg); }
+    .header { font-family: Georgia, 'Times New Roman', serif; font-size: 42px; font-weight: 700; fill: #2c241f; }
+    .subheader { font-family: Arial, sans-serif; font-size: 18px; fill: #6e5a50; }
+    .panel-frame rect { fill: rgba(255,255,255,0.72); stroke: #ccbfae; stroke-width: 2; }
+    .panel-title { font-family: Georgia, 'Times New Roman', serif; font-size: 28px; font-weight: 700; fill: #3d322b; }
+    .panel-subtitle { font-family: Arial, sans-serif; font-size: 15px; fill: #7a665d; }
+    .card rect { stroke-width: 2; }
+    .card.female rect { fill: #fff4f0; stroke: #d9a9a2; }
+    .card.male rect { fill: #f2f7fb; stroke: #9eb8cf; }
+    .card.neutral rect { fill: #f8f1e7; stroke: #cfbb9c; }
+    .badge { fill: rgba(255,255,255,0.95); stroke: rgba(0,0,0,0.08); stroke-width: 1.4; }
+    .badge-text { font-family: Arial, sans-serif; font-size: 17px; font-weight: 700; fill: #5a4a42; }
+    .translit { font-family: Arial, sans-serif; font-size: 18px; font-weight: 700; fill: #2c241f; }
+    .arabic { font-family: 'Noto Naskh Arabic', 'Amiri', serif; font-size: 22px; fill: #46372f; }
+    .gloss { font-family: Arial, sans-serif; font-size: 14px; fill: #7a665d; }
+    .family { stroke: #8d796d; stroke-width: 3; fill: none; stroke-linecap: round; }
+    .couple { stroke: #b39b8c; stroke-width: 4; fill: none; stroke-linecap: round; }
+    .footer { font-family: Arial, sans-serif; font-size: 14px; fill: #7b675d; }
+  </style>
+  <rect class="bg" x="0" y="0" width="2440" height="1780" />
+  <text class="header" x="60" y="54">Lebanese Arabic Family Tree</text>
+  <text class="subheader" x="60" y="84">First-party SVG built from the local CSV and plain-text exports for Lesson 12.</text>
+  <g class="panel-frame">
+  <rect x="60" y="60" width="2320" height="660" rx="28" ry="28" />
+  <text class="panel-title" x="94" y="114">Immediate Family</text>
+  <text class="panel-subtitle" x="94" y="144">Central family terms and close relatives</text>
+</g>
+  <g class="panel-frame">
+  <rect x="60" y="780" width="1120" height="940" rx="28" ry="28" />
+  <text class="panel-title" x="94" y="834">Maternal Side</text>
+  <text class="panel-subtitle" x="94" y="864">Relatives connected through mother</text>
+</g>
+  <g class="panel-frame">
+  <rect x="1260" y="780" width="1120" height="940" rx="28" ry="28" />
+  <text class="panel-title" x="1294" y="834">Paternal Side</text>
+  <text class="panel-subtitle" x="1294" y="864">Relatives connected through father</text>
+</g>
+<line class="couple" x1="1140" y1="224.0" x2="1180" y2="224.0" />
+<line class="family" x1="1160.0" y1="278" x2="1160.0" y2="341" />
+<line class="family" x1="410.0" y1="341" x2="1670.0" y2="341" />
+<line class="family" x1="410.0" y1="341" x2="410.0" y2="375" />
+<line class="family" x1="1030.0" y1="341" x2="1030.0" y2="375" />
+<line class="family" x1="1670.0" y1="341" x2="1670.0" y2="375" />
+<line class="couple" x1="520" y1="429.0" x2="560" y2="429.0" />
+<line class="couple" x1="1140" y1="429.0" x2="1180" y2="429.0" />
+<line class="couple" x1="1780" y1="429.0" x2="1820" y2="429.0" />
+<line class="family" x1="540.0" y1="429.0" x2="540.0" y2="566" />
+<line class="family" x1="330.0" y1="566" x2="590.0" y2="566" />
+<line class="family" x1="330.0" y1="566" x2="330.0" y2="600" />
+<line class="family" x1="590.0" y1="566" x2="590.0" y2="600" />
+<line class="family" x1="1160.0" y1="429.0" x2="1160.0" y2="566" />
+<line class="family" x1="1030.0" y1="566" x2="1290.0" y2="566" />
+<line class="family" x1="1030.0" y1="566" x2="1030.0" y2="600" />
+<line class="family" x1="1290.0" y1="566" x2="1290.0" y2="600" />
+<line class="family" x1="1800.0" y1="429.0" x2="1800.0" y2="566" />
+<line class="family" x1="1590.0" y1="566" x2="1850.0" y2="566" />
+<line class="family" x1="1590.0" y1="566" x2="1590.0" y2="600" />
+<line class="family" x1="1850.0" y1="566" x2="1850.0" y2="600" />
+<line class="couple" x1="420" y1="944.0" x2="460" y2="944.0" />
+<line class="family" x1="440.0" y1="998" x2="440.0" y2="1066" />
+<line class="family" x1="190.0" y1="1066" x2="820.0" y2="1066" />
+<line class="family" x1="190.0" y1="1066" x2="190.0" y2="1100" />
+<line class="family" x1="620.0" y1="1066" x2="620.0" y2="1100" />
+<line class="family" x1="820.0" y1="1066" x2="820.0" y2="1100" />
+<line class="couple" x1="300" y1="1154.0" x2="310" y2="1154.0" />
+<line class="couple" x1="930" y1="1154.0" x2="940" y2="1154.0" />
+<line class="family" x1="305.0" y1="1154.0" x2="305.0" y2="1306" />
+<line class="family" x1="190.0" y1="1306" x2="420.0" y2="1306" />
+<line class="family" x1="190.0" y1="1306" x2="190.0" y2="1340" />
+<line class="family" x1="420.0" y1="1306" x2="420.0" y2="1340" />
+<line class="family" x1="935.0" y1="1154.0" x2="935.0" y2="1306" />
+<line class="family" x1="820.0" y1="1306" x2="1050.0" y2="1306" />
+<line class="family" x1="820.0" y1="1306" x2="820.0" y2="1340" />
+<line class="family" x1="1050.0" y1="1306" x2="1050.0" y2="1340" />
+<line class="couple" x1="1620" y1="944.0" x2="1660" y2="944.0" />
+<line class="family" x1="1640.0" y1="998" x2="1640.0" y2="1066" />
+<line class="family" x1="1390.0" y1="1066" x2="2020.0" y2="1066" />
+<line class="family" x1="1390.0" y1="1066" x2="1390.0" y2="1100" />
+<line class="family" x1="1820.0" y1="1066" x2="1820.0" y2="1100" />
+<line class="family" x1="2020.0" y1="1066" x2="2020.0" y2="1100" />
+<line class="couple" x1="1500" y1="1154.0" x2="1510" y2="1154.0" />
+<line class="couple" x1="2130" y1="1154.0" x2="2140" y2="1154.0" />
+<line class="family" x1="1505.0" y1="1154.0" x2="1505.0" y2="1306" />
+<line class="family" x1="1390.0" y1="1306" x2="1620.0" y2="1306" />
+<line class="family" x1="1390.0" y1="1306" x2="1390.0" y2="1340" />
+<line class="family" x1="1620.0" y1="1306" x2="1620.0" y2="1340" />
+<line class="family" x1="2135.0" y1="1154.0" x2="2135.0" y2="1306" />
+<line class="family" x1="2020.0" y1="1306" x2="2250.0" y2="1306" />
+<line class="family" x1="2020.0" y1="1306" x2="2020.0" y2="1340" />
+<line class="family" x1="2250.0" y1="1306" x2="2250.0" y2="1340" />
+<g class="card female">
+  <rect x="920" y="170" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="954" cy="200" r="18" />
+  <text class="badge-text" x="954" y="207" text-anchor="middle">E</text>
+  <text class="translit" x="1030.0" y="203" text-anchor="middle">Emmeh</text>
+  <text class="arabic" x="1030.0" y="230" text-anchor="middle" direction="rtl">امي</text>
+  <text class="gloss" x="1030.0" y="256" text-anchor="middle">mother</text>
+</g>
+<g class="card male">
+  <rect x="1180" y="170" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="1214" cy="200" r="18" />
+  <text class="badge-text" x="1214" y="207" text-anchor="middle">B</text>
+  <text class="translit" x="1290.0" y="203" text-anchor="middle">Bayyeh</text>
+  <text class="arabic" x="1290.0" y="230" text-anchor="middle" direction="rtl">بيّي</text>
+  <text class="gloss" x="1290.0" y="256" text-anchor="middle">father</text>
+</g>
+<g class="card female">
+  <rect x="300" y="375" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="334" cy="405" r="18" />
+  <text class="badge-text" x="334" y="412" text-anchor="middle">E</text>
+  <text class="translit" x="410.0" y="408" text-anchor="middle">Ekhteh</text>
+  <text class="arabic" x="410.0" y="435" text-anchor="middle" direction="rtl">أختي</text>
+  <text class="gloss" x="410.0" y="461" text-anchor="middle">sister</text>
+</g>
+<g class="card male">
+  <rect x="560" y="375" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="594" cy="405" r="18" />
+  <text class="badge-text" x="594" y="412" text-anchor="middle">J</text>
+  <text class="translit" x="670.0" y="408" text-anchor="middle">Joz Ekhteh</text>
+  <text class="arabic" x="670.0" y="435" text-anchor="middle" direction="rtl">جوز اختي</text>
+  <text class="gloss" x="670.0" y="461" text-anchor="middle">sister's husband</text>
+</g>
+<g class="card neutral">
+  <rect x="920" y="375" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="954" cy="405" r="18" />
+  <text class="badge-text" x="954" y="412" text-anchor="middle">A</text>
+  <text class="translit" x="1030.0" y="408" text-anchor="middle">Ana</text>
+  <text class="arabic" x="1030.0" y="435" text-anchor="middle" direction="rtl">انا</text>
+  <text class="gloss" x="1030.0" y="461" text-anchor="middle">me</text>
+</g>
+<g class="card neutral">
+  <rect x="1180" y="375" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="1214" cy="405" r="18" />
+  <text class="badge-text" x="1214" y="412" text-anchor="middle">M</text>
+  <text class="translit" x="1290.0" y="408" text-anchor="middle">Marteh / Jawzeh</text>
+  <text class="arabic" x="1290.0" y="435" text-anchor="middle" direction="rtl">مرتي / جوزي</text>
+  <text class="gloss" x="1290.0" y="461" text-anchor="middle">spouse</text>
+</g>
+<g class="card male">
+  <rect x="1560" y="375" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="1594" cy="405" r="18" />
+  <text class="badge-text" x="1594" y="412" text-anchor="middle">K</text>
+  <text class="translit" x="1670.0" y="408" text-anchor="middle">Khayyeh</text>
+  <text class="arabic" x="1670.0" y="435" text-anchor="middle" direction="rtl">خيّي</text>
+  <text class="gloss" x="1670.0" y="461" text-anchor="middle">brother</text>
+</g>
+<g class="card female">
+  <rect x="1820" y="375" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="1854" cy="405" r="18" />
+  <text class="badge-text" x="1854" y="412" text-anchor="middle">M</text>
+  <text class="translit" x="1930.0" y="408" text-anchor="middle">Mart Khayyeh</text>
+  <text class="arabic" x="1930.0" y="435" text-anchor="middle" direction="rtl">مرت خيي</text>
+  <text class="gloss" x="1930.0" y="461" text-anchor="middle">brother's wife</text>
+</g>
+<g class="card female">
+  <rect x="220" y="600" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="254" cy="630" r="18" />
+  <text class="badge-text" x="254" y="637" text-anchor="middle">B</text>
+  <text class="translit" x="330.0" y="633" text-anchor="middle">Bint-Ekhteh</text>
+  <text class="arabic" x="330.0" y="660" text-anchor="middle" direction="rtl">بنت</text>
+  <text class="gloss" x="330.0" y="686" text-anchor="middle">sister's daughter</text>
+</g>
+<g class="card male">
+  <rect x="480" y="600" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="514" cy="630" r="18" />
+  <text class="badge-text" x="514" y="637" text-anchor="middle">E</text>
+  <text class="translit" x="590.0" y="633" text-anchor="middle">Eben Ekhteh</text>
+  <text class="arabic" x="590.0" y="660" text-anchor="middle" direction="rtl">إبن</text>
+  <text class="gloss" x="590.0" y="686" text-anchor="middle">sister's son</text>
+</g>
+<g class="card female">
+  <rect x="920" y="600" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="954" cy="630" r="18" />
+  <text class="badge-text" x="954" y="637" text-anchor="middle">B</text>
+  <text class="translit" x="1030.0" y="633" text-anchor="middle">Binteh</text>
+  <text class="arabic" x="1030.0" y="660" text-anchor="middle" direction="rtl">بنتي</text>
+  <text class="gloss" x="1030.0" y="686" text-anchor="middle">daughter</text>
+</g>
+<g class="card male">
+  <rect x="1180" y="600" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="1214" cy="630" r="18" />
+  <text class="badge-text" x="1214" y="637" text-anchor="middle">E</text>
+  <text class="translit" x="1290.0" y="633" text-anchor="middle">Ebneh</text>
+  <text class="arabic" x="1290.0" y="660" text-anchor="middle" direction="rtl">ابني</text>
+  <text class="gloss" x="1290.0" y="686" text-anchor="middle">son</text>
+</g>
+<g class="card female">
+  <rect x="1480" y="600" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="1514" cy="630" r="18" />
+  <text class="badge-text" x="1514" y="637" text-anchor="middle">B</text>
+  <text class="translit" x="1590.0" y="633" text-anchor="middle">Bint-Khayyeh</text>
+  <text class="arabic" x="1590.0" y="660" text-anchor="middle" direction="rtl">بنت</text>
+  <text class="gloss" x="1590.0" y="686" text-anchor="middle">brother's daughter</text>
+</g>
+<g class="card male">
+  <rect x="1740" y="600" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="1774" cy="630" r="18" />
+  <text class="badge-text" x="1774" y="637" text-anchor="middle">E</text>
+  <text class="translit" x="1850.0" y="633" text-anchor="middle">Eben Khayyeh</text>
+  <text class="arabic" x="1850.0" y="660" text-anchor="middle" direction="rtl">إبن</text>
+  <text class="gloss" x="1850.0" y="686" text-anchor="middle">brother's son</text>
+</g>
+<g class="card female">
+  <rect x="200" y="890" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="234" cy="920" r="18" />
+  <text class="badge-text" x="234" y="927" text-anchor="middle">S</text>
+  <text class="translit" x="310.0" y="923" text-anchor="middle">Sitteh</text>
+  <text class="arabic" x="310.0" y="950" text-anchor="middle" direction="rtl">ستي</text>
+  <text class="gloss" x="310.0" y="976" text-anchor="middle">maternal grandmother</text>
+</g>
+<g class="card male">
+  <rect x="460" y="890" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="494" cy="920" r="18" />
+  <text class="badge-text" x="494" y="927" text-anchor="middle">J</text>
+  <text class="translit" x="570.0" y="923" text-anchor="middle">Jeddeh</text>
+  <text class="arabic" x="570.0" y="950" text-anchor="middle" direction="rtl">جدي</text>
+  <text class="gloss" x="570.0" y="976" text-anchor="middle">maternal grandfather</text>
+</g>
+<g class="card female">
+  <rect x="80" y="1100" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="114" cy="1130" r="18" />
+  <text class="badge-text" x="114" y="1137" text-anchor="middle">K</text>
+  <text class="translit" x="190.0" y="1133" text-anchor="middle">Khalteh</text>
+  <text class="arabic" x="190.0" y="1160" text-anchor="middle" direction="rtl">خالتي</text>
+  <text class="gloss" x="190.0" y="1186" text-anchor="middle">maternal aunt</text>
+</g>
+<g class="card male">
+  <rect x="310" y="1100" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="344" cy="1130" r="18" />
+  <text class="badge-text" x="344" y="1137" text-anchor="middle">J</text>
+  <text class="translit" x="420.0" y="1133" text-anchor="middle">Joz Khalteh</text>
+  <text class="arabic" x="420.0" y="1160" text-anchor="middle" direction="rtl">جوز خالتي</text>
+  <text class="gloss" x="420.0" y="1186" text-anchor="middle">maternal aunt's husband</text>
+</g>
+<g class="card female">
+  <rect x="510" y="1100" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="544" cy="1130" r="18" />
+  <text class="badge-text" x="544" y="1137" text-anchor="middle">E</text>
+  <text class="translit" x="620.0" y="1133" text-anchor="middle">Emmeh</text>
+  <text class="arabic" x="620.0" y="1160" text-anchor="middle" direction="rtl">امي</text>
+  <text class="gloss" x="620.0" y="1186" text-anchor="middle">mother</text>
+</g>
+<g class="card male">
+  <rect x="710" y="1100" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="744" cy="1130" r="18" />
+  <text class="badge-text" x="744" y="1137" text-anchor="middle">K</text>
+  <text class="translit" x="820.0" y="1133" text-anchor="middle">Khaleh</text>
+  <text class="arabic" x="820.0" y="1160" text-anchor="middle" direction="rtl">خالي</text>
+  <text class="gloss" x="820.0" y="1186" text-anchor="middle">maternal uncle</text>
+</g>
+<g class="card female">
+  <rect x="940" y="1100" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="974" cy="1130" r="18" />
+  <text class="badge-text" x="974" y="1137" text-anchor="middle">M</text>
+  <text class="translit" x="1050.0" y="1133" text-anchor="middle">Mart Khaleh</text>
+  <text class="arabic" x="1050.0" y="1160" text-anchor="middle" direction="rtl">مرت خالي</text>
+  <text class="gloss" x="1050.0" y="1186" text-anchor="middle">maternal uncle's wife</text>
+</g>
+<g class="card female">
+  <rect x="80" y="1340" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="114" cy="1370" r="18" />
+  <text class="badge-text" x="114" y="1377" text-anchor="middle">B</text>
+  <text class="translit" x="190.0" y="1373" text-anchor="middle">Bint-Khalteh</text>
+  <text class="arabic" x="190.0" y="1400" text-anchor="middle" direction="rtl">بنت خالتي</text>
+  <text class="gloss" x="190.0" y="1426" text-anchor="middle">maternal aunt's daughter</text>
+</g>
+<g class="card male">
+  <rect x="310" y="1340" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="344" cy="1370" r="18" />
+  <text class="badge-text" x="344" y="1377" text-anchor="middle">E</text>
+  <text class="translit" x="420.0" y="1373" text-anchor="middle">Eben-Khalteh</text>
+  <text class="arabic" x="420.0" y="1400" text-anchor="middle" direction="rtl">إبن خالتي</text>
+  <text class="gloss" x="420.0" y="1426" text-anchor="middle">maternal aunt's son</text>
+</g>
+<g class="card female">
+  <rect x="710" y="1340" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="744" cy="1370" r="18" />
+  <text class="badge-text" x="744" y="1377" text-anchor="middle">B</text>
+  <text class="translit" x="820.0" y="1373" text-anchor="middle">Bint-Khaleh</text>
+  <text class="arabic" x="820.0" y="1400" text-anchor="middle" direction="rtl">بنت خالي</text>
+  <text class="gloss" x="820.0" y="1426" text-anchor="middle">maternal uncle's daughter</text>
+</g>
+<g class="card male">
+  <rect x="940" y="1340" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="974" cy="1370" r="18" />
+  <text class="badge-text" x="974" y="1377" text-anchor="middle">E</text>
+  <text class="translit" x="1050.0" y="1373" text-anchor="middle">Eben-Khaleh</text>
+  <text class="arabic" x="1050.0" y="1400" text-anchor="middle" direction="rtl">إبن خالي</text>
+  <text class="gloss" x="1050.0" y="1426" text-anchor="middle">maternal uncle's son</text>
+</g>
+<g class="card female">
+  <rect x="1400" y="890" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="1434" cy="920" r="18" />
+  <text class="badge-text" x="1434" y="927" text-anchor="middle">S</text>
+  <text class="translit" x="1510.0" y="923" text-anchor="middle">Sitteh</text>
+  <text class="arabic" x="1510.0" y="950" text-anchor="middle" direction="rtl">ستي</text>
+  <text class="gloss" x="1510.0" y="976" text-anchor="middle">paternal grandmother</text>
+</g>
+<g class="card male">
+  <rect x="1660" y="890" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="1694" cy="920" r="18" />
+  <text class="badge-text" x="1694" y="927" text-anchor="middle">J</text>
+  <text class="translit" x="1770.0" y="923" text-anchor="middle">Jeddeh</text>
+  <text class="arabic" x="1770.0" y="950" text-anchor="middle" direction="rtl">جدي</text>
+  <text class="gloss" x="1770.0" y="976" text-anchor="middle">paternal grandfather</text>
+</g>
+<g class="card female">
+  <rect x="1280" y="1100" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="1314" cy="1130" r="18" />
+  <text class="badge-text" x="1314" y="1137" text-anchor="middle">3</text>
+  <text class="translit" x="1390.0" y="1133" text-anchor="middle">3amteh</text>
+  <text class="arabic" x="1390.0" y="1160" text-anchor="middle" direction="rtl">عمتي</text>
+  <text class="gloss" x="1390.0" y="1186" text-anchor="middle">paternal aunt</text>
+</g>
+<g class="card male">
+  <rect x="1510" y="1100" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="1544" cy="1130" r="18" />
+  <text class="badge-text" x="1544" y="1137" text-anchor="middle">J</text>
+  <text class="translit" x="1620.0" y="1133" text-anchor="middle">Joz 3amteh</text>
+  <text class="arabic" x="1620.0" y="1160" text-anchor="middle" direction="rtl">جوز عمتي</text>
+  <text class="gloss" x="1620.0" y="1186" text-anchor="middle">paternal aunt's husband</text>
+</g>
+<g class="card male">
+  <rect x="1710" y="1100" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="1744" cy="1130" r="18" />
+  <text class="badge-text" x="1744" y="1137" text-anchor="middle">B</text>
+  <text class="translit" x="1820.0" y="1133" text-anchor="middle">Bayyeh</text>
+  <text class="arabic" x="1820.0" y="1160" text-anchor="middle" direction="rtl">بيّي</text>
+  <text class="gloss" x="1820.0" y="1186" text-anchor="middle">father</text>
+</g>
+<g class="card male">
+  <rect x="1910" y="1100" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="1944" cy="1130" r="18" />
+  <text class="badge-text" x="1944" y="1137" text-anchor="middle">3</text>
+  <text class="translit" x="2020.0" y="1133" text-anchor="middle">3ammeh</text>
+  <text class="arabic" x="2020.0" y="1160" text-anchor="middle" direction="rtl">عمي</text>
+  <text class="gloss" x="2020.0" y="1186" text-anchor="middle">paternal uncle</text>
+</g>
+<g class="card female">
+  <rect x="2140" y="1100" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="2174" cy="1130" r="18" />
+  <text class="badge-text" x="2174" y="1137" text-anchor="middle">M</text>
+  <text class="translit" x="2250.0" y="1133" text-anchor="middle">Mart 3ammeh</text>
+  <text class="arabic" x="2250.0" y="1160" text-anchor="middle" direction="rtl">مرت عمي</text>
+  <text class="gloss" x="2250.0" y="1186" text-anchor="middle">paternal uncle's wife</text>
+</g>
+<g class="card female">
+  <rect x="1280" y="1340" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="1314" cy="1370" r="18" />
+  <text class="badge-text" x="1314" y="1377" text-anchor="middle">B</text>
+  <text class="translit" x="1390.0" y="1373" text-anchor="middle">Bint-3amteh</text>
+  <text class="arabic" x="1390.0" y="1400" text-anchor="middle" direction="rtl">بنت عمتي</text>
+  <text class="gloss" x="1390.0" y="1426" text-anchor="middle">paternal aunt's daughter</text>
+</g>
+<g class="card male">
+  <rect x="1510" y="1340" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="1544" cy="1370" r="18" />
+  <text class="badge-text" x="1544" y="1377" text-anchor="middle">E</text>
+  <text class="translit" x="1620.0" y="1373" text-anchor="middle">Eben-3amteh</text>
+  <text class="arabic" x="1620.0" y="1400" text-anchor="middle" direction="rtl">إبن عمتي</text>
+  <text class="gloss" x="1620.0" y="1426" text-anchor="middle">paternal aunt's son</text>
+</g>
+<g class="card female">
+  <rect x="1910" y="1340" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="1944" cy="1370" r="18" />
+  <text class="badge-text" x="1944" y="1377" text-anchor="middle">B</text>
+  <text class="translit" x="2020.0" y="1373" text-anchor="middle">Bint-3ammeh</text>
+  <text class="arabic" x="2020.0" y="1400" text-anchor="middle" direction="rtl">بنت عمي</text>
+  <text class="gloss" x="2020.0" y="1426" text-anchor="middle">paternal uncle's daughter</text>
+</g>
+<g class="card male">
+  <rect x="2140" y="1340" rx="20" ry="20" width="220" height="108" />
+  <circle class="badge" cx="2174" cy="1370" r="18" />
+  <text class="badge-text" x="2174" y="1377" text-anchor="middle">E</text>
+  <text class="translit" x="2250.0" y="1373" text-anchor="middle">Eben-3ammeh</text>
+  <text class="arabic" x="2250.0" y="1400" text-anchor="middle" direction="rtl">إبن عمي</text>
+  <text class="gloss" x="2250.0" y="1426" text-anchor="middle">paternal uncle's son</text>
+</g>
+  <text class="footer" x="60" y="1760">Photos are not embedded in this version because the CSV and TXT exports do not include stable photo references.</text>
+</svg>

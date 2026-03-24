@@ -66,6 +66,12 @@ This document is the single source of truth for everything we learn about the bu
     *   **Learning 2 (Mobile Friction):** Clarity logs showed frequent "Resized page" events on Facebook mobile sessions, indicating a "Pinch-to-Zoom" necessity. We must use larger base fonts (18px+) for mobile readability.
     *   **Learning 3 (Dead Clicks):** Users attempted to click on non-interactive "Trust Metrics" (e.g., "400+ Learners"). We must make these elements clickable links that scroll to the social proof section to satisfy this skepticism.
 
+*   **Learning 4 (Headline Congruency - Jan 12, 2026):** Meta Ad 2 (Social Proof) is driving most traffic, but the landing page has a 45% bounce rate (<10s). This identifies a "Continuity Gap" between the social proof ad and the generic "Learn Lebanese" headline. Correcting this with an outcome-based headline ("Speak with Confidence") is the next critical test.
+
+*   **Learning 5 (Low-Pressure Email Reactivation - Jan 12, 2026):** A simple "Happy New Year" email with no CTA or link successfully reactivated a "ghost" student into a **Yearly Package**. This proves that high-intent leads often just need a "friendly nudge" to return, and aggressive selling isn't always the best reactivation tool.
+
+*   **Learning 6 (Group vs. Private Clarity - Jan 12, 2026):** Feedback from Email 2 (Keith's case) shows that students can easily confuse "Private Group" (bring a buddy) offers with "Public Group" launches. Copy must explicitly distinguish between the two to avoid mismatched expectations.
+
 ---
 
 ## Technical & Tracking Insights

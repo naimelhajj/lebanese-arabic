@@ -1,0 +1,3 @@
+# URL<TAB>relative output path
+https://lebanese-arabic.com/blog/is-lebanese-a-language-or-dialect/	blogposts/language-dialect-debate-source-code.txt
+https://lebanese-arabic.com/lebanese-lessons/	pages/lebanese-lessons/lebanese-lessons-source-code.txt

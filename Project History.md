@@ -100,3 +100,20 @@ This section contains the official, user-verified history of all strategic phase
     3.  **Email Reactivation:** Launched a 2-step New Year sequence. Email 1 (Warm-up) sent Jan 4. Email 2 (Group Offer) scheduled for Jan 7.
     4.  **Confirmation Upsell:** Updated the post-booking email template to offer free trial participation for "study buddies" and explicitly mention discounted long-term rates for groups to reduce price anxiety.
 - **Strategic Pivot:** Transitioned from "Survival Mode" (Sales at any cost) to "Cash Extraction" (High-margin sales to fill the limited 15h buffer).
+
+### **Phase 28: Landing Page A/B Test & Email Reactivation (Jan 12, 2026)**
+- **Status:** **COMPLETED (Test Results In).**
+- **Action 1 (Meta Ads):** Launched a headline A/B test on the PPC landing page.
+    - **Control (V2):** "Learn to Speak Lebanese Arabic"
+    - **Challenger (V3):** "Speak Lebanese with Confidence"
+- **Action 2 (Email):** Sent Email 1 of the New Year Sequence (Warm-up, no CTA).
+- **Result (Email):** **MAJOR WIN.** Successfully reactivated a "ghost" student who had purchased a package previously but never attended. The student booked a trial, completed it, and then purchased a **Yearly Package** (Value: ~$1,000+).
+- **Result (Meta):** A/B test data (Jan 13-19) showed the V3 headline improved engagement (32% vs 29%) but suffered from a lower view rate (28% vs 38%) due to technical LCP issues (missing image dimensions).
+
+### **Phase 29: Cash Preservation & Performance Optimization (Jan 19, 2026)**
+- **Status: LIVE.**
+- **Decision:** **PAUSED ALL META ADS.**
+- **Rationale:** With 0 sales on $65 spend and a blended CPP of $52 (higher than the $40 target), the business shifted to "Cash Triage" mode to preserve runway.
+- **Action 1 (Technical Fix):** Fixed the LCP issue on `ppc-trial-offer-v3.html` by adding explicit image dimensions and implementing server-side preloading via PHP.
+- **Action 2 (Follow-up Sprint):** Initiated a 2-step follow-up sequence for incomplete booking submissions to capture high-intent drop-offs.
+- **Current Focus:** Doubling down on high-ROI, zero-cost channels (Email Reactivation and Organic optimization).

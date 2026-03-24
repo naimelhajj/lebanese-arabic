@@ -48,23 +48,27 @@ This document is the single source of truth for our key performance indicators (
 
 ### **Front #1: Paid "Spearhead" Campaign (LIVE)**
 *   **Campaign:** `Meta - Sales - V2 Spearhead - Nov 2025`
-*   **Status:** **LIVE** (Dec 16 - Jan 4 Data).
+*   **Status:** **LIVE** (Jan 4 - Jan 12 Data).
 *   **Goal:** Acquire new customers at a profitable rate (CPP <= $40).
-*   **Analysis:** [Detailed Report (Jan 4)](./meta-analysis-dec-16-jan-04.md)
+*   **Analysis:** [Detailed Report (Jan 12)](./ppc-campaign-analysis-jan-4-12.md)
 
-**Performance (Dec 16, 2025 - Jan 4, 2026):**
+**Performance (Jan 13 - Jan 19, 2026):**
 
-| Ad Creative | Spend | Purchases | CPP | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| `Ad 1 - Founder` | $160.72 | 2 | **$80.36** | **🔴 RED LIGHT (High CPP)** |
-| `Ad 2 - Social Proof` | $17.05 | 1 | **$17.05** | **🟢 GREEN LIGHT** |
-| `Direct Action Video` | $3.94 | 0 | - | Low Spend |
-| `Ad 3 - Product Preview`| $3.88 | 0 | - | Low Spend |
-| **TOTAL** | **$185.59** | **3** | **$61.86** | **🟡 YELLOW (Blended)** |
+| Ad Set | Spend | Clicks | Engagement Rate | Purchases | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `V2 (Control)` | $33.71 | 65 | 29% | 0 | **🔴 PAUSED** |
+| `V3 (Challenger)` | $30.59 | 59 | 32% | 0 | **🔴 PAUSED** |
+| **TOTAL** | **$64.30** | **124** | **30%** | **0** | **STOPPED** |
 
-**Action Taken (Jan 4):**
-*   **PAUSED** `Ad 1 - Founder` (High CPP).
-*   **SCALING** `Ad 2 - Social Proof` ($17 CPP winning variant).
+**Action Taken (Jan 19):**
+*   **PAUSED ALL ADS.**
+*   **Verdict:** The V3 test was technically compromised (slow LCP/missing dimensions), resulting in a low view rate (28%). However, with **0 sales on $65 spend**, the prudent financial move is to pause paid acquisition and focus on the high-ROI Email/Organic channels until the cash position improves.
+
+### **Front #2: Email Reactivation (HIGH ROI)**
+*   **Campaign:** `New Year Sequence - Jan 2026`
+*   **Result:** **1 Yearly Package Sale** ($~$1,000+ Value).
+*   **Winner:** Email 1 (Happy New Year / No CTA).
+*   **Mechanism:** Reactivated a "ghost" student who previously purchased but never attended. Proof that the "List is a goldmine."
 
 ---
 

@@ -760,3 +760,36 @@ A detailed overview of the website's unique performance optimization strategy ha
     *   **Confirmation:** Integrated "Study Buddy" offer into post-booking emails, explicitly mentioning long-term group discounts to increase the profit-per-hour from ~$10.50 to ~$35.00 (Lever 3).
 
 **Strategic Pivot:** The bottleneck has been mitigated by a flexible contract with Ghina. We have room for **~15 new students/week**. We are now scaling the high-efficiency "Social Proof" ad and the "Private Group" offer to fill this buffer at a low acquisition cost.
+
+## Phase 28: Landing Page A/B Test & Email Reactivation (Jan 12, 2026)
+
+### Status: LIVE (Test in Progress)
+
+*   **Meta Ads Correction:**
+    *   **Diagnosis:** Long-term data (Nov 24 - Jan 12) confirms Ad 2 (Social Proof) is the leader with a **$52 CPP**, while Ad 1 (Founder) trailed at **$67 CPP**.
+    *   **The Leak:** Clarity recordings revealed a **45% "Hook Failure"** (bounce < 10s) on the landing page, caused by a disconnect between the social proof ad and the generic headline.
+    *   **Action:** Launched **ppc-trial-offer-v3** with a benefit-driven headline: *"Speak Lebanese with Confidence."*
+    *   **Test Setup:** Duplicate Ad Set (ABO) at $5/day vs $5/day to determine if the new headline lowers CPP to the **$40 target**.
+
+*   **Email Campaign Wins:**
+    *   **High-Value Reactivation:** Email 1 (New Year / No CTA) successfully re-engaged a "ghost" student who previously purchased but never attended. This led to a trial purchase, a completed lesson, and the sale of a **Yearly Package**.
+    *   **Learning:** Low-pressure, high-will "check-in" emails are highly effective for re-activating dormant high-intent leads.
+    *   **Email 2 Feedback:** Generated 3 clicks; one long-term student (Keith) misunderstood the group offer, indicating a need for clearer distinction between "Private" and "Group" tracks in email copy.
+
+## Phase 29: Cash Preservation & Organic Focus (Jan 19, 2026)
+
+### Status: LIVE
+
+*   **Paid Ads Decision: PAUSED**
+    *   **Data (Jan 13-19):** $65 spend, 0 sales.
+    *   **Technical Root Cause:** The V3 Landing Page suffered from LCP issues (missing image dimensions), causing a low Landing Page View rate (28%). This tainted the A/B test data.
+    *   **Financial Verdict:** While the tech issues are fixed, the "Cash Triage" protocol dictates we stop spending when CPP exceeds the $80 Red Light threshold (infinite CPP this week).
+    *   **Action:** All Meta Ads paused effective immediately. Budget saved: ~$300/mo.
+
+*   **Next Steps:**
+    *   Leverage the now-optimized `ppc-trial-offer-v3` page for **organic** or **email** traffic to test the headline for free.
+*   **Follow-up Sprint: IN PROGRESS**
+    *   Execution started on Jan 19, 2026.
+    *   Using 2-step sequence for incomplete booking submissions.
+    *   Links updated to `/ppc-trial-offer-v3/` for maximum performance.
+    *   Focus entirely on **Email Marketing** (proven winner this month) and **Organic SEO** (proven long-term winner).

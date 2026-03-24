@@ -12,7 +12,7 @@ add_action('wp_head', function() {
 });
 
 add_action('wp_head', function() {
-	if (is_front_page()) {
+	if (is_front_page() || is_page(['ppc-trial-offer', 'ppc-trial-offer-v2', 'ppc-trial-offer-v3'])) {
         echo '<link rel="preload" as="image" href="https://lebanese-arabic.com/wp-content/uploads/2025/11/lebanese-arabic-hero-compressed.jpg" imagesrcset="https://lebanese-arabic.com/wp-content/uploads/2025/11/lebanese-arabic-hero-compressed.jpg 768w, https://lebanese-arabic.com/wp-content/uploads/2025/11/lebanese-arabic-hero-compressed.jpg 1024w, https://lebanese-arabic.com/wp-content/uploads/2025/11/lebanese-arabic-hero-compressed.jpg 1410w" imagesizes="100vw" fetchpriority="high">';
 	}
 });

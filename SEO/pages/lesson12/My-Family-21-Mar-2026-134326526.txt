@@ -1,0 +1,244 @@
+My Family
+
+Plain text downloaded by Naim on 21 Mar 2026.
+
+This file should be viewed as Unicode (UTF-8) character encoding.
+
+Created by Family Echo - https://www.familyecho.com/
+
+----------------------------------------------------------------------------
+
+Full name:          Binteh
+Gender:             Female
+Mother:             Marteh/jawzeh
+Father:             Ana انا
+
+----------------------------------------------------------------------------
+
+Full name:          Ebneh
+Gender:             Male
+Mother:             Marteh/jawzeh
+Father:             Ana انا
+
+----------------------------------------------------------------------------
+
+Full name:          Ekhteh
+Gender:             Female
+Mother:             Emmeh امي
+Father:             Bayyeh بيّي
+Partner:            Joz-Ekhteh جوز اختي
+
+----------------------------------------------------------------------------
+
+Full name:          Mart-Khayyeh
+Gender:             Female
+Partner:            Khayyeh خيّي
+
+----------------------------------------------------------------------------
+
+Full name:          Marteh/jawzeh
+Partner:            Ana انا
+
+----------------------------------------------------------------------------
+
+Full name:          Eben Ekhteh إبن
+Gender:             Male
+Mother:             Ekhteh
+Father:             Joz-Ekhteh جوز اختي
+
+----------------------------------------------------------------------------
+
+Full name:          Eben Khayyeh إبن
+Gender:             Male
+Mother:             Mart-Khayyeh
+Father:             Khayyeh خيّي
+
+----------------------------------------------------------------------------
+
+Full name:          Eben-Khalteh إبن خالتي
+Gender:             Male
+Mother:             Khalteh خالتي
+Father:             Joz-Khalteh جوز خالتي
+
+----------------------------------------------------------------------------
+
+Full name:          Eben-Khaleh إبن خالي
+Gender:             Male
+Mother:             Mart-Khaleh مرت خالي
+Father:             Khaleh خالي
+
+----------------------------------------------------------------------------
+
+Full name:          Eben-3amteh إبن عمتي
+Gender:             Male
+Mother:             3amteh عمتي
+Father:             Joz-3amteh جوز عمتي
+
+----------------------------------------------------------------------------
+
+Full name:          Eben-3ammeh إبن عمي
+Gender:             Male
+Mother:             Mart-3ammeh مرت عمي
+Father:             3ammeh عمي
+
+----------------------------------------------------------------------------
+
+Full name:          Emmeh امي
+Gender:             Female
+Mother:             Sitteh ستي
+Father:             Jeddeh جدي
+Partner:            Bayyeh بيّي
+
+----------------------------------------------------------------------------
+
+Full name:          Ana انا
+Mother:             Emmeh امي
+Father:             Bayyeh بيّي
+Partner:            Marteh/jawzeh
+
+----------------------------------------------------------------------------
+
+Full name:          Bint-Ekhteh بنت
+Gender:             Female
+Mother:             Ekhteh
+Father:             Joz-Ekhteh جوز اختي
+
+----------------------------------------------------------------------------
+
+Full name:          Bint-Khayyeh بنت
+Gender:             Female
+Mother:             Mart-Khayyeh
+Father:             Khayyeh خيّي
+
+----------------------------------------------------------------------------
+
+Full name:          Bint-Khalteh بنت خالتي
+Gender:             Female
+Mother:             Khalteh خالتي
+Father:             Joz-Khalteh جوز خالتي
+
+----------------------------------------------------------------------------
+
+Full name:          Bint-Khaleh بنت خالي
+Gender:             Female
+Mother:             Mart-Khaleh مرت خالي
+Father:             Khaleh خالي
+
+----------------------------------------------------------------------------
+
+Full name:          Bint-3amteh بنت عمتي
+Gender:             Female
+Mother:             3amteh عمتي
+Father:             Joz-3amteh جوز عمتي
+
+----------------------------------------------------------------------------
+
+Full name:          Bint-3ammeh بنت عمي
+Gender:             Female
+Mother:             Mart-3ammeh مرت عمي
+Father:             3ammeh عمي
+
+----------------------------------------------------------------------------
+
+Full name:          Bayyeh بيّي
+Gender:             Male
+Mother:             Sitteh ستي
+Father:             Jeddeh جدي
+Partner:            Emmeh امي
+
+----------------------------------------------------------------------------
+
+Full name:          Jeddeh جدي
+Gender:             Male
+Partner:            Sitteh ستي
+
+----------------------------------------------------------------------------
+
+Full name:          Jeddeh جدي
+Gender:             Male
+Partner:            Sitteh ستي
+
+----------------------------------------------------------------------------
+
+Full name:          Joz-Ekhteh جوز اختي
+Gender:             Male
+Partner:            Ekhteh
+
+----------------------------------------------------------------------------
+
+Full name:          Joz-Khalteh جوز خالتي
+Gender:             Male
+Partner:            Khalteh خالتي
+
+----------------------------------------------------------------------------
+
+Full name:          Joz-3amteh جوز عمتي
+Gender:             Male
+Partner:            3amteh عمتي
+
+----------------------------------------------------------------------------
+
+Full name:          Khalteh خالتي
+Gender:             Female
+Mother:             Sitteh ستي
+Father:             Jeddeh جدي
+Partner:            Joz-Khalteh جوز خالتي
+
+----------------------------------------------------------------------------
+
+Full name:          Khaleh خالي
+Gender:             Male
+Mother:             Sitteh ستي
+Father:             Jeddeh جدي
+Partner:            Mart-Khaleh مرت خالي
+
+----------------------------------------------------------------------------
+
+Full name:          Khayyeh خيّي
+Gender:             Male
+Mother:             Emmeh امي
+Father:             Bayyeh بيّي
+Partner:            Mart-Khayyeh
+
+----------------------------------------------------------------------------
+
+Full name:          Sitteh ستي
+Gender:             Female
+Partner:            Jeddeh جدي
+
+----------------------------------------------------------------------------
+
+Full name:          Sitteh ستي
+Gender:             Female
+Partner:            Jeddeh جدي
+
+----------------------------------------------------------------------------
+
+Full name:          3amteh عمتي
+Gender:             Female
+Mother:             Sitteh ستي
+Father:             Jeddeh جدي
+Partner:            Joz-3amteh جوز عمتي
+
+----------------------------------------------------------------------------
+
+Full name:          3ammeh عمي
+Gender:             Male
+Mother:             Sitteh ستي
+Father:             Jeddeh جدي
+Partner:            Mart-3ammeh مرت عمي
+
+----------------------------------------------------------------------------
+
+Full name:          Mart-Khaleh مرت خالي
+Gender:             Female
+Partner:            Khaleh خالي
+
+----------------------------------------------------------------------------
+
+Full name:          Mart-3ammeh مرت عمي
+Gender:             Female
+Partner:            3ammeh عمي
+
+----------------------------------------------------------------------------
+

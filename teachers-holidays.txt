@@ -1,0 +1,6 @@
+| Teacher | Days off | Emergency hours |  |
+| Ella | 8 | 11 |  |
+| Maria | 11 | 15 |  |
+| Mireille | 15 | 20 | The contract reflects a 40-hour weekly availability, with 27 of those hours dedicated to teaching.|
+| Ghina | 9 | 12 | old contract |
+| Ghina | 5 | 6 | New contract since Dec 2025|

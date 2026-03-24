@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1920"
+   height="652"
+   viewBox="0 0 1920 652"
+   role="img"
+   aria-labelledby="title2 desc2"
+   version="1.1"
+   id="svg122"
+   sodipodi:docname="lesson12-family-tree-screenshot-style.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs122" />
+  <sodipodi:namedview
+     id="namedview122"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true"
+     inkscape:zoom="1.846875"
+     inkscape:cx="1611.912"
+     inkscape:cy="342.47039"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg122" />
+  <title
+     id="title2">Lebanese Arabic family tree screenshot style layout</title>
+  <desc
+     id="desc2">A compact one-tree SVG variant for lesson 12, styled after the user-provided screenshot, generated from local CSV and plain-text exports.</desc>
+  <style
+     id="style1">
+    .compact-bg { fill: #4b8879; }
+    .compact-family { stroke: #c9bbc0; stroke-width: 5; fill: none; stroke-linecap: round; }
+    .compact-couple { stroke: #d7c7b5; stroke-width: 3; fill: none; stroke-linecap: round; }
+    .compact-card rect { stroke: #8d746a; stroke-width: 2; rx: 10; ry: 10; }
+    .compact-card.female rect { fill: #ff6a6c; }
+    .compact-card.male rect, .compact-card.neutral rect { fill: #fffdf9; }
+    .compact-translit { font-family: Arial, sans-serif; font-size: 12px; font-weight: 700; fill: #171312; }
+    .compact-translit.featured { font-size: 13px; }
+    .compact-arabic { font-family: 'Noto Naskh Arabic', 'Amiri', serif; font-size: 15px; fill: #171312; }
+    .compact-arabic.featured { font-size: 16px; }
+    .avatar-shell { fill: #f7ece3; stroke: rgba(0,0,0,0.15); stroke-width: 1.5; }
+    .avatar-core { fill: #6b8d7e; }
+    .avatar-text { font-family: Arial, sans-serif; font-size: 24px; font-weight: 700; fill: #fffaf5; }
+  </style>
+  <rect
+     class="compact-bg"
+     x="0"
+     y="0"
+     width="1920"
+     height="652"
+     id="rect1" />
+  <line
+     class="compact-family"
+     x1="825"
+     y1="33.587315"
+     x2="825"
+     y2="158.69241"
+     id="line6-1"
+     style="fill:none;stroke:#c9bbc0;stroke-width:5.3814;stroke-linecap:round" />
+  <line
+     class="compact-family"
+     x1="238"
+     y1="162"
+     x2="890"
+     y2="162"
+     id="line2" />
+  <line
+     class="compact-family"
+     x1="238"
+     y1="162"
+     x2="238"
+     y2="204"
+     id="line3" />
+  <line
+     class="compact-family"
+     x1="368"
+     y1="162"
+     x2="368"
+     y2="204"
+     id="line4" />
+  <line
+     class="compact-family"
+     x1="890"
+     y1="162"
+     x2="890"
+     y2="204"
+     id="line5" />
+  <line
+     class="compact-family"
+     x1="1085"
+     y1="33.587315"
+     x2="1085"
+     y2="158.69241"
+     id="line6" />
+  <line
+     class="compact-family"
+     x1="1020"
+     y1="162"
+     x2="1668"
+     y2="162"
+     id="line7" />
+  <line
+     class="compact-family"
+     x1="1020"
+     y1="162"
+     x2="1020"
+     y2="204"
+     id="line8" />
+  <line
+     class="compact-family"
+     x1="1538"
+     y1="162"
+     x2="1538"
+     y2="204"
+     id="line9" />
+  <line
+     class="compact-family"
+     x1="1668"
+     y1="162"
+     x2="1668"
+     y2="204"
+     id="line10" />
+  <line
+     class="compact-couple"
+     x1="294"
+     y1="226"
+     x2="52"
+     y2="226"
+     id="line11" />
+  <line
+     class="compact-couple"
+     x1="424"
+     y1="226"
+     x2="442"
+     y2="226"
+     id="line12" />
+  <line
+     class="compact-couple"
+     x1="946"
+     y1="226"
+     x2="964"
+     y2="226"
+     id="line13" />
+  <line
+     class="compact-couple"
+     x1="1594"
+     y1="226"
+     x2="1352"
+     y2="226"
+     id="line14" />
+  <line
+     class="compact-couple"
+     x1="1724"
+     y1="226"
+     x2="1742"
+     y2="226"
+     id="line15" />
+  <line
+     class="compact-family"
+     x1="955"
+     y1="229.28113"
+     x2="955"
+     y2="305.2265"
+     id="line16" />
+  <line
+     class="compact-family"
+     x1="760"
+     y1="306"
+     x2="1150"
+     y2="306"
+     id="line17" />
+  <line
+     class="compact-family"
+     x1="760"
+     y1="306"
+     x2="760"
+     y2="338"
+     id="line18" />
+  <line
+     class="compact-family"
+     x1="1020"
+     y1="306"
+     x2="1020"
+     y2="398"
+     id="line19" />
+  <line
+     class="compact-family"
+     x1="1150"
+     y1="306"
+     x2="1150"
+     y2="338"
+     id="line20" />
+  <line
+     class="compact-couple"
+     x1="686"
+     y1="420"
+     x2="704"
+     y2="420"
+     id="line21" />
+  <line
+     class="compact-couple"
+     x1="1076"
+     y1="420"
+     x2="834"
+     y2="420"
+     id="line22" />
+  <line
+     class="compact-couple"
+     x1="1210"
+     y1="394"
+     x2="1224"
+     y2="394"
+     id="line23" />
+  <line
+     class="compact-family"
+     x1="173"
+     y1="228.25339"
+     x2="173"
+     y2="365.80157"
+     id="line24" />
+  <line
+     class="compact-family"
+     x1="108"
+     y1="366"
+     x2="238"
+     y2="366"
+     id="line25" />
+  <line
+     class="compact-family"
+     x1="108"
+     y1="366"
+     x2="108"
+     y2="398"
+     id="line26" />
+  <line
+     class="compact-family"
+     x1="238"
+     y1="366"
+     x2="238"
+     y2="398"
+     id="line27" />
+  <line
+     class="compact-family"
+     x1="433"
+     y1="228.25336"
+     x2="433"
+     y2="365.83954"
+     id="line28" />
+  <line
+     class="compact-family"
+     x1="368"
+     y1="366"
+     x2="498"
+     y2="366"
+     id="line29" />
+  <line
+     class="compact-family"
+     x1="368"
+     y1="366"
+     x2="368"
+     y2="398"
+     id="line30" />
+  <line
+     class="compact-family"
+     x1="498"
+     y1="366"
+     x2="498"
+     y2="398"
+     id="line31" />
+  <line
+     class="compact-family"
+     x1="696"
+     y1="421.47787"
+     x2="696"
+     y2="559.01001"
+     id="line32" />
+  <line
+     class="compact-family"
+     x1="630"
+     y1="560"
+     x2="760"
+     y2="560"
+     id="line33" />
+  <line
+     class="compact-family"
+     x1="630"
+     y1="560"
+     x2="630"
+     y2="592"
+     id="line34" />
+  <line
+     class="compact-family"
+     x1="760"
+     y1="560"
+     x2="760"
+     y2="592"
+     id="line35" />
+  <line
+     class="compact-family"
+     x1="955"
+     y1="421.47836"
+     x2="955"
+     y2="559.06451"
+     id="line36" />
+  <line
+     class="compact-family"
+     x1="890"
+     y1="560"
+     x2="1020"
+     y2="560"
+     id="line37" />
+  <line
+     class="compact-family"
+     x1="890"
+     y1="560"
+     x2="890"
+     y2="592"
+     id="line38" />
+  <line
+     class="compact-family"
+     x1="1020"
+     y1="560"
+     x2="1020"
+     y2="592"
+     id="line39" />
+  <line
+     class="compact-family"
+     x1="1217"
+     y1="395.60062"
+     x2="1217"
+     y2="560.02374"
+     id="line40" />
+  <line
+     class="compact-family"
+     x1="1150"
+     y1="560"
+     x2="1280"
+     y2="560"
+     id="line41" />
+  <line
+     class="compact-family"
+     x1="1150"
+     y1="560"
+     x2="1150"
+     y2="592"
+     id="line42" />
+  <line
+     class="compact-family"
+     x1="1280"
+     y1="560"
+     x2="1280"
+     y2="592"
+     id="line43" />
+  <line
+     class="compact-family"
+     x1="1473"
+     y1="228.23486"
+     x2="1473"
+     y2="305.68683"
+     id="line44" />
+  <line
+     class="compact-family"
+     x1="1410"
+     y1="306"
+     x2="1540"
+     y2="306"
+     id="line45" />
+  <line
+     class="compact-family"
+     x1="1410"
+     y1="306"
+     x2="1410"
+     y2="338"
+     id="line46" />
+  <line
+     class="compact-family"
+     x1="1540"
+     y1="306"
+     x2="1540"
+     y2="398"
+     id="line47" />
+  <line
+     class="compact-family"
+     x1="1733"
+     y1="228.25336"
+     x2="1733"
+     y2="365.83954"
+     id="line48" />
+  <line
+     class="compact-family"
+     x1="1670"
+     y1="366"
+     x2="1800"
+     y2="366"
+     id="line49" />
+  <line
+     class="compact-family"
+     x1="1670"
+     y1="366"
+     x2="1670"
+     y2="398"
+     id="line50" />
+  <line
+     class="compact-family"
+     x1="1800"
+     y1="366"
+     x2="1800"
+     y2="398"
+     id="line51" />
+  <line
+     class="compact-couple"
+     x1="816"
+     y1="32"
+     x2="834"
+     y2="32"
+     id="line13-5-7"
+     style="fill:none;stroke:#d7c7b5;stroke-width:3;stroke-linecap:round" />
+  <g
+     class="compact-card female"
+     id="g52"
+     transform="translate(2)">
+    <rect
+       x="702"
+       y="10"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect51" />
+    <text
+       class="compact-translit"
+       x="758"
+       y="28"
+       text-anchor="middle"
+       id="text51">Sitteh</text>
+    <text
+       class="compact-arabic"
+       x="758"
+       y="44"
+       text-anchor="middle"
+       direction="rtl"
+       id="text52">ستي</text>
+  </g>
+  <g
+     class="compact-card male"
+     id="g54"
+     transform="translate(-20)">
+    <rect
+       x="854"
+       y="10"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect52" />
+    <text
+       class="compact-translit"
+       x="910"
+       y="28"
+       text-anchor="middle"
+       id="text53">Jeddeh</text>
+    <text
+       class="compact-arabic"
+       x="910"
+       y="44"
+       text-anchor="middle"
+       direction="rtl"
+       id="text54">جدي</text>
+  </g>
+  <line
+     class="compact-couple"
+     x1="1076"
+     y1="32"
+     x2="1094"
+     y2="32"
+     id="line13-5"
+     style="fill:none;stroke:#d7c7b5;stroke-width:3;stroke-linecap:round" />
+  <g
+     class="compact-card female"
+     id="g56">
+    <rect
+       x="964"
+       y="10"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect54" />
+    <text
+       class="compact-translit"
+       x="1020"
+       y="28"
+       text-anchor="middle"
+       id="text55">Sitteh</text>
+    <text
+       class="compact-arabic"
+       x="1020"
+       y="44"
+       text-anchor="middle"
+       direction="rtl"
+       id="text56">ستي</text>
+  </g>
+  <g
+     class="compact-card male"
+     id="g58"
+     transform="translate(-22)">
+    <rect
+       x="1116"
+       y="10"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect56" />
+    <text
+       class="compact-translit"
+       x="1172"
+       y="28"
+       text-anchor="middle"
+       id="text57">Jeddeh</text>
+    <text
+       class="compact-arabic"
+       x="1172"
+       y="44"
+       text-anchor="middle"
+       direction="rtl"
+       id="text58">جدي</text>
+  </g>
+  <g
+     class="compact-card female"
+     id="g60">
+    <rect
+       x="52"
+       y="204"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect58" />
+    <text
+       class="compact-translit"
+       x="108.0"
+       y="222"
+       text-anchor="middle"
+       id="text59">Mart Khaleh</text>
+    <text
+       class="compact-arabic"
+       x="108.0"
+       y="238"
+       text-anchor="middle"
+       direction="rtl"
+       id="text60">مرت خالي</text>
+  </g>
+  <g
+     class="compact-card male"
+     id="g62">
+    <rect
+       x="182"
+       y="204"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect60" />
+    <text
+       class="compact-translit"
+       x="238.0"
+       y="222"
+       text-anchor="middle"
+       id="text61">Khaleh</text>
+    <text
+       class="compact-arabic"
+       x="238.0"
+       y="238"
+       text-anchor="middle"
+       direction="rtl"
+       id="text62">خالي</text>
+  </g>
+  <g
+     class="compact-card female"
+     id="g64">
+    <rect
+       x="312"
+       y="204"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect62" />
+    <text
+       class="compact-translit"
+       x="368.0"
+       y="222"
+       text-anchor="middle"
+       id="text63">Khalteh</text>
+    <text
+       class="compact-arabic"
+       x="368.0"
+       y="238"
+       text-anchor="middle"
+       direction="rtl"
+       id="text64">خالتي</text>
+  </g>
+  <g
+     class="compact-card male"
+     id="g66">
+    <rect
+       x="442"
+       y="204"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect64" />
+    <text
+       class="compact-translit"
+       x="498.0"
+       y="222"
+       text-anchor="middle"
+       id="text65">Joz Khalteh</text>
+    <text
+       class="compact-arabic"
+       x="498.0"
+       y="238"
+       text-anchor="middle"
+       direction="rtl"
+       id="text66">جوز خالتي</text>
+  </g>
+  <g
+     class="compact-card female"
+     id="g68">
+    <rect
+       x="834"
+       y="204"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect66" />
+    <text
+       class="compact-translit"
+       x="890.0"
+       y="222"
+       text-anchor="middle"
+       id="text67">Emmeh</text>
+    <text
+       class="compact-arabic"
+       x="890.0"
+       y="238"
+       text-anchor="middle"
+       direction="rtl"
+       id="text68">امي</text>
+  </g>
+  <g
+     class="compact-card male"
+     id="g70">
+    <rect
+       x="964"
+       y="204"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect68" />
+    <text
+       class="compact-translit"
+       x="1020.0"
+       y="222"
+       text-anchor="middle"
+       id="text69">Bayyeh</text>
+    <text
+       class="compact-arabic"
+       x="1020.0"
+       y="238"
+       text-anchor="middle"
+       direction="rtl"
+       id="text70">بيّي</text>
+  </g>
+  <g
+     class="compact-card female"
+     id="g72">
+    <rect
+       x="1352"
+       y="204"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect70" />
+    <text
+       class="compact-translit"
+       x="1408.0"
+       y="222"
+       text-anchor="middle"
+       id="text71">Mart 3ammeh</text>
+    <text
+       class="compact-arabic"
+       x="1408.0"
+       y="238"
+       text-anchor="middle"
+       direction="rtl"
+       id="text72">مرت عمي</text>
+  </g>
+  <g
+     class="compact-card male"
+     id="g74">
+    <rect
+       x="1482"
+       y="204"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect72" />
+    <text
+       class="compact-translit"
+       x="1538.0"
+       y="222"
+       text-anchor="middle"
+       id="text73">3ammeh</text>
+    <text
+       class="compact-arabic"
+       x="1538.0"
+       y="238"
+       text-anchor="middle"
+       direction="rtl"
+       id="text74">عمي</text>
+  </g>
+  <g
+     class="compact-card female"
+     id="g76">
+    <rect
+       x="1612"
+       y="204"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect74" />
+    <text
+       class="compact-translit"
+       x="1668.0"
+       y="222"
+       text-anchor="middle"
+       id="text75">3amteh</text>
+    <text
+       class="compact-arabic"
+       x="1668.0"
+       y="238"
+       text-anchor="middle"
+       direction="rtl"
+       id="text76">عمتي</text>
+  </g>
+  <g
+     class="compact-card male"
+     id="g78">
+    <rect
+       x="1742"
+       y="204"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect76" />
+    <text
+       class="compact-translit"
+       x="1798.0"
+       y="222"
+       text-anchor="middle"
+       id="text77">Joz 3amteh</text>
+    <text
+       class="compact-arabic"
+       x="1798.0"
+       y="238"
+       text-anchor="middle"
+       direction="rtl"
+       id="text78">جوز عمتي</text>
+  </g>
+  <g
+     class="compact-card male"
+     id="g80">
+    <rect
+       x="52"
+       y="398"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect78" />
+    <text
+       class="compact-translit"
+       x="108"
+       y="416"
+       text-anchor="middle"
+       id="text79">Eben Khaleh</text>
+    <text
+       class="compact-arabic"
+       x="108.0"
+       y="432"
+       text-anchor="middle"
+       direction="rtl"
+       id="text80">إبن خالي</text>
+  </g>
+  <g
+     class="compact-card female"
+     id="g82">
+    <rect
+       x="182"
+       y="398"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect80" />
+    <text
+       class="compact-translit"
+       x="238"
+       y="416"
+       text-anchor="middle"
+       id="text81">Bint Khaleh</text>
+    <text
+       class="compact-arabic"
+       x="238.0"
+       y="432"
+       text-anchor="middle"
+       direction="rtl"
+       id="text82">بنت خالي</text>
+  </g>
+  <g
+     class="compact-card male"
+     id="g84">
+    <rect
+       x="312"
+       y="398"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect82" />
+    <text
+       class="compact-translit"
+       x="368"
+       y="416"
+       text-anchor="middle"
+       id="text83">Eben Khalteh</text>
+    <text
+       class="compact-arabic"
+       x="368.0"
+       y="432"
+       text-anchor="middle"
+       direction="rtl"
+       id="text84">إبن خالتي</text>
+  </g>
+  <g
+     class="compact-card female"
+     id="g86">
+    <rect
+       x="442"
+       y="398"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect84" />
+    <text
+       class="compact-translit"
+       x="498"
+       y="416"
+       text-anchor="middle"
+       id="text85">Bint Khalteh</text>
+    <text
+       class="compact-arabic"
+       x="498.0"
+       y="432"
+       text-anchor="middle"
+       direction="rtl"
+       id="text86">بنت خالتي</text>
+  </g>
+  <g
+     class="compact-card female"
+     id="g88">
+    <rect
+       x="574"
+       y="398"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect86" />
+    <text
+       class="compact-translit"
+       x="630.0"
+       y="416"
+       text-anchor="middle"
+       id="text87">Mart Khayyeh</text>
+    <text
+       class="compact-arabic"
+       x="630.0"
+       y="432"
+       text-anchor="middle"
+       direction="rtl"
+       id="text88">مرت خيي</text>
+  </g>
+  <g
+     class="compact-card male"
+     id="g91">
+    <rect
+       x="704"
+       y="338"
+       rx="10"
+       ry="10"
+       width="116"
+       height="112"
+       id="rect88" />
+    <circle
+       class="avatar-shell"
+       cx="762.0"
+       cy="386"
+       r="29"
+       id="circle88" />
+    <circle
+       class="avatar-core"
+       cx="762.0"
+       cy="386"
+       r="25"
+       id="circle89" />
+    <text
+       class="avatar-text"
+       x="762.0"
+       y="394"
+       text-anchor="middle"
+       id="text89">K</text>
+    <text
+       class="compact-translit featured"
+       x="762.0"
+       y="358"
+       text-anchor="middle"
+       id="text90">Khayyeh</text>
+    <text
+       class="compact-arabic featured"
+       x="762.0"
+       y="436"
+       text-anchor="middle"
+       direction="rtl"
+       id="text91">خيّي</text>
+  </g>
+  <g
+     class="compact-card male"
+     id="g93">
+    <rect
+       x="834"
+       y="398"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect91" />
+    <text
+       class="compact-translit"
+       x="890.0"
+       y="416"
+       text-anchor="middle"
+       id="text92">Marteh / Jawzeh</text>
+    <text
+       class="compact-arabic"
+       x="890.0"
+       y="432"
+       text-anchor="middle"
+       direction="rtl"
+       id="text93">مرتي / جوزي</text>
+  </g>
+  <g
+     class="compact-card male"
+     id="g95">
+    <rect
+       x="964"
+       y="398"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect93" />
+    <text
+       class="compact-translit"
+       x="1020.0"
+       y="416"
+       text-anchor="middle"
+       id="text94">Ana</text>
+    <text
+       class="compact-arabic"
+       x="1020.0"
+       y="432"
+       text-anchor="middle"
+       direction="rtl"
+       id="text95">انا</text>
+  </g>
+  <g
+     class="compact-card female"
+     id="g98">
+    <rect
+       x="1094"
+       y="338"
+       rx="10"
+       ry="10"
+       width="116"
+       height="112"
+       id="rect95" />
+    <circle
+       class="avatar-shell"
+       cx="1152.0"
+       cy="386"
+       r="29"
+       id="circle95" />
+    <circle
+       class="avatar-core"
+       cx="1152.0"
+       cy="386"
+       r="25"
+       id="circle96" />
+    <text
+       class="avatar-text"
+       x="1152.0"
+       y="394"
+       text-anchor="middle"
+       id="text96">E</text>
+    <text
+       class="compact-translit featured"
+       x="1152.0"
+       y="358"
+       text-anchor="middle"
+       id="text97">Ekhteh</text>
+    <text
+       class="compact-arabic featured"
+       x="1152.0"
+       y="436"
+       text-anchor="middle"
+       direction="rtl"
+       id="text98">أختي</text>
+  </g>
+  <g
+     class="compact-card male"
+     id="g101">
+    <rect
+       x="1224"
+       y="338"
+       rx="10"
+       ry="10"
+       width="116"
+       height="112"
+       id="rect98" />
+    <circle
+       class="avatar-shell"
+       cx="1282.0"
+       cy="386"
+       r="29"
+       id="circle98" />
+    <circle
+       class="avatar-core"
+       cx="1282.0"
+       cy="386"
+       r="25"
+       id="circle99" />
+    <text
+       class="avatar-text"
+       x="1282.0"
+       y="394"
+       text-anchor="middle"
+       id="text99">J</text>
+    <text
+       class="compact-translit featured"
+       x="1282.0"
+       y="358"
+       text-anchor="middle"
+       id="text100">Joz Ekhteh</text>
+    <text
+       class="compact-arabic featured"
+       x="1282.0"
+       y="436"
+       text-anchor="middle"
+       direction="rtl"
+       id="text101">جوز اختي</text>
+  </g>
+  <g
+     class="compact-card male"
+     id="g104">
+    <rect
+       x="1354"
+       y="338"
+       rx="10"
+       ry="10"
+       width="116"
+       height="112"
+       id="rect101" />
+    <circle
+       class="avatar-shell"
+       cx="1412.0"
+       cy="386"
+       r="29"
+       id="circle101" />
+    <circle
+       class="avatar-core"
+       cx="1412.0"
+       cy="386"
+       r="25"
+       id="circle102" />
+    <text
+       class="avatar-text"
+       x="1412.0"
+       y="394"
+       text-anchor="middle"
+       id="text102">E</text>
+    <text
+       class="compact-translit featured"
+       x="1412.0"
+       y="358"
+       text-anchor="middle"
+       id="text103">Eben-3ammeh</text>
+    <text
+       class="compact-arabic featured"
+       x="1412.0"
+       y="436"
+       text-anchor="middle"
+       direction="rtl"
+       id="text104">إبن عمي</text>
+  </g>
+  <g
+     class="compact-card female"
+     id="g106">
+    <rect
+       x="1484"
+       y="398"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect104" />
+    <text
+       class="compact-translit"
+       x="1540"
+       y="416"
+       text-anchor="middle"
+       id="text105">Bint 3ammeh</text>
+    <text
+       class="compact-arabic"
+       x="1540.0"
+       y="432"
+       text-anchor="middle"
+       direction="rtl"
+       id="text106">بنت عمي</text>
+  </g>
+  <g
+     class="compact-card male"
+     id="g108">
+    <rect
+       x="1614"
+       y="398"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect106" />
+    <text
+       class="compact-translit"
+       x="1670"
+       y="416"
+       text-anchor="middle"
+       id="text107">Eben 3amteh</text>
+    <text
+       class="compact-arabic"
+       x="1670.0"
+       y="432"
+       text-anchor="middle"
+       direction="rtl"
+       id="text108">إبن عمتي</text>
+  </g>
+  <g
+     class="compact-card female"
+     id="g110">
+    <rect
+       x="1744"
+       y="398"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect108" />
+    <text
+       class="compact-translit"
+       x="1800"
+       y="416"
+       text-anchor="middle"
+       id="text109">Bint 3amteh</text>
+    <text
+       class="compact-arabic"
+       x="1800.0"
+       y="432"
+       text-anchor="middle"
+       direction="rtl"
+       id="text110">بنت عمتي</text>
+  </g>
+  <g
+     class="compact-card male"
+     id="g112">
+    <rect
+       x="834"
+       y="592"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect110" />
+    <text
+       class="compact-translit"
+       x="890.0"
+       y="610"
+       text-anchor="middle"
+       id="text111">Ebneh</text>
+    <text
+       class="compact-arabic"
+       x="890.0"
+       y="626"
+       text-anchor="middle"
+       direction="rtl"
+       id="text112">ابني</text>
+  </g>
+  <g
+     class="compact-card female"
+     id="g114">
+    <rect
+       x="964"
+       y="592"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect112" />
+    <text
+       class="compact-translit"
+       x="1020.0"
+       y="610"
+       text-anchor="middle"
+       id="text113">Binteh</text>
+    <text
+       class="compact-arabic"
+       x="1020.0"
+       y="626"
+       text-anchor="middle"
+       direction="rtl"
+       id="text114">بنتي</text>
+  </g>
+  <g
+     class="compact-card male"
+     id="g116">
+    <rect
+       x="574"
+       y="592"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect114" />
+    <text
+       class="compact-translit"
+       x="630.0"
+       y="610"
+       text-anchor="middle"
+       id="text115">Eben Khayyeh</text>
+    <text
+       class="compact-arabic"
+       x="630.0"
+       y="626"
+       text-anchor="middle"
+       direction="rtl"
+       id="text116">إبن</text>
+  </g>
+  <g
+     class="compact-card female"
+     id="g118">
+    <rect
+       x="704"
+       y="592"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect116" />
+    <text
+       class="compact-translit"
+       x="760"
+       y="610"
+       text-anchor="middle"
+       id="text117">Bint Khayyeh</text>
+    <text
+       class="compact-arabic"
+       x="760.0"
+       y="626"
+       text-anchor="middle"
+       direction="rtl"
+       id="text118">بنت</text>
+  </g>
+  <g
+     class="compact-card male"
+     id="g120">
+    <rect
+       x="1094"
+       y="592"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect118" />
+    <text
+       class="compact-translit"
+       x="1150.0"
+       y="610"
+       text-anchor="middle"
+       id="text119">Eben Ekhteh</text>
+    <text
+       class="compact-arabic"
+       x="1150.0"
+       y="626"
+       text-anchor="middle"
+       direction="rtl"
+       id="text120">إبن</text>
+  </g>
+  <g
+     class="compact-card female"
+     id="g122">
+    <rect
+       x="1224"
+       y="592"
+       rx="10"
+       ry="10"
+       width="112"
+       height="44"
+       id="rect120" />
+    <text
+       class="compact-translit"
+       x="1280"
+       y="610"
+       text-anchor="middle"
+       id="text121">Bint Ekhteh</text>
+    <text
+       class="compact-arabic"
+       x="1280.0"
+       y="626"
+       text-anchor="middle"
+       direction="rtl"
+       id="text122">بنت</text>
+  </g>
+</svg>
