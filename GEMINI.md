@@ -793,3 +793,21 @@ A detailed overview of the website's unique performance optimization strategy ha
     *   Using 2-step sequence for incomplete booking submissions.
     *   Links updated to `/ppc-trial-offer-v3/` for maximum performance.
     *   Focus entirely on **Email Marketing** (proven winner this month) and **Organic SEO** (proven long-term winner).
+
+## Phase 30: Full Capacity & Growth Milestone (March 23, 2026)
+
+### Status: AT CAPACITY
+**Data Source:** Teacher schedule audits and trial reports.
+
+*   **Operational Capacity (March 23, 2026):**
+    *   **Mireille:** 27/27 hours booked (**100% utilization**). 3 trials scheduled (potential for overtime).
+    *   **Ella:** 13/13 hours booked (**100% utilization**).
+    *   **Ghina:** 10 weekly hours booked (**125% utilization** - 8 fixed, 2 overtime). 1 trial scheduled (potential 11 total).
+    *   **Adon:** 3 weekly lessons booked.
+    *   **Total Weekly Volume:** **53 hours** (vs. ~46h in Jan).
+*   **Strategic Impact:** The school has successfully filled all standard fixed-contract availability. Growth is now entering the **Overtime Phase**.
+*   **Capacity Buffer Analysis:**
+    *   Mireille: 0 standard hours remaining (Now testing overtime via 3 trials).
+    *   Ghina: 0 standard hours remaining (Already at +2h overtime; 10h total available per her flexible agreement).
+*   **Next Pivot:** With supply-side constraints approaching, focus shifts from "Volume at any cost" to **"Yield Optimization"** (Level 3: Private Groups) and potentially a **Price Increase** for new students to manage demand.
+

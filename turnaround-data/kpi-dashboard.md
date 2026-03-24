@@ -1,5 +1,5 @@
 # Turnaround Growth Dashboard - Lebanese-Arabic.com
-*Updated: 2026-01-04*
+*Updated: 2026-03-23*
 
 This document is the single source of truth for our key performance indicators (KPIs) during this turnaround sprint.
 
@@ -25,16 +25,17 @@ This document is the single source of truth for our key performance indicators (
 
 ## 2. Operational Capacity & Efficiency
 
-**Teacher Utilization (Jan 4, 2026):**
-*   **Mireille:** 24/27 hours booked (89% utilization). **3 hours remaining.** (Fixed cost).
-*   **Ella:** 13/13 hours booked (100% utilization). **FULL.** (Fixed cost).
-*   **Ghina:** 8/8 hours booked (100% utilization). **FULL.** (Fixed cost).
-*   **Adon:** 1 hour/week.
+**Teacher Utilization (March 23, 2026):**
+*   **Mireille:** 27/27 hours booked (**100% utilization**). **Now testing overtime (3 trials).**
+*   **Ella:** 13/13 hours booked (**100% utilization**). **FULL.**
+*   **Ghina:** 10/8 hours booked (**125% utilization**). **8 fixed + 2 overtime (1 trial pending).**
+*   **Adon:** 3 weekly lessons booked.
 
 **Expansion Capacity:**
-*   **Ghina (Flexible):** Has provided **12 hours/week** of additional availability.
-*   **Total New Student Capacity:** **15 hours/week** (3 Mireille + 12 Ghina).
-*   **Pay Structure:** Additional hours for Ghina are paid at **$11/hour** (Variable cost only when taught).
+*   **Total Weekly Volume:** **53 Hours** (vs. ~46h in Jan).
+*   **Ghina (Flexible):** Already at **+2 hours** overtime. 
+*   **Mireille (Overtime):** 3 trials scheduled; if converted, Mireille will move into an overtime model.
+*   **Strategic Pivot:** Focus now shifting to **Private Groups** to maximize revenue-per-hour as the supply bottleneck is hit.
 
 **Cost Rationalization:**
 *   **Cancellations:** Ab Split Test Plugin, Zoom.
