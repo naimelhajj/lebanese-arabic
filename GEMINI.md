@@ -811,3 +811,14 @@ A detailed overview of the website's unique performance optimization strategy ha
     *   Ghina: 0 standard hours remaining (Already at +2h overtime; 10h total available per her flexible agreement).
 *   **Next Pivot:** With supply-side constraints approaching, focus shifts from "Volume at any cost" to **"Yield Optimization"** (Level 3: Private Groups) and potentially a **Price Increase** for new students to manage demand.
 
+## Phase 31: De-Risked Expansion Strategy (March 23, 2026)
+
+### Status: INITIATED
+**Objective:** Expand supply without increasing fixed-cost liability.
+
+*   **Strategy:** Implemented the **"3-Stage Scalable Contract"** for all future hires.
+    *   **Onboarding Phase:** New teachers start on a purely variable basis ($11/h).
+    *   **Stability Trigger:** Move to fixed contract ($375/mo base) only after proving retention with 4+ regular students.
+*   **Rationale:** This protects the school's newly stabilized cash flow. We only pay for a "safety net" once the teacher has already generated the revenue to fund it.
+*   **Action:** Search for a new instructor started using this model. Adon remains the primary overflow bridge in the interim.
+

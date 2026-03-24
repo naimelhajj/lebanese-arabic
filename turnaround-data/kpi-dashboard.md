@@ -36,7 +36,10 @@ This document is the single source of truth for our key performance indicators (
 *   **Total Supply Ceiling:** ~58 Hours/Week (Mireille OT + Ghina 13h + Adon 5h).
 *   **Current Buffer:** **4-5 Hours remaining.**
 *   **Resource Audit:** Maria is no longer an option.
-*   **Next Pivot:** **Conditional Hiring Trigger.** Prepare to hire one "Ghina-style" instructor (8h fixed + variable) once the current 58h ceiling is breached by 3+ confirmed students.
+*   **Next Pivot:** **Conditional Hiring Trigger.** Prepare to hire one instructor using the **"3-Stage Scalable Contract"** once current capacity is breached:
+    *   **Stage 1:** Pure Variable ($11/h) for first 0-4 students. (Risk: $0).
+    *   **Stage 2:** Hybrid Trigger ($375/mo fixed for 8h) once 4 students are maintained.
+    *   **Stage 3:** Standard "Ghina-style" Hybrid with variable overtime for 9+ hours.
 
 **Cost Rationalization:**
 *   **Cancellations:** Ab Split Test Plugin, Zoom.
