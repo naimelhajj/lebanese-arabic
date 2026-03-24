@@ -26,16 +26,17 @@ This document is the single source of truth for our key performance indicators (
 ## 2. Operational Capacity & Efficiency
 
 **Teacher Utilization (March 23, 2026):**
-*   **Mireille:** 27/27 hours booked (**100% utilization**). **Now testing overtime (3 trials).**
+*   **Mireille:** 27/27 hours booked (**100% utilization**). (Fixed cost). **3 trials pending.**
 *   **Ella:** 13/13 hours booked (**100% utilization**). **FULL.**
-*   **Ghina:** 10/8 hours booked (**125% utilization**). **8 fixed + 2 overtime (1 trial pending).**
-*   **Adon:** 3 weekly lessons booked.
+*   **Ghina:** 10/8 hours booked (**125% utilization**). **1 trial pending.** (Cap: 13h total).
+*   **Adon:** 3 weekly lessons booked. (Cap: ~5h based on historical peaks).
 
 **Expansion Capacity:**
-*   **Total Weekly Volume:** **53 Hours** (vs. ~46h in Jan).
-*   **Ghina (Flexible):** Already at **+2 hours** overtime. 
-*   **Mireille (Overtime):** 3 trials scheduled; if converted, Mireille will move into an overtime model.
-*   **Strategic Pivot:** Focus now shifting to **Private Groups** to maximize revenue-per-hour as the supply bottleneck is hit.
+*   **Current Total Volume:** 53-54 Hours/Week.
+*   **Total Supply Ceiling:** ~58 Hours/Week (Mireille OT + Ghina 13h + Adon 5h).
+*   **Current Buffer:** **4-5 Hours remaining.**
+*   **Resource Audit:** Maria is no longer an option.
+*   **Next Pivot:** **Conditional Hiring Trigger.** Prepare to hire one "Ghina-style" instructor (8h fixed + variable) once the current 58h ceiling is breached by 3+ confirmed students.
 
 **Cost Rationalization:**
 *   **Cancellations:** Ab Split Test Plugin, Zoom.
