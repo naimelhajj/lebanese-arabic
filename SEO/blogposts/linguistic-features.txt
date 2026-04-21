@@ -1,0 +1,134 @@
+Lebanese Arabic Linguistic Features: Phonology, Grammar, Diglossia, and Code-Switching
+=========================================================================================
+
+From a linguistic perspective, the Arabic spoken in Lebanon is a Levantine dialect continuum that includes both urban and rural varieties. In media and interregional communication, the dominant prestige code is a leveled urban Lebanese koine. This article is a technical overview of the system: key phonological and grammatical features, internal variation inside Lebanon, diglossia with Modern Standard Arabic (MSA/Fusha), and code-switching with French and English.
+
+This is not a travel-level explainer. The goal here is to describe the dialect profile itself.
+
+Lebanese Arabic as a Levantine Continuum in Lebanon
+---------------------------------------------------
+
+Lebanese Arabic belongs to the Levantine dialect area and shares many features with Syrian and Palestinian varieties. At the same time, it has local phonetic, lexical, and sociolinguistic patterns that are strongly associated with speech in Lebanon.
+
+In practice, "Lebanese Arabic" is best treated as a dialect continuum with urban prestige forms, regional variants, and social markers that shift across age, place, and community. This means rural features are part of the Lebanese system, even when many are leveled in Beirut-centered prestige speech.
+
+Core Phonological Features of Lebanese Arabic
+---------------------------------------------
+
+Several recurring features are widely documented in urban Lebanese speech and appear, with variation, across the Lebanese continuum:
+
+-   **Qaf shift in urban speech:** Historical /q/ (qaf) is commonly realized as a glottal stop in Beirut-centered speech. Rural and community speech may retain /q/ in some words or registers.
+-   **J-to-zh realization in many urban varieties:** Historical /j/ (classical jim) is often realized as a fricative "zh" sound in urban Lebanese speech.
+-   **Interdental reduction:** Historical "th/dh"-type consonants are often realized as dental/alveolar sounds in colloquial speech, typically yielding t/d-like outcomes.
+-   **Diphthong leveling in many urban varieties:** Historical /ay/ and /aw/ are frequently flattened to long mid vowels (roughly e/o qualities) in many urban patterns.
+-   **Imperative vowel lengthening in Syro-Lebanese speech:** In masculine singular imperatives of common verb classes, vowel lengthening is a documented pattern (for example, kol "eat!" and waaf "stop!").
+
+These patterns are not uniform across all speakers. Rural, regional, and community-specific realizations remain relevant in parts of Lebanon.
+
+Core Morphosyntactic Features of Lebanese Arabic
+------------------------------------------------
+
+On the grammatical level, Lebanese Arabic shows features associated with Levantine colloquial morphosyntax:
+
+-   **b- imperfect marking:** A prefixed b- typically marks non-past/habitual forms (for example, byekol "he eats").
+-   **Capability pseudo-auxiliary with fi-:** Lebanese commonly uses fi- plus a pronominal suffix to express ability or possibility (for example, fini fut? "Can I come in?").
+-   **Direct object marker with la-:** Colloquial usage can mark definite human objects with la- and object clitic patterns (for example, shifto la Sami "I saw Sami").
+-   **Gender-neutral plural agreement in urban koine:** The leveled urban system often uses one 2nd/3rd person plural form across masculine/feminine instead of preserving full gender split.
+
+As with phonology, actual usage depends on register, education level, and interaction setting.
+
+Internal Variation in Beirut and Lebanon
+----------------------------------------
+
+Lebanese Arabic is not a single fixed form. Internal variation is driven by:
+
+-   **Urbanization and dialect contact:** Large cities, especially Beirut, have absorbed speakers from multiple regional backgrounds.
+-   **Leveling pressures:** Younger urban speakers often avoid forms marked as strongly local, rural, or socially stigmatized.
+-   **Community and style variation:** Some variants index social identity, formality, or local belonging.
+
+So while "Lebanese Arabic" is a useful label, the real system is variable and socially stratified.
+
+Diglossia in Lebanon: Lebanese Arabic and MSA
+---------------------------------------------
+
+Lebanon operates in a classic Arabic diglossic ecology, but in practice this is better modeled as a continuum than a strict binary:
+
+-   **High variety (MSA/Fusha):** Formal writing, news, education, official discourse.
+-   **Low variety (Lebanese colloquial):** Daily conversation, home interaction, informal speech.
+
+The "high" and "low" labels are functional domain labels, not value judgments about linguistic quality. Educated speakers often move across a continuum rather than staying at one extreme. In formal or semi-formal talk, speech may shift toward an educated spoken register that draws from both colloquial Lebanese and MSA resources.
+
+This does not mean Lebanese Arabic is "broken MSA." It is a full spoken system with its own stable structural rules.
+
+Code-Switching with French and English in Lebanon
+-------------------------------------------------
+
+Code-switching is a normal part of speech in many Lebanese settings, especially in urban and bilingual environments.
+
+Common patterns include:
+
+-   **Inter-sentential switching:** Alternating language by sentence or clause boundary.
+-   **Intra-sentential switching:** Mixing lexical items or short sequences inside one sentence.
+-   **Domain-sensitive choice:** Schooling, profession, and social context influence when French or English is preferred.
+
+Lebanese Arabic remains the base colloquial system for everyday interaction in most contexts, while French and English contribute heavily to bilingual speech practices.
+
+Some analyses also discuss substrate influence from earlier regional languages in parts of the lexicon and structure, though individual etymological claims should be handled carefully and source-by-source.
+
+Methodological Caveats and Scope
+--------------------------------
+
+To keep this article readable, some technical framing is intentionally compressed. Four caveats matter for strict linguistic interpretation:
+
+-   **Urban vs rural coverage:** The dominant prestige code in media is a leveled urban koine, but Lebanon includes substantial rural and regional structure. Urban-centered descriptions should not be read as complete coverage of all Lebanese speech.
+-   **Lexical-overlap statistics:** If a high overlap percentage with MSA is cited, it usually comes from restricted lexicostatistical lists (for example, Swadesh-type basic vocabulary), not from all real-world daily vocabulary.
+-   **Diglossia as continuum:** The classic high/low model is useful, but real usage is fluid. Many speakers operate in intermediate educated-spoken registers rather than switching only between two fixed poles.
+-   **Illustrative examples vs sourced claims:** Substrate and community-variation examples should be treated as evidence only when directly supported by cited literature; illustrative examples are pedagogical, not standalone proof.
+
+Technical FAQ
+-------------
+
+### Is Lebanese Arabic a Levantine dialect?
+
+Yes. Lebanese Arabic is part of the Levantine dialect group and includes both urban and rural varieties. It shares major phonological and morphosyntactic features with nearby Levantine systems while preserving local Lebanese variation.
+
+### What are key phonological features of Lebanese Arabic?
+
+Commonly cited features include urban qaf-to-glottal-stop realization, j-to-zh fricative realization, interdental reduction, diphthong leveling, and imperative vowel lengthening in Syro-Lebanese imperatives.
+
+### What are key grammatical features of Lebanese Arabic?
+
+Frequently discussed features include b- imperfect marking, fi- capability constructions, la- direct-object marking patterns, and reduced gender distinction in urban plural agreement.
+
+### How does Lebanese Arabic relate to MSA?
+
+They function in a diglossic relationship, but actual usage is a continuum. MSA dominates formal written and institutional domains, Lebanese Arabic dominates daily speech, and many educated speakers use intermediate mixed registers.
+
+### Does "urban Levantine Lebanese" describe all speech in Lebanon?
+
+No. It accurately describes the dominant prestige koine in many public contexts, but Lebanon includes urban, rural, and community-specific varieties that are not fully captured by a single urban label.
+
+### Are high Lebanese-MSA overlap percentages straightforward?
+
+Not by themselves. High percentages usually come from restricted basic-word lists used for historical comparison, so they should not be interpreted as direct coverage of all modern daily vocabulary.
+
+### How common is French/English code-switching in Lebanon?
+
+It is widespread in many urban and bilingual contexts, especially in education- and profession-linked domains, while Lebanese Arabic remains the main colloquial base.
+
+Conclusion
+----------
+
+Linguistically, Lebanese Arabic is a Levantine dialect continuum with identifiable phonological and morphosyntactic structure, strong internal variation, dynamic diglossic interaction with MSA, and frequent bilingual code-switching with French and English.
+
+For technical analysis, the most accurate model is not a single static "Lebanese language," but a structured and socially dynamic dialect system.
+
+* * * * *
+
+### References
+
+-   Al-Kahtany, A. H. (1997). The "Problem" of Diglossia in the Arab World: An Attitudinal Study of Modern Standard Arabic and the Arabic Dialects. *Al-'Arabiyya*.
+-   Cadora, F. J. (1976). Lexical Relationships among Arabic Dialects and the Swadesh List. *Anthropological Linguistics*.
+-   Daher, N. (1987). Arabic Sociolinguistics: State of the Art.
+-   Germanos, M.-A. (2011). Representations linguistiques et contact dialectal: remarques sur l'evolution de cinq variantes regionales a Beyrouth. *Langage et societe*.
+-   Berlinches Ramos, C. (2019). Urban Levantine Dialectal Features and the Levantine-Mesopotamian Dialect Continuum in the Light of the Dialect of Damascus. *Arabica*.

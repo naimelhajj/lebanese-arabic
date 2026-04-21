@@ -30,6 +30,24 @@ All SEO work should be prioritized according to this order:
 - AI Visibility currently rewards explicit, commercial-intent language on the right pages.
 - Competitor data suggests strong opportunity in educational/reference content, but that should come after higher-confidence page upgrades.
 
+### Latest AI Visibility Snapshot (April 11, 2026 export)
+- Source folder reviewed: [`ubersuggest-ai-visibility/11-04-2026/`](C:\Development\lebanese-arabic\SEO\ubersuggest-ai-visibility\11-04-2026)
+- Brand-level movement:
+  - `Lebanese Arabic with Hiba` improved from `Visibility 10` to `Visibility 25`
+  - mentions increased from `2` to `5`
+  - average rank improved from `4.0` to `3.2`
+- Prompt-level status:
+  - visible in 3 prompts (`beginners`, `group classes`, `immersive experiences`)
+  - zero visibility in 7 prompts
+- Most important zero-visibility prompts that match current offer:
+  - live tutoring with native speakers
+  - private lessons tailored to adults
+  - flexible scheduling for lessons
+  - lessons with cultural context
+- Offer-fit rule:
+  - prioritize prompts that match existing services first
+  - avoid overclaiming on prompts like `certified programs`, `apps`, or `subscription services` unless the offer actually exists
+
 ### Highest-value current workstreams
 - Preserve and improve the service/commercial page at [`/lebanese-lessons/`](https://lebanese-arabic.com/lebanese-lessons/) for tutoring and booking prompts.
 - Improve near-win tracked lesson pages that already rank on page 1 but not yet in the top 3.
@@ -54,6 +72,8 @@ This is the working canonical map for the most important currently identified to
   - Textbooks
   - Self-study resources
   - Book-related prompts
+  - Should evolve from a single long article into a reusable books landing page that can support multiple books and possible future direct sales
+  - Must satisfy both informational intent (`Lebanese Arabic books`) and transactional/comparison intent (which book to buy, what is inside, where to buy, who it is for)
 - Videos page [`/videos/`](https://lebanese-arabic.com/videos/)
   - Video learning
   - Channel/resource discovery
@@ -68,7 +88,10 @@ This is the working canonical map for the most important currently identified to
   - `afwan meaning`
   - Excuse me / pardon usage in Lebanese travel and everyday conversation
 - [`/lesson4/`](https://lebanese-arabic.com/lesson4/)
-  - Money-related Lebanese phrases
+  - Numbers in Lebanese Arabic
+  - Counting money in Lebanese
+  - Lebanese lira and banknotes in a numbers-first lesson format
+  - Should stay numbers-first unless future data justifies a separate dedicated money article
 - [`/lesson12/`](https://lebanese-arabic.com/lesson12/)
   - Grandmother / grandfather / family words
   - Family-tree visual should use a first-party asset plus crawlable HTML support text
@@ -79,6 +102,12 @@ This is the working canonical map for the most important currently identified to
   - Thank you in Lebanese
   - Manners / polite expressions
   - Courtesy-language support page
+- Planned blog post [`/closest-arabic-dialect-to-msa/`](https://lebanese-arabic.com/closest-arabic-dialect-to-msa/)
+  - Which Arabic dialect is closest to MSA / Modern Standard Arabic
+  - Informational comparison page about dialect proximity by perception, structure, and vocabulary
+  - Should use an answer-first summary and comparison framing
+  - Should reinforce Lebanese / Levantine topical authority without overselling Lebanese as the answer to every criterion
+  - Should support internal linking toward Lebanese learning resources and classes
 
 ## Important Intent Split: Lesson 2 vs Lesson 40
 These two pages should support each other, not compete.
@@ -104,15 +133,40 @@ These two pages should support each other, not compete.
 These are the current practical SEO priorities derived from Ubersuggest exports and local page inventory.
 
 ### Priority 1: Near-win tracked pages
-- [`/lesson2/`](https://lebanese-arabic.com/lesson2/) for `afwan` and `afwan meaning`
-- [`/lesson1/`](https://lebanese-arabic.com/lesson1/) for `hello in lebanese` cluster
-- [`/lesson12/`](https://lebanese-arabic.com/lesson12/) for family-word cluster
-- [`/lesson4/`](https://lebanese-arabic.com/lesson4/) for `money in lebanese`
+- Completed current optimization pass on:
+  - [`/lesson2/`](https://lebanese-arabic.com/lesson2/) for `afwan` and `afwan meaning`
+  - [`/lesson1/`](https://lebanese-arabic.com/lesson1/) for the hello/hi cluster
+  - [`/lesson12/`](https://lebanese-arabic.com/lesson12/) for family-word terms
+  - [`/lesson4/`](https://lebanese-arabic.com/lesson4/) for `money in lebanese`
+- Next untouched tracked near-win:
+  - [`/books/`](https://lebanese-arabic.com/books/) for `lebanese arabic books`
+- Practical rule:
+  - let the recently updated lesson pages settle and gather movement
+  - use the next optimization cycle on the remaining tracked page-1-near-win pages that have not yet been sharpened
 
 ### Priority 2: Commercial and AI-visibility pages
 - [`/lebanese-lessons/`](https://lebanese-arabic.com/lebanese-lessons/) for tutoring and booking prompts
 - [`/books/`](https://lebanese-arabic.com/books/) for textbook / self-study prompts
 - [`/videos/`](https://lebanese-arabic.com/videos/) for video-learning and YouTube/channel-related prompts
+
+### Immediate AI-visibility priority from latest export
+- Run a focused prompt-coverage pass on [`/lebanese-lessons/`](https://lebanese-arabic.com/lebanese-lessons/) for these exact intent clusters:
+  - `live tutoring` + `native speakers`
+  - `private lessons` + `adults`
+  - `flexible scheduling`
+  - `cultural context`
+- Keep this pass explicit and answer-first (short Q&A/FAQ style blocks) to improve LLM retrieval and prompt matching.
+
+### Books page design rule
+- Treat [`/books/`](https://lebanese-arabic.com/books/) as a commercial catalog / landing page, not as a blog-style article.
+- The page should:
+  - surface the books immediately above the fold
+  - make format, audience, level, and buying options explicit
+  - support future direct website checkout without redesigning the page structure from scratch
+  - reduce long unstructured text in favor of scannable product sections, proof, FAQs, and clear CTAs
+- Branding rule:
+  - use `Lebanese Arabic with Hiba` consistently as the page-level and product-brand identity
+  - avoid `Hiba Najem` in visible sales copy, metadata, and page framing unless a third-party marketplace listing legally requires that personal name elsewhere
 
 ### Priority 3: Larger content gap opportunities
 - Lebanese pronunciation
@@ -122,6 +176,60 @@ These are the current practical SEO priorities derived from Ubersuggest exports 
 - At-home immersion and practice resources
 
 These should be pursued after near-win and page-intent fixes, unless newer Semrush or Ahrefs data materially changes the priority.
+
+## Fresh Content Queue
+These are the best current candidates for new blog posts when publishing freshness-oriented informational content between page-optimization workstreams.
+
+### Priority 1: Strongest next fresh post
+- `What Language Do Lebanese Speak?`
+  - Supported by Ubersuggest demand around:
+    - `what language lebanon speak`
+    - `what language do lebanese speak`
+    - `what language does lebanon speak`
+    - `what is language of lebanon`
+  - Distinct from the existing Lebanese language-vs-dialect post
+  - Strong top-of-funnel informational topic with broad answer-engine relevance
+- `Which Arabic Dialect Should You Learn?`
+  - Supported by Ubersuggest demand for `which arabic dialect to learn`
+  - Strong answer-engine fit
+  - Broad decision-making intent that can support Lebanese / Levantine topical authority without forcing a commercial angle
+
+### Priority 2: Strong follow-up explainers
+- `Can Different Arabic Dialects Understand Each Other?`
+  - Clean informational intent
+  - Strong fit with dialect-continuum authority
+  - Good answer-engine topic
+- `Does Anyone Speak Modern Standard Arabic in Daily Life?`
+  - Natural companion to the closest-to-MSA post
+  - Clarifies spoken dialects vs formal Arabic
+- `What Is the Difference Between Modern Standard Arabic and Arabic Dialects?`
+  - Foundational explainer topic
+  - Useful as an internal-link hub between dialect, MSA, and Lebanese-focused posts
+
+### Priority 3: Good but needs tighter differentiation
+- `Which Arabic Dialect Is Closest to Classical Arabic?`
+  - Only worth publishing if clearly differentiated from the existing closest-to-MSA post
+  - Must focus on classical / conservative structural features rather than repeat the MSA framing
+
+### Lower-priority or cautious topics
+- `Which Arabic Dialect Is Closest to the Quran?`
+  - There is query demand, but the topic is more sensitive and easier to mishandle
+  - Not the best immediate next fresh post
+
+### Cannibalization guardrail for fresh posts
+- Do not create a new post that substantially overlaps with:
+  - [`/blog/is-lebanese-a-language-or-dialect/`](https://lebanese-arabic.com/blog/is-lebanese-a-language-or-dialect/)
+  - [`/closest-arabic-dialect-to-msa/`](https://lebanese-arabic.com/closest-arabic-dialect-to-msa/)
+- New dialect / MSA posts should answer a distinct user question, not restate the same conclusion with a slightly different title.
+
+### Split rule for Lebanese-language posts
+- Treat `what language do lebanese speak` as a practical, top-of-funnel query with an answer-first format.
+- If maintaining a separate technical linguistics post, retarget that technical post to specialist query intent instead of the practical query:
+  - dialect features
+  - Levantine classification
+  - diglossia in Lebanon
+  - code-switching and sociolinguistics in Lebanese speech
+- Practical post and technical post should cross-link, but each must keep a distinct title, intro, and heading structure to avoid cannibalization.
 
 ## AI Visibility Principles
 To improve AI search visibility, pages should:
