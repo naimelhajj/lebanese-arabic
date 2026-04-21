@@ -1,0 +1,15 @@
+# InDesign lock files
+*.idlk
+
+# Word temporary files
+~$*
+
+# Other temp files
+~*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Large design files
+*.psd
