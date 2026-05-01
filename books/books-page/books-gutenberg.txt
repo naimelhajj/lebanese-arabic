@@ -1,0 +1,235 @@
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Learn spoken Lebanese Arabic with our practical phrasebooks. Designed for beginners and travelers, featuring transliteration, exercises, and linked video pronunciations.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#vol1">Get Volume 1</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#vol2">Get Volume 2</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="#why-it-works">Why They Work</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide"><!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"width":"auto","height":"400px","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large is-resized" id="vol1"><img src="https://lebanese-arabic.com/wp-content/uploads/2015/12/landing-page-cover.jpg" alt="Lebanese Arabic Phrasebook Vol. 1 book cover." style="width:auto;height:400px"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Lebanese Arabic Phrasebook Vol. 1</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The essential starter guide. Contains almost all the words and sentences mentioned in the first years of my video lessons.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Best for:</strong> Beginners, travelers, and anyone starting from scratch.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="amz-dropdown">
+			<select class="amazon-selector" id="select-pb1" onchange="window.open(this.options[this.selectedIndex].value);">
+			<option value="">Choose Nearest Marketplace</option>
+			<option value="https://www.Amazon.com/dp/9953031215?&tag=lebanese-arabic-books-20">Amazon.com</option>
+			<option value="https://www.Amazon.co.uk/dp/9953031215?&tag=lebaneseara0a-21">Amazon.co.uk</option>
+			<option value="https://www.Amazon.com.au/dp/9953031215">Amazon.com.au</option>
+			<option value="https://www.Amazon.de/dp/9953031215?&tag=naim0c-21">Amazon.de</option>
+			<option value="https://www.Amazon.fr/dp/9953031215">Amazon.fr</option>
+			<option value="https://www.Amazon.ca/dp/9953031215">Amazon.ca</option>
+			<option value="https://www.Amazon.es/dp/9953031215">Amazon.es</option>
+			<option value="https://www.Amazon.it/dp/9953031215">Amazon.it</option>
+			<option value="https://www.Amazon.nl/dp/9953031215">Amazon.nl</option>
+			<option value="https://www.Amazon.co.jp/dp/9953031215">Amazon.co.jp</option>
+			<option value="https://www.Amazon.in/dp/9953031215">Amazon.in</option>
+			<option value="https://www.Amazon.com.br/dp/9953031215">Amazon.com.br</option>
+			<option value="https://www.Amazon.com.mx/dp/9953031215">Amazon.com.mx</option>
+			</select>
+			</div>
+<!-- /wp:html --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"width":"auto","height":"400px","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large is-resized" id="vol2"><img src="https://lebanese-arabic.com/wp-content/uploads/2019/02/BOOK1.png" alt="Lebanese Arabic Phrasebook Vol. 2 book cover." style="width:auto;height:400px"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Lebanese Arabic Phrasebook Vol. 2</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The perfect continuation. Expand your vocabulary with more advanced phrases, everyday conversations, and cultural contexts.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Best for:</strong> Intermediate learners who have completed Vol. 1.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="amz-dropdown">
+			<select class="amazon-selector" id="select-pb2" onchange="window.open(this.options[this.selectedIndex].value);">
+			<option value="">Choose Nearest Marketplace</option>
+			<option value="https://www.Amazon.com/dp/9953038996?&tag=lebanese-arabic-books-20">Amazon.com</option>
+			<option value="https://www.Amazon.co.uk/dp/9953038996?&tag=lebaneseara0a-21">Amazon.co.uk</option>
+			<option value="https://www.Amazon.com.au/dp/9953038996">Amazon.com.au</option>
+			<option value="https://www.Amazon.de/dp/9953038996?&tag=naim0c-21">Amazon.de</option>
+			<option value="https://www.Amazon.fr/dp/9953038996">Amazon.fr</option>
+			<option value="https://www.Amazon.ca/dp/9953038996">Amazon.ca</option>
+			<option value="https://www.Amazon.es/dp/9953038996">Amazon.es</option>
+			<option value="https://www.Amazon.it/dp/9953038996">Amazon.it</option>
+			<option value="https://www.Amazon.nl/dp/9953038996">Amazon.nl</option>
+			<option value="https://www.Amazon.co.jp/dp/9953038996">Amazon.co.jp</option>
+			<option value="https://www.Amazon.in/dp/9953038996">Amazon.in</option>
+			<option value="https://www.Amazon.com.br/dp/9953038996">Amazon.com.br</option>
+			<option value="https://www.Amazon.com.mx/dp/9953038996">Amazon.com.mx</option>
+			</select>
+			</div>
+<!-- /wp:html --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide" id="why-it-works"><!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center">Why These Books Work</h2>
+<!-- /wp:heading -->
+
+<!-- wp:spacer {"height":"20px"} -->
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">1. Practical &amp; Spoken Lebanese</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>These phrasebooks focus purely on colloquial, spoken Lebanese Arabic so you can blend in seamlessly with locals in Beirut and beyond.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">2. Transliteration &amp; Video Links</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Every phrase includes the Arabic script, Latin transliteration, and a direct link to a video lesson so you can perfect your pronunciation.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">3. Proven Method</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Developed since 2011 through YouTube lessons and real student feedback. We focus strictly on what is useful and effective.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:embed {"url":"https://www.youtube.com/watch?v=ffAEgs8Kvkc","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+https://www.youtube.com/watch?v=ffAEgs8Kvkc
+</div></figure>
+<!-- /wp:embed --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center">What is inside Volume 1?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:spacer {"height":"20px"} -->
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://lebanese-arabic.com/wp-content/uploads/2021/11/phrasebook-chapters.jpg" alt="Lebanese Arabic Phrasebook Vol 1 Chapters"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:paragraph -->
+<p>There are seven chapters in the Lebanese Arabic phrasebook Vol.1. The first six define practical categories, while the final chapter is dedicated to exercises.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><strong>Basic Language:</strong> Numbers, colors, days, pronouns, and prepositions.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Traveling:</strong> Airport, directions, money, accommodation, and shopping.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Everyday Life:</strong> Sentences to use around friends, family, and relationships.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Verbs:</strong> Important conjugations in the Lebanese Arabic dialect.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Random Phrases:</strong> Practical, fun sentences suggested by students.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Exercises:</strong> Fill-in-the-blanks, crosswords, and word search puzzles to test your memory.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center">Frequently Asked Questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:spacer {"height":"20px"} -->
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:yoast/faq-block {"questions":[{"id":"faq-question-1774612697660","question":"Who are these books for?","answer":"They are perfect for travelers, diaspora returning home, or anyone wanting to speak conversational Lebanese Arabic with locals.","jsonQuestion":"Who are these books for?","jsonAnswer":"They are perfect for travelers, diaspora returning home, or anyone wanting to speak conversational Lebanese Arabic with locals.","images":[]},{"id":"faq-question-1774612708164","question":"Which volume should I start with?","answer":"If you are a beginner, definitely start with Volume 1. It covers the essential foundation of the language.","jsonQuestion":"Which volume should I start with?","jsonAnswer":"If you are a beginner, definitely start with Volume 1. It covers the essential foundation of the language.","images":[]},{"id":"faq-question-1774612712755","question":"Do I need to read Arabic to use them?","answer":"No! Both volumes feature full Latin transliteration alongside the Arabic alphabet, making them completely accessible to non-Arabic readers.","jsonQuestion":"Do I need to read Arabic to use them?","jsonAnswer":"No! Both volumes feature full Latin transliteration alongside the Arabic alphabet, making them completely accessible to non-Arabic readers.","images":[]},{"id":"faq-question-1774612721617","question":"Do they teach Modern Standard Arabic (MSA) or spoken Lebanese?","answer":"They focus entirely on spoken Lebanese Arabic, so you learn exactly how people speak in everyday life.","jsonQuestion":"Do they teach Modern Standard Arabic (MSA) or spoken Lebanese?","jsonAnswer":"They focus entirely on spoken Lebanese Arabic, so you learn exactly how people speak in everyday life.","images":[]}]} -->
+<div class="schema-faq wp-block-yoast-faq-block"><div class="schema-faq-section" id="faq-question-1774612697660"><strong class="schema-faq-question">Who are these books for?</strong> <p class="schema-faq-answer">They are perfect for travelers, diaspora returning home, or anyone wanting to speak conversational Lebanese Arabic with locals.</p> </div> <div class="schema-faq-section" id="faq-question-1774612708164"><strong class="schema-faq-question">Which volume should I start with?</strong> <p class="schema-faq-answer">If you are a beginner, definitely start with Volume 1. It covers the essential foundation of the language.</p> </div> <div class="schema-faq-section" id="faq-question-1774612712755"><strong class="schema-faq-question">Do I need to read Arabic to use them?</strong> <p class="schema-faq-answer">No! Both volumes feature full Latin transliteration alongside the Arabic alphabet, making them completely accessible to non-Arabic readers.</p> </div> <div class="schema-faq-section" id="faq-question-1774612721617"><strong class="schema-faq-question">Do they teach Modern Standard Arabic (MSA) or spoken Lebanese?</strong> <p class="schema-faq-answer">They focus entirely on spoken Lebanese Arabic, so you learn exactly how people speak in everyday life.</p> </div> </div>
+<!-- /wp:yoast/faq-block --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+<!-- /wp:separator -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center">Ready to master Lebanese Arabic?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Combine the phrasebooks with our free video lessons and comprehensive online courses for the ultimate learning experience.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://lebanese-arabic.com/videos/">Watch Video Lessons</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://lebanese-arabic.com/lebanese-lessons/">Take Online Lessons</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->

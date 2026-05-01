@@ -1,0 +1,271 @@
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"5rem","bottom":"5rem","left":"2rem","right":"2rem"}}},"backgroundColor":"foreground","textColor":"background","layout":{"type":"constrained","wideSize":"1200px"}} -->
+<div class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background has-background-background-color" style="padding-top:5rem;padding-right:2rem;padding-bottom:5rem;padding-left:2rem"><!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"55%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"2px","fontWeight":"700"}},"textColor":"vivid-red"} -->
+<p class="has-vivid-red-color has-text-color" style="font-weight:700;letter-spacing:2px;text-transform:uppercase">The Ultimate Phrasebook Series</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"clamp(2.5rem, 5vw, 4rem)","lineHeight":"1.1","fontWeight":"800"}}} -->
+<h1 class="wp-block-heading" style="font-size:clamp(2.5rem, 5vw, 4rem);font-weight:800;line-height:1.1">Speak Lebanese Like a Local.</h1>
+<!-- /wp:heading -->
+
+<!-- wp:spacer {"height":"20px"} -->
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.25rem","lineHeight":"1.6"}}} -->
+<p style="font-size:1.25rem;line-height:1.6">Skip the formal grammar. Learn the exact words, slang, and phrases used on the streets of Beirut. Designed for beginners and diaspora, featuring easy-to-read English letters alongside Arabic script.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"30px"} -->
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"vivid-red","textColor":"white","style":{"border":{"radius":"4px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-white-color has-vivid-red-background-color has-text-color has-background wp-element-button" href="#products" style="border-radius:4px">View the Books</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.875rem"}},"textColor":"contrast-2"} -->
+<p class="has-contrast-2-color has-text-color" style="font-size:0.875rem">⭐⭐⭐⭐⭐ Over 10+ years of proven teaching experience.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><!-- wp:image {"align":"center","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-large"><img src="https://lebanese-arabic.com/wp-content/uploads/2021/11/phrasebook-chapters.jpg" alt="Lebanese Arabic Phrasebook Bundle"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"80px"} -->
+<div style="height:80px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"align":"wide","layout":{"type":"constrained","wideSize":"1200px"}} -->
+<div class="wp-block-group alignwide" id="products"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"2.5rem","fontWeight":"800"}},"textColor":"contrast"} -->
+<h2 class="wp-block-heading has-text-align-center has-contrast-color has-text-color" style="font-size:2.5rem;font-weight:800">Choose Your Path to Fluency</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"1.125rem"}},"textColor":"contrast-2"} -->
+<p class="has-text-align-center has-contrast-2-color has-text-color" style="font-size:1.125rem">All books are printed on-demand and shipped globally to your door.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"50px"} -->
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}},"border":{"width":"1px","color":"#e5e7eb","radius":"8px"}}} -->
+<div class="wp-block-column" style="border-color:#e5e7eb;border-width:1px;border-radius:8px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:image {"align":"center","height":"250px","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-large is-resized"><img src="https://lebanese-arabic.com/wp-content/uploads/2015/12/landing-page-cover.jpg" alt="Volume 1 Cover" style="height:250px"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontSize":"1.5rem","fontWeight":"700"}},"textColor":"contrast"} -->
+<h3 class="wp-block-heading has-text-align-center has-contrast-color has-text-color" style="font-size:1.5rem;font-weight:700">Volume 1: The Basics</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"1.5rem","fontWeight":"800"}},"textColor":"contrast"} -->
+<p class="has-text-align-center has-contrast-color has-text-color" style="font-size:1.5rem;font-weight:800">$9.99</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"0.95rem"}},"textColor":"contrast-2"} -->
+<p class="has-text-align-center has-contrast-2-color has-text-color" style="font-size:0.95rem">The essential starter guide. Perfect for complete beginners and travelers.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"style":{"typography":{"fontSize":"0.875rem"}},"textColor":"contrast-2"} -->
+<ul class="wp-block-list has-contrast-2-color has-text-color" style="font-size:0.875rem"><!-- wp:list-item -->
+<li>✓ Everyday greetings &amp; travel</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>✓ Numbers, colors &amp; days</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>✓ No Arabic reading required</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:spacer {"height":"20px"} -->
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"width":100,"style":{"border":{"radius":"4px","width":"2px"},"color":{"text":"#111827"}},"borderColor":"contrast"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-text-color has-border-color has-contrast-border-color wp-element-button" href="https://lebanese-arabic.com/checkout/?add-to-cart=6024" style="border-width:2px;border-radius:4px;color:#111827">Buy Vol. 1</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}},"border":{"radius":"8px"},"color":{"background":"#111827","text":"#ffffff"}}} -->
+<div class="wp-block-column has-text-color has-background" style="background-color:#111827;color:#ffffff;border-radius:8px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","fontWeight":"800","letterSpacing":"1px","fontSize":"0.75rem"}},"textColor":"vivid-red"} -->
+<p class="has-text-align-center has-vivid-red-color has-text-color" style="font-size:0.75rem;font-weight:800;letter-spacing:1px;text-transform:uppercase">★ Most Popular ★</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","height":"250px","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-large is-resized"><img src="https://lebanese-arabic.com/wp-content/uploads/2021/11/phrasebook-chapters.jpg" alt="The Complete Bundle" style="height:250px"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontSize":"1.75rem","fontWeight":"800"}},"textColor":"background"} -->
+<h3 class="wp-block-heading has-text-align-center has-background-color has-text-color" style="font-size:1.75rem;font-weight:800">The Mastery Bundle</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"2rem","fontWeight":"800"}},"textColor":"vivid-red"} -->
+<p class="has-text-align-center has-vivid-red-color has-text-color" style="font-size:2rem;font-weight:800">$24.99</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"0.95rem"}},"textColor":"background"} -->
+<p class="has-text-align-center has-background-color has-text-color" style="font-size:0.95rem">Get the ultimate learning package. Includes both Volume 1 and Volume 2.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"style":{"typography":{"fontSize":"0.875rem"}},"textColor":"background"} -->
+<ul class="wp-block-list has-background-color has-text-color" style="font-size:0.875rem"><!-- wp:list-item -->
+<li>✓ <strong>Save 10%</strong> vs buying individually</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>✓ From basics to advanced conversation</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>✓ 100% Risk-Free Guarantee</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:spacer {"height":"20px"} -->
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"width":100,"backgroundColor":"vivid-red","textColor":"white","style":{"border":{"radius":"4px"}}} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-white-color has-vivid-red-background-color has-text-color has-background wp-element-button" href="https://lebanese-arabic.com/checkout/?add-to-cart=6033" style="border-radius:4px">Buy the Bundle</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}},"border":{"width":"1px","color":"#e5e7eb","radius":"8px"}}} -->
+<div class="wp-block-column" style="border-color:#e5e7eb;border-width:1px;border-radius:8px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:image {"align":"center","height":"250px","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-large is-resized"><img src="https://lebanese-arabic.com/wp-content/uploads/2019/02/BOOK1.png" alt="Volume 2 Cover" style="height:250px"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontSize":"1.5rem","fontWeight":"700"}},"textColor":"contrast"} -->
+<h3 class="wp-block-heading has-text-align-center has-contrast-color has-text-color" style="font-size:1.5rem;font-weight:700">Volume 2: Advanced</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"1.5rem","fontWeight":"800"}},"textColor":"contrast"} -->
+<p class="has-text-align-center has-contrast-color has-text-color" style="font-size:1.5rem;font-weight:800">$9.99</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"0.95rem"}},"textColor":"contrast-2"} -->
+<p class="has-text-align-center has-contrast-2-color has-text-color" style="font-size:0.95rem">The perfect continuation. For learners ready for real-world scenarios.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"style":{"typography":{"fontSize":"0.875rem"}},"textColor":"contrast-2"} -->
+<ul class="wp-block-list has-contrast-2-color has-text-color" style="font-size:0.875rem"><!-- wp:list-item -->
+<li>✓ Complex conjugations</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>✓ Lebanese culture &amp; humor</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>✓ In-depth conversational texts</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:spacer {"height":"20px"} -->
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"width":100,"style":{"border":{"radius":"4px","width":"2px"},"color":{"text":"#111827"}},"borderColor":"contrast"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-text-color has-border-color has-contrast-border-color wp-element-button" href="https://lebanese-arabic.com/checkout/?add-to-cart=6031" style="border-width:2px;border-radius:4px;color:#111827">Buy Vol. 2</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"80px"} -->
+<div style="height:80px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem","left":"2rem","right":"2rem"}}},"backgroundColor":"background","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide has-background-background-color has-background" style="padding-top:4rem;padding-right:2rem;padding-bottom:4rem;padding-left:2rem"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"2.5rem","fontWeight":"800"}},"textColor":"contrast"} -->
+<h2 class="wp-block-heading has-text-align-center has-contrast-color has-text-color" style="font-size:2.5rem;font-weight:800">Meet Your Teacher: Hiba Najem</h2>
+<!-- /wp:heading -->
+
+<!-- wp:spacer {"height":"20px"} -->
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"1.125rem"}},"textColor":"contrast-2"} -->
+<p class="has-text-align-center has-contrast-2-color has-text-color" style="font-size:1.125rem">I have been teaching Lebanese Arabic online to thousands of students since 2011. I developed this proven method by listening to exactly what my students struggled with most—the gap between formal, academic Arabic and the actual dialect people speak on the streets of Beirut. These phrasebooks are the result of over a decade of real-world teaching experience.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"40px"} -->
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}},"color":{"background":"#f3f4f6"},"border":{"radius":"8px"}}} -->
+<div class="wp-block-column has-background" style="background-color:#f3f4f6;border-radius:8px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.5rem"}}} -->
+<p style="font-size:1.5rem">⭐⭐⭐⭐⭐</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"italic","fontWeight":"600"}},"textColor":"contrast"} -->
+<p class="has-contrast-color has-text-color" style="font-style:italic;font-weight:600">"Amazing... thank you for this Lebanese Arabic resource! It has truly complemented the videos you made on YouTube."</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontWeight":"700","fontSize":"0.875rem"}},"textColor":"contrast-2"} -->
+<p class="has-contrast-2-color has-text-color" style="font-size:0.875rem;font-weight:700">— Karim Amghar (Verified Buyer)</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}},"color":{"background":"#f3f4f6"},"border":{"radius":"8px"}}} -->
+<div class="wp-block-column has-background" style="background-color:#f3f4f6;border-radius:8px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.5rem"}}} -->
+<p style="font-size:1.5rem">⭐⭐⭐⭐⭐</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"italic","fontWeight":"600"}},"textColor":"contrast"} -->
+<p class="has-contrast-color has-text-color" style="font-style:italic;font-weight:600">"A really useful reference... particularly practical with the easy access to the video lessons."</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontWeight":"700","fontSize":"0.875rem"}},"textColor":"contrast-2"} -->
+<p class="has-contrast-2-color has-text-color" style="font-size:0.875rem;font-weight:700">— Ica Santo (Verified Buyer)</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"60px"} -->
+<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center">Frequently Asked Questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:yoast/faq-block {"questions":[{"id":"faq-question-1774612697660","question":"Who are these books for?","answer":"They are perfect for travelers, diaspora returning home, or anyone wanting to speak conversational Lebanese Arabic with locals.","jsonQuestion":"Who are these books for?","jsonAnswer":"They are perfect for travelers, diaspora returning home, or anyone wanting to speak conversational Lebanese Arabic with locals.","images":[]},{"id":"faq-question-1774612708164","question":"Which volume should I start with?","answer":"If you are a beginner, definitely start with Volume 1. It covers the essential foundation of the language.","jsonQuestion":"Which volume should I start with?","jsonAnswer":"If you are a beginner, definitely start with Volume 1. It covers the essential foundation of the language.","images":[]},{"id":"faq-question-1774612712755","question":"Do I need to read Arabic to use them?","answer":"No! Both volumes feature full words written in English letters alongside the Arabic alphabet, making them completely accessible to non-Arabic readers.","jsonQuestion":"Do I need to read Arabic to use them?","jsonAnswer":"No! Both volumes feature full words written in English letters alongside the Arabic alphabet, making them completely accessible to non-Arabic readers.","images":[]},{"id":"faq-question-1774612721617","question":"Do they teach formal Arabic or spoken Lebanese?","answer":"They focus entirely on spoken Lebanese Arabic, so you learn exactly how people speak in everyday life.","jsonQuestion":"Do they teach formal Arabic or spoken Lebanese?","jsonAnswer":"They focus entirely on spoken Lebanese Arabic, so you learn exactly how people speak in everyday life.","images":[]},{"id":"faq-question-1774612721618","question":"How are the books shipped?","answer":"Our books are printed on-demand at commercial facilities across the US, UK, Canada, and Australia, then shipped directly to your door anywhere in the world.","jsonQuestion":"How are the books shipped?","jsonAnswer":"Our books are printed on-demand at commercial facilities across the US, UK, Canada, and Australia, then shipped directly to your door anywhere in the world.","images":[]}]} -->
+<div class="schema-faq wp-block-yoast-faq-block"><div class="schema-faq-section" id="faq-question-1774612697660"><strong class="schema-faq-question">Who are these books for?</strong> <p class="schema-faq-answer">They are perfect for travelers, diaspora returning home, or anyone wanting to speak conversational Lebanese Arabic with locals.</p> </div> <div class="schema-faq-section" id="faq-question-1774612708164"><strong class="schema-faq-question">Which volume should I start with?</strong> <p class="schema-faq-answer">If you are a beginner, definitely start with Volume 1. It covers the essential foundation of the language.</p> </div> <div class="schema-faq-section" id="faq-question-1774612712755"><strong class="schema-faq-question">Do I need to read Arabic to use them?</strong> <p class="schema-faq-answer">No! Both volumes feature full words written in English letters alongside the Arabic alphabet, making them completely accessible to non-Arabic readers.</p> </div> <div class="schema-faq-section" id="faq-question-1774612721617"><strong class="schema-faq-question">Do they teach formal Arabic or spoken Lebanese?</strong> <p class="schema-faq-answer">They focus entirely on spoken Lebanese Arabic, so you learn exactly how people speak in everyday life.</p> </div> <div class="schema-faq-section" id="faq-question-1774612721618"><strong class="schema-faq-question">How are the books shipped?</strong> <p class="schema-faq-answer">Our books are printed on-demand at commercial facilities across the US, UK, Canada, and Australia, then shipped directly to your door anywhere in the world.</p> </div> </div>
+<!-- /wp:yoast/faq-block --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+<!-- /wp:separator -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center">Take Your Arabic to the Next Level</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Combine your new phrasebooks with our live 1-on-1 tutoring sessions for the ultimate mastery experience.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="https://lebanese-arabic.com/lebanese-lessons/">Book a Live Trial Lesson</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->

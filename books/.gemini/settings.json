@@ -1,0 +1,5 @@
+{
+  "mcp": {
+    "excluded": ["gsc", "stitch", "analytics-mcp", "@microsoft/clarity-mcp-server", "serpapi", "psi", "lighthouse", "crux"]
+  }
+}
